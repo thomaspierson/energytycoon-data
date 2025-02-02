@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Skin" version="1.1">
+
+  <Skin name = "SmileButton" size = "32 32" texture = "#{MyGUI_Theme_Texture}">
+    <BasisSkin type="MainSkin" offset = "0 0 32 32" align = "Default">
+      <State name="disabled" offset = "500 170 32 32"/>
+      <State name="normal" offset = "500 170 32 32"/>
+      <State name="highlighted" offset = "525 170 32 32"/>
+      <State name="normal_checked" offset = "500 170 32 32"/>
+      <State name="pushed" offset = "500 170 32 32"/>
+    </BasisSkin>
+  </Skin>
+
+</MyGUI>

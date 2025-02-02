@@ -1,0 +1,19 @@
+material tree1
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			depth_write on
+			alpha_rejection greater_equal 255
+			
+			texture_unit 
+			{
+				texture treeCompleteMap.tga
+			}
+		}
+	}
+}
+
+

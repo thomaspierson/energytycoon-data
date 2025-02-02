@@ -1,0 +1,15 @@
+material car4
+{
+	technique
+	{
+		pass
+		{
+			texture_unit 
+			{
+				texture car4CompleteMap.tga
+			}
+		}
+	}
+}
+
+

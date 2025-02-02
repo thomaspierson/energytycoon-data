@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" ?>
+<mission map="de">
+	<name language="German">
+		Tutorial 2
+	</name>
+	<name language="English">
+		Tutorial 2
+	</name>
+	<start_conditions name="mission_data/de_tutorial2_start.xml"/>
+	<mission_goal type="freeplay" value="0">
+		<text language="German">
+			In diesem Tutorial erfahren Sie wie Sie mit Kunden umgehen sollten. Ausserdem lernen Sie Ihre Forschungs- und Finanzabteilungen kennen.
+		</text>
+		<text language="English">
+			In this tutorial you learn how to treat your customers. You also get to know your research and finance departments.
+		</text>
+	</mission_goal>
+	<trading_partner price="0">
+		<name language="German">
+			Österreich
+		</name>
+		<name language="English">
+			Austria
+		</name>
+	</trading_partner>
+	<trading_partner price="0">
+		<name language="German">
+			Frankreich
+		</name>
+		<name language="English">
+			France
+		</name>
+	</trading_partner>
+	<trading_partner price="100">
+		<name language="German">
+			Polen
+		</name>
+		<name language="English">
+			Poland
+		</name>
+	</trading_partner>
+	<trading_partner price="100">
+		<name language="German">
+			Dänemark
+		</name>
+		<name language="English">
+			Denmark
+		</name>
+	</trading_partner>
+	<trading_partner price="100">
+		<name language="German">
+			Niederlande
+		</name>
+		<name language="English">
+			Netherlands
+		</name>
+	</trading_partner>
+	<trading_partner price="500">
+		<name language="German">
+			Norwegen
+		</name>
+		<name language="English">
+			Norway
+		</name>
+	</trading_partner>
+	<trading_partner price="500">
+		<name language="German">
+			Vereinigtes Königreich
+		</name>
+		<name language="English">
+			United Kingdom
+		</name>
+	</trading_partner>
+	<trading_partner price="1000">
+		<name language="German">
+			Russland
+		</name>
+		<name language="English">
+			Russia
+		</name>
+	</trading_partner>
+	<trading_partner price="2000">
+		<name language="German">
+			Saudi-Arabien
+		</name>
+		<name language="English">
+			Saudi Arabia
+		</name>
+	</trading_partner>
+	<trading_partner price="2000">
+		<name language="German">
+			Iran
+		</name>
+		<name language="English">
+			Iran
+		</name>
+	</trading_partner>
+	<trading_partner price="2000">
+		<name language="German">
+			Kanada
+		</name>
+		<name language="English">
+			Canada
+		</name>
+	</trading_partner>
+</mission>

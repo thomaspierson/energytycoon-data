@@ -1,0 +1,15 @@
+material strasse
+{
+	technique
+	{
+		pass
+		{
+			texture_unit 
+			{
+				texture strasse.tga
+			}
+		}
+	}
+}
+
+

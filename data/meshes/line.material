@@ -1,0 +1,17 @@
+material powerline
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.1 0.1 0.1 0.9
+			diffuse 0.1 0.1 0.1 0.9
+
+			scene_blend alpha_blend
+			depth_write off
+			depth_check on
+		}
+	}
+}
+
+

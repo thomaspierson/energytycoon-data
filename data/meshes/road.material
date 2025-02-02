@@ -1,0 +1,15 @@
+material roadtex
+{
+	technique
+	{
+		pass
+		{
+			texture_unit 
+			{
+				texture roadtex.tga
+			}
+		}
+	}
+}
+
+

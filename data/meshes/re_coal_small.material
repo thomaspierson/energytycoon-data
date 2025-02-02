@@ -1,0 +1,15 @@
+material re_coal_small
+{
+	technique
+	{
+		pass
+		{
+			texture_unit 
+			{
+				texture re_coal_smallCompleteMap.tga
+			}
+		}
+	}
+}
+
+

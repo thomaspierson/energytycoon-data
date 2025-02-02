@@ -1,0 +1,15 @@
+material resource_gas
+{
+	technique
+	{
+		pass
+		{
+			texture_unit 
+			{
+				texture resource_gasCompleteMap.tga
+			}
+		}
+	}
+}
+
+

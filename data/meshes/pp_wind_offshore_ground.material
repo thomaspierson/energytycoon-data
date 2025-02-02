@@ -1,0 +1,21 @@
+
+material pp_wind_offshore_ground
+{
+	technique
+	{
+		pass
+		{
+			scene_blend modulate
+			depth_write off
+
+			texture_unit
+			{
+				texture pp_wind_offshore_groundCompleteMap.tga
+			}
+		}
+
+	}
+
+}
+
+

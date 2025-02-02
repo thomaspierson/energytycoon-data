@@ -1,0 +1,15 @@
+material co_public_relations
+{
+	technique
+	{
+		pass
+		{
+			texture_unit 
+			{
+				texture co_public_relationsCompleteMap.tga
+			}
+		}
+	}
+}
+
+

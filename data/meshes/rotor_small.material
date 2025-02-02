@@ -1,0 +1,15 @@
+material rotor_small
+{
+	technique
+	{
+		pass
+		{
+			texture_unit 
+			{
+				texture rotor_small.tga
+			}
+		}
+	}
+}
+
+

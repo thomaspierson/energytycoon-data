@@ -1,0 +1,15 @@
+material pp_bio
+{
+	technique
+	{
+		pass
+		{
+			texture_unit 
+			{
+				texture pp_bioCompleteMap.tga
+			}
+		}
+	}
+}
+
+

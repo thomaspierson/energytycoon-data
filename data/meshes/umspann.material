@@ -1,0 +1,15 @@
+material umspann
+{
+	technique
+	{
+		pass
+		{
+			texture_unit 
+			{
+				texture umspann.tga
+			}
+		}
+	}
+}
+
+

@@ -1,0 +1,15 @@
+material resource_uran
+{
+	technique
+	{
+		pass
+		{
+			texture_unit 
+			{
+				texture resource_uranCompleteMap.tga
+			}
+		}
+	}
+}
+
+

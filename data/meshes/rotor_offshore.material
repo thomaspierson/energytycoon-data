@@ -1,0 +1,18 @@
+
+material rotor_offshore
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture rotor_offshore.tga
+			}
+		}
+
+	}
+
+}
+
+

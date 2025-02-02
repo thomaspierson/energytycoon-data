@@ -1,0 +1,20 @@
+material watertex
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			depth_check on
+			depth_write off
+
+			texture_unit 
+			{
+				texture wasser.tga
+				alpha_op_ex modulate src_texture src_current
+			}
+		}
+	}
+}
+
+

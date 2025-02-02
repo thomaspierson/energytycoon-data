@@ -1,0 +1,15 @@
+material nuc_small
+{
+	technique
+	{
+		pass
+		{
+			texture_unit 
+			{
+				texture nuc_smallCompleteMap.tga
+			}
+		}
+	}
+}
+
+

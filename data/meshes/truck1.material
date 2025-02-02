@@ -1,0 +1,15 @@
+material truck1
+{
+	technique
+	{
+		pass
+		{
+			texture_unit 
+			{
+				texture truck1CompleteMap.tga
+			}
+		}
+	}
+}
+
+

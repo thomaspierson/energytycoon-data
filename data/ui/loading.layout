@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout">
+  <Widget type="StaticImage" skin="StaticImage" position="0 0 0 0" align="ALIGN_DEFAULT" layer="Back" name="Background"/>
+  <Widget type="Widget" skin="Panel" position="0 0 460 98" layer="Main" name="LoadingWidget">
+
+    <Widget type="Progress" skin="Progress" position="40 49 380 24" layer="Main" name="LoadingProgress">
+      <Property key="Progress_Range" value="100"/>
+      <Property key="Progress_Position" value="0"/>
+    </Widget>
+    <Widget type="StaticText" skin="StaticText" position="40 18 380 24" layer="Main" name="LoadingStatus">
+      <Property key="Text_TextAlign" value="Center"/>
+      <Property key="Text_TextColour" value="1 1 1"/>
+      <Property key="Widget_Caption" value="Loading..."/>
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+  </Widget>
+</MyGUI>

@@ -1,0 +1,31 @@
+particle_system DemolishPartSys
+{
+    material        	Smoke
+    particle_width  	6
+    particle_height 	6
+    cull_each       	true
+    quota           	200
+    billboard_type  	point
+	sorted				true
+    
+    // Area emitter
+    emitter Box
+    {
+		angle               		45
+        emission_rate       		0
+        time_to_live        		1
+        direction           		0 1 0
+        velocity_min        		1
+        velocity_max        		1
+	}
+
+	affector ColourImage
+	{
+		image		smokecolors.png
+	}
+
+   	affector Scaler
+   	{
+       	rate 	2
+   	}
+}

@@ -1,0 +1,122 @@
+particle_system SmokeSystemLowCap
+{
+    material        	Smoke
+    particle_width  	5
+    particle_height 	5
+    cull_each       	false
+    quota           	150
+    billboard_type  	point
+	sorted				true
+    
+    // Area emitter
+    emitter Point
+    {
+		angle               		7
+        emission_rate       		7
+        time_to_live        		2
+        direction           		0 1 0
+        velocity_min        		10
+        velocity_max        		10   	
+	}
+
+	affector ColourImage
+	{
+		image		smokecolors.png
+	}
+
+   	affector Rotator
+   	{
+        rotation_range_start  		0
+        rotation_range_end   	 	5
+        rotation_speed_range_start  -6
+        rotation_speed_range_end    20
+   	}
+
+   	affector Scaler
+   	{
+       		rate 	3
+   	}
+}
+
+particle_system SmokeSystemCoal
+{
+    material        	SmokeCoal
+    particle_width  	1.0
+    particle_height 	1.0
+    cull_each       	false
+    quota           	150
+    billboard_type  	point
+	sorted				true
+    
+    // Area emitter
+    emitter Point
+    {
+		angle               		3
+        emission_rate       		3
+        time_to_live        		3
+        direction           		0 1 0
+        velocity_min        		1.5
+        velocity_max        		1.5	
+	}
+
+   	affector Rotator
+   	{
+        rotation_range_start  		0
+        rotation_range_end   	 	3
+        rotation_speed_range_start  -3
+        rotation_speed_range_end    3
+   	}
+	
+	affector ColourFader2
+	{
+		state_change 1
+		alpha -1
+	}
+
+   	affector Scaler
+   	{
+       	rate  0.3
+   	}
+}
+
+
+particle_system SmokeSystemGas
+{
+    material        	Smoke
+    particle_width  	1.5
+    particle_height 	1.5
+    cull_each       	false
+    quota           	175
+    billboard_type  	point
+    sorted		true
+    
+    // Area emitter
+    emitter Point
+    {
+	angle               		3
+        emission_rate       		3
+        time_to_live        		4
+        direction           		0 1 0
+        velocity_min        		1.5
+        velocity_max        		1.5	
+    }
+
+   	affector Rotator
+   	{
+        rotation_range_start  		0
+        rotation_range_end   	 	3
+        rotation_speed_range_start  -3
+        rotation_speed_range_end    3
+   	}
+	
+	affector ColourFader2
+	{
+		state_change 1
+		alpha -1
+	}
+
+   	affector Scaler
+   	{
+       	rate  0.4
+   	}
+}

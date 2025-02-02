@@ -1,0 +1,1968 @@
+﻿<?xml version="1.0" ?>
+<savegame map="de" mission="de_tutorial2.xml" sandbox="no">
+    <gametime year="1" month="1" day="1" speed="2" />
+    <company money="2000000" gas="2000" coal="2000" uranium="1000" global_price="20" global_image="100" global_advertising="40" global_maintenance="100" gas_price="61" coal_price="71" uranium_price="58" customers_complete="271864" contract_time="0" safety="1" customer_support="2" training="1" env_support="10" supply_maintenance="100" free_trades="0" net_worth="148000" company_name="Standard Elektrik GmbH" />
+    <trading_partner name="Österreich" available="true" />
+    <trading_partner name="Frankreich" available="true" />
+    <trading_partner name="Polen" available="false" />
+    <trading_partner name="Dänemark" available="false" />
+    <trading_partner name="Niederlande" available="false" />
+    <trading_partner name="Norwegen" available="false" />
+    <trading_partner name="Vereinigtes Königreich" available="false" />
+    <trading_partner name="Russland" available="false" />
+    <trading_partner name="Saudi-Arabien" available="false" />
+    <trading_partner name="Iran" available="false" />
+    <trading_partner name="Kanada" available="false" />
+    <finances_current_month advertising="-360" building="0" customer_income="83611" environmental="-6000" loan_payments="0" maintenance="-15900" operation="-21000" research="0" special_expenses="0" trade="0" training_safety="-720" />
+    <finances_current_year advertising="-360" building="0" customer_income="83611" environmental="-6000" loan_payments="0" maintenance="-15900" operation="-21000" research="0" special_expenses="0" trade="0" training_safety="-720" />
+    <finances_last_month advertising="-600" building="0" customer_income="125804" environmental="-20000" loan_payments="0" maintenance="-26500" operation="-35000" research="0" special_expenses="0" trade="0" training_safety="-1200" />
+    <finances_last_year advertising="-5640" building="-148000" customer_income="558662" environmental="-174000" loan_payments="0" maintenance="-273200" operation="-364000" research="0" special_expenses="0" trade="0" training_safety="-12480" />
+    <research_set researched="false" started="false" price="500" name="Großes Kohlekraftwerk" weeks_left="0" weeks_required="8" />
+    <research_set researched="false" started="false" price="600" name="Große Windkraftanlage" weeks_left="0" weeks_required="8" />
+    <research_set researched="false" started="false" price="700" name="Verbesserung der Anzeigenkampagnen" weeks_left="0" weeks_required="8" />
+    <research_set researched="false" started="false" price="500" name="Biomassekraftwerk" weeks_left="0" weeks_required="8" />
+    <research_set researched="false" started="false" price="800" name="Effizienzsteigerung für Windkraftanlagen" weeks_left="0" weeks_required="8" />
+    <research_set researched="false" started="false" price="900" name="Effizienzsteigerung für Kohlekraftwerke" weeks_left="0" weeks_required="8" />
+    <research_set researched="false" started="false" price="1000" name="Offshore-Windkraftanlage" weeks_left="0" weeks_required="8" />
+    <research_set researched="false" started="false" price="1200" name="Effizienzsteigerung für Gaskraftwerke" weeks_left="0" weeks_required="8" />
+    <research_set researched="false" started="false" price="1400" name="Kleines Atomkraftwerk" weeks_left="0" weeks_required="8" />
+    <research_set researched="false" started="false" price="1600" name="Großes Gaskraftwerk" weeks_left="0" weeks_required="8" />
+    <research_set researched="false" started="false" price="1800" name="Große Kohlemine" weeks_left="0" weeks_required="16" />
+    <research_set researched="false" started="false" price="2000" name="Reduzierung der Betriebskosten" weeks_left="0" weeks_required="16" />
+    <research_set researched="false" started="false" price="2200" name="Große Gasförderanlage" weeks_left="0" weeks_required="16" />
+    <research_set researched="false" started="false" price="2400" name="CO2-Reduktion" weeks_left="0" weeks_required="16" />
+    <research_set researched="false" started="false" price="2600" name="Effizienzsteigerung für Atomkraftwerke" weeks_left="0" weeks_required="16" />
+    <research_set researched="false" started="false" price="2800" name="Großes Solarkraftwerk" weeks_left="0" weeks_required="16" />
+    <research_set researched="false" started="false" price="3000" name="Aufwindkraftwerk" weeks_left="0" weeks_required="16" />
+    <research_set researched="false" started="false" price="3500" name="Effizienzsteigerung für Solarkraftwerke" weeks_left="0" weeks_required="16" />
+    <research_set researched="false" started="false" price="4000" name="Großes Atomkraftwerk" weeks_left="0" weeks_required="16" />
+    <research_set researched="false" started="false" price="4500" name="Große Uranmine" weeks_left="0" weeks_required="16" />
+    <research_set researched="false" started="false" price="5000" name="Fusionskraftwerk" weeks_left="0" weeks_required="16" />
+    <pn_building game_id="3225" type_id="1" subtype_id="2" pos_x="584" pos_y="1461" inherit="true" maintenance="100" damaged="false" year="1" condition="98" />
+    <pn_building game_id="3247" type_id="6" subtype_id="22" pos_x="587" pos_y="1495" />
+    <pn_building game_id="3273" type_id="6" subtype_id="22" pos_x="589" pos_y="1517" />
+    <pn_building game_id="5" type_id="0" subtype_id="0" pos_x="0" pos_y="0" inherit="true" price="0" advertising="0" customers="57602" />
+    <pn_building game_id="3336" type_id="6" subtype_id="22" pos_x="617" pos_y="1495" />
+    <pn_building game_id="3387" type_id="6" subtype_id="22" pos_x="647" pos_y="1514" />
+    <pn_building game_id="3408" type_id="6" subtype_id="22" pos_x="670" pos_y="1539" />
+    <pn_building game_id="3" type_id="0" subtype_id="0" pos_x="0" pos_y="0" inherit="true" price="20" advertising="40" customers="197411" />
+    <pn_building game_id="3472" type_id="6" subtype_id="21" pos_x="631" pos_y="1475" />
+    <pn_building game_id="3494" type_id="6" subtype_id="21" pos_x="647" pos_y="1465" />
+    <pn_building game_id="20" type_id="0" subtype_id="0" pos_x="0" pos_y="0" inherit="true" price="0" advertising="0" customers="16851" />
+    <pn_line from_id="3225" to_id="3247" />
+    <pn_line from_id="3247" to_id="3273" />
+    <pn_line from_id="3273" to_id="5" />
+    <pn_line from_id="3247" to_id="3336" />
+    <pn_line from_id="3336" to_id="3387" />
+    <pn_line from_id="3387" to_id="3408" />
+    <pn_line from_id="3408" to_id="3" />
+    <pn_line from_id="3336" to_id="3472" />
+    <pn_line from_id="3472" to_id="3494" />
+    <pn_line from_id="3494" to_id="20" />
+    <trade_chart>
+        <value_set month_line="false">
+            <value data="51" />
+            <value data="79" />
+            <value data="43" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="52" />
+            <value data="80" />
+            <value data="48" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="54" />
+            <value data="80" />
+            <value data="48" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="53" />
+            <value data="75" />
+            <value data="50" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="53" />
+            <value data="78" />
+            <value data="50" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="55" />
+            <value data="77" />
+            <value data="51" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="50" />
+            <value data="80" />
+            <value data="52" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="45" />
+            <value data="80" />
+            <value data="56" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="50" />
+            <value data="80" />
+            <value data="53" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="50" />
+            <value data="80" />
+            <value data="51" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="53" />
+            <value data="75" />
+            <value data="53" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="53" />
+            <value data="75" />
+            <value data="51" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="52" />
+            <value data="75" />
+            <value data="50" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="48" />
+            <value data="70" />
+            <value data="47" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="50" />
+            <value data="75" />
+            <value data="43" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="50" />
+            <value data="74" />
+            <value data="48" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="50" />
+            <value data="72" />
+            <value data="51" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="48" />
+            <value data="72" />
+            <value data="48" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="43" />
+            <value data="72" />
+            <value data="52" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="43" />
+            <value data="77" />
+            <value data="56" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="45" />
+            <value data="80" />
+            <value data="60" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="48" />
+            <value data="80" />
+            <value data="56" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="43" />
+            <value data="80" />
+            <value data="52" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="39" />
+            <value data="80" />
+            <value data="57" />
+        </value_set>
+        <value_set month_line="true">
+            <value data="41" />
+            <value data="80" />
+            <value data="54" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="45" />
+            <value data="80" />
+            <value data="52" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="45" />
+            <value data="80" />
+            <value data="57" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="42" />
+            <value data="75" />
+            <value data="62" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="40" />
+            <value data="77" />
+            <value data="60" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="42" />
+            <value data="73" />
+            <value data="57" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="40" />
+            <value data="73" />
+            <value data="55" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="39" />
+            <value data="77" />
+            <value data="55" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="38" />
+            <value data="77" />
+            <value data="57" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="40" />
+            <value data="79" />
+            <value data="62" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="43" />
+            <value data="79" />
+            <value data="66" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="42" />
+            <value data="80" />
+            <value data="68" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="40" />
+            <value data="76" />
+            <value data="68" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="40" />
+            <value data="76" />
+            <value data="71" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="36" />
+            <value data="77" />
+            <value data="67" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="33" />
+            <value data="73" />
+            <value data="71" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="29" />
+            <value data="73" />
+            <value data="73" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="30" />
+            <value data="70" />
+            <value data="68" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="32" />
+            <value data="65" />
+            <value data="70" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="27" />
+            <value data="69" />
+            <value data="71" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="26" />
+            <value data="67" />
+            <value data="76" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="29" />
+            <value data="71" />
+            <value data="79" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="32" />
+            <value data="69" />
+            <value data="78" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="37" />
+            <value data="71" />
+            <value data="80" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="37" />
+            <value data="68" />
+            <value data="76" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="37" />
+            <value data="72" />
+            <value data="76" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="38" />
+            <value data="73" />
+            <value data="75" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="38" />
+            <value data="69" />
+            <value data="74" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="37" />
+            <value data="74" />
+            <value data="72" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="37" />
+            <value data="76" />
+            <value data="73" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="42" />
+            <value data="76" />
+            <value data="68" />
+        </value_set>
+        <value_set month_line="true">
+            <value data="42" />
+            <value data="77" />
+            <value data="66" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="41" />
+            <value data="80" />
+            <value data="63" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="40" />
+            <value data="80" />
+            <value data="62" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="35" />
+            <value data="76" />
+            <value data="66" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="35" />
+            <value data="77" />
+            <value data="65" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="34" />
+            <value data="73" />
+            <value data="60" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="33" />
+            <value data="69" />
+            <value data="62" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="36" />
+            <value data="72" />
+            <value data="67" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="34" />
+            <value data="77" />
+            <value data="71" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="36" />
+            <value data="77" />
+            <value data="66" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="37" />
+            <value data="77" />
+            <value data="68" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="41" />
+            <value data="77" />
+            <value data="70" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="43" />
+            <value data="76" />
+            <value data="68" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="38" />
+            <value data="75" />
+            <value data="73" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="43" />
+            <value data="78" />
+            <value data="76" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="38" />
+            <value data="80" />
+            <value data="79" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="43" />
+            <value data="80" />
+            <value data="80" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="44" />
+            <value data="77" />
+            <value data="80" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="45" />
+            <value data="78" />
+            <value data="79" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="41" />
+            <value data="76" />
+            <value data="75" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="41" />
+            <value data="74" />
+            <value data="70" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="42" />
+            <value data="70" />
+            <value data="67" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="38" />
+            <value data="65" />
+            <value data="67" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="36" />
+            <value data="62" />
+            <value data="69" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="35" />
+            <value data="62" />
+            <value data="66" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="35" />
+            <value data="64" />
+            <value data="68" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="39" />
+            <value data="64" />
+            <value data="67" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="39" />
+            <value data="63" />
+            <value data="62" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="37" />
+            <value data="63" />
+            <value data="61" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="40" />
+            <value data="66" />
+            <value data="61" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="38" />
+            <value data="66" />
+            <value data="65" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="43" />
+            <value data="66" />
+            <value data="62" />
+        </value_set>
+        <value_set month_line="true">
+            <value data="42" />
+            <value data="68" />
+            <value data="67" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="44" />
+            <value data="63" />
+            <value data="72" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="42" />
+            <value data="64" />
+            <value data="73" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="41" />
+            <value data="60" />
+            <value data="78" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="44" />
+            <value data="65" />
+            <value data="73" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="49" />
+            <value data="66" />
+            <value data="69" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="54" />
+            <value data="69" />
+            <value data="69" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="53" />
+            <value data="70" />
+            <value data="73" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="57" />
+            <value data="70" />
+            <value data="71" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="56" />
+            <value data="70" />
+            <value data="67" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="52" />
+            <value data="68" />
+            <value data="63" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="48" />
+            <value data="72" />
+            <value data="62" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="50" />
+            <value data="67" />
+            <value data="66" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="51" />
+            <value data="67" />
+            <value data="71" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="51" />
+            <value data="67" />
+            <value data="72" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="52" />
+            <value data="67" />
+            <value data="71" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="53" />
+            <value data="71" />
+            <value data="67" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="58" />
+            <value data="68" />
+            <value data="66" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="60" />
+            <value data="72" />
+            <value data="66" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="63" />
+            <value data="69" />
+            <value data="65" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="63" />
+            <value data="69" />
+            <value data="66" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="64" />
+            <value data="72" />
+            <value data="67" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="67" />
+            <value data="75" />
+            <value data="69" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="72" />
+            <value data="77" />
+            <value data="69" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="72" />
+            <value data="77" />
+            <value data="66" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="70" />
+            <value data="74" />
+            <value data="65" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="75" />
+            <value data="78" />
+            <value data="65" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="74" />
+            <value data="78" />
+            <value data="64" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="71" />
+            <value data="80" />
+            <value data="59" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="73" />
+            <value data="79" />
+            <value data="62" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="73" />
+            <value data="77" />
+            <value data="58" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="75" />
+            <value data="74" />
+            <value data="59" />
+        </value_set>
+        <value_set month_line="true">
+            <value data="75" />
+            <value data="74" />
+            <value data="59" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="76" />
+            <value data="72" />
+            <value data="61" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="71" />
+            <value data="76" />
+            <value data="59" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="71" />
+            <value data="71" />
+            <value data="54" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="75" />
+            <value data="74" />
+            <value data="53" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="71" />
+            <value data="76" />
+            <value data="49" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="72" />
+            <value data="78" />
+            <value data="49" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="71" />
+            <value data="78" />
+            <value data="47" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="71" />
+            <value data="74" />
+            <value data="47" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="68" />
+            <value data="74" />
+            <value data="49" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="65" />
+            <value data="73" />
+            <value data="46" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="64" />
+            <value data="72" />
+            <value data="50" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="67" />
+            <value data="74" />
+            <value data="54" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="65" />
+            <value data="76" />
+            <value data="53" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="65" />
+            <value data="78" />
+            <value data="55" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="69" />
+            <value data="80" />
+            <value data="56" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="64" />
+            <value data="80" />
+            <value data="53" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="61" />
+            <value data="80" />
+            <value data="53" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="65" />
+            <value data="80" />
+            <value data="48" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="65" />
+            <value data="75" />
+            <value data="49" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="61" />
+            <value data="74" />
+            <value data="49" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="57" />
+            <value data="76" />
+            <value data="48" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="53" />
+            <value data="73" />
+            <value data="51" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="57" />
+            <value data="75" />
+            <value data="51" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="53" />
+            <value data="75" />
+            <value data="55" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="56" />
+            <value data="76" />
+            <value data="57" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="58" />
+            <value data="74" />
+            <value data="55" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="56" />
+            <value data="76" />
+            <value data="60" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="54" />
+            <value data="80" />
+            <value data="62" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="59" />
+            <value data="80" />
+            <value data="59" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="55" />
+            <value data="79" />
+            <value data="59" />
+        </value_set>
+        <value_set month_line="true">
+            <value data="55" />
+            <value data="78" />
+            <value data="55" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="57" />
+            <value data="77" />
+            <value data="54" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="57" />
+            <value data="77" />
+            <value data="53" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="62" />
+            <value data="80" />
+            <value data="54" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="60" />
+            <value data="80" />
+            <value data="57" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="61" />
+            <value data="80" />
+            <value data="55" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="58" />
+            <value data="80" />
+            <value data="57" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="55" />
+            <value data="80" />
+            <value data="57" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="59" />
+            <value data="79" />
+            <value data="62" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="56" />
+            <value data="79" />
+            <value data="67" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="58" />
+            <value data="80" />
+            <value data="65" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="62" />
+            <value data="79" />
+            <value data="70" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="63" />
+            <value data="76" />
+            <value data="67" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="59" />
+            <value data="75" />
+            <value data="72" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="57" />
+            <value data="79" />
+            <value data="71" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="59" />
+            <value data="79" />
+            <value data="70" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="62" />
+            <value data="74" />
+            <value data="67" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="65" />
+            <value data="74" />
+            <value data="64" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="60" />
+            <value data="70" />
+            <value data="66" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="61" />
+            <value data="71" />
+            <value data="71" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="61" />
+            <value data="69" />
+            <value data="70" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="61" />
+            <value data="70" />
+            <value data="69" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="59" />
+            <value data="72" />
+            <value data="66" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="63" />
+            <value data="72" />
+            <value data="68" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="61" />
+            <value data="70" />
+            <value data="72" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="64" />
+            <value data="70" />
+            <value data="68" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="68" />
+            <value data="72" />
+            <value data="71" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="70" />
+            <value data="76" />
+            <value data="69" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="72" />
+            <value data="80" />
+            <value data="70" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="69" />
+            <value data="80" />
+            <value data="72" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="69" />
+            <value data="80" />
+            <value data="71" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="67" />
+            <value data="80" />
+            <value data="73" />
+        </value_set>
+        <value_set month_line="true">
+            <value data="64" />
+            <value data="77" />
+            <value data="70" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="59" />
+            <value data="76" />
+            <value data="75" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="58" />
+            <value data="78" />
+            <value data="78" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="60" />
+            <value data="80" />
+            <value data="77" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="64" />
+            <value data="80" />
+            <value data="74" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="65" />
+            <value data="80" />
+            <value data="72" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="70" />
+            <value data="79" />
+            <value data="72" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="68" />
+            <value data="80" />
+            <value data="72" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="65" />
+            <value data="76" />
+            <value data="76" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="70" />
+            <value data="76" />
+            <value data="76" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="69" />
+            <value data="80" />
+            <value data="71" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="69" />
+            <value data="79" />
+            <value data="72" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="74" />
+            <value data="77" />
+            <value data="72" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="78" />
+            <value data="80" />
+            <value data="67" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="80" />
+            <value data="80" />
+            <value data="67" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="79" />
+            <value data="80" />
+            <value data="64" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="80" />
+            <value data="80" />
+            <value data="60" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="80" />
+            <value data="77" />
+            <value data="60" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="75" />
+            <value data="78" />
+            <value data="64" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="71" />
+            <value data="80" />
+            <value data="59" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="75" />
+            <value data="75" />
+            <value data="59" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="70" />
+            <value data="75" />
+            <value data="55" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="72" />
+            <value data="77" />
+            <value data="58" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="68" />
+            <value data="80" />
+            <value data="56" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="63" />
+            <value data="80" />
+            <value data="61" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="66" />
+            <value data="80" />
+            <value data="60" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="61" />
+            <value data="76" />
+            <value data="59" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="61" />
+            <value data="76" />
+            <value data="61" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="64" />
+            <value data="76" />
+            <value data="63" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="64" />
+            <value data="79" />
+            <value data="68" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="63" />
+            <value data="79" />
+            <value data="69" />
+        </value_set>
+        <value_set month_line="true">
+            <value data="63" />
+            <value data="74" />
+            <value data="73" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="60" />
+            <value data="70" />
+            <value data="74" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="65" />
+            <value data="75" />
+            <value data="71" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="62" />
+            <value data="73" />
+            <value data="74" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="66" />
+            <value data="68" />
+            <value data="69" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="66" />
+            <value data="68" />
+            <value data="69" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="66" />
+            <value data="68" />
+            <value data="70" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="67" />
+            <value data="67" />
+            <value data="65" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="69" />
+            <value data="63" />
+            <value data="70" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="70" />
+            <value data="62" />
+            <value data="66" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="70" />
+            <value data="60" />
+            <value data="61" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="65" />
+            <value data="62" />
+            <value data="65" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="68" />
+            <value data="57" />
+            <value data="62" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="66" />
+            <value data="61" />
+            <value data="65" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="68" />
+            <value data="64" />
+            <value data="65" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="63" />
+            <value data="64" />
+            <value data="63" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="65" />
+            <value data="68" />
+            <value data="64" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="65" />
+            <value data="68" />
+            <value data="64" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="64" />
+            <value data="67" />
+            <value data="60" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="60" />
+            <value data="71" />
+            <value data="65" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="59" />
+            <value data="73" />
+            <value data="61" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="63" />
+            <value data="68" />
+            <value data="66" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="63" />
+            <value data="67" />
+            <value data="64" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="67" />
+            <value data="72" />
+            <value data="59" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="67" />
+            <value data="72" />
+            <value data="59" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="63" />
+            <value data="73" />
+            <value data="63" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="61" />
+            <value data="78" />
+            <value data="60" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="66" />
+            <value data="78" />
+            <value data="60" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="70" />
+            <value data="80" />
+            <value data="56" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="70" />
+            <value data="78" />
+            <value data="53" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="69" />
+            <value data="78" />
+            <value data="49" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="67" />
+            <value data="80" />
+            <value data="44" />
+        </value_set>
+        <value_set month_line="true">
+            <value data="69" />
+            <value data="80" />
+            <value data="41" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="69" />
+            <value data="80" />
+            <value data="40" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="67" />
+            <value data="80" />
+            <value data="39" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="64" />
+            <value data="80" />
+            <value data="43" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="69" />
+            <value data="80" />
+            <value data="45" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="74" />
+            <value data="76" />
+            <value data="43" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="73" />
+            <value data="77" />
+            <value data="44" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="73" />
+            <value data="80" />
+            <value data="48" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="75" />
+            <value data="80" />
+            <value data="48" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="75" />
+            <value data="78" />
+            <value data="46" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="73" />
+            <value data="77" />
+            <value data="50" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="70" />
+            <value data="72" />
+            <value data="49" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="73" />
+            <value data="68" />
+            <value data="50" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="76" />
+            <value data="72" />
+            <value data="54" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="77" />
+            <value data="71" />
+            <value data="54" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="80" />
+            <value data="68" />
+            <value data="53" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="78" />
+            <value data="70" />
+            <value data="57" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="80" />
+            <value data="65" />
+            <value data="60" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="80" />
+            <value data="69" />
+            <value data="60" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="76" />
+            <value data="64" />
+            <value data="61" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="80" />
+            <value data="59" />
+            <value data="58" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="75" />
+            <value data="64" />
+            <value data="55" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="72" />
+            <value data="63" />
+            <value data="52" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="68" />
+            <value data="64" />
+            <value data="54" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="71" />
+            <value data="61" />
+            <value data="58" />
+        </value_set>
+    </trade_chart>
+    <image_chart>
+        <value_set month_line="false">
+            <value data="49" />
+            <value data="0" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="49" />
+            <value data="659" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="48" />
+            <value data="3751" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="47" />
+            <value data="6750" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="47" />
+            <value data="9702" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="47" />
+            <value data="12606" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="48" />
+            <value data="15554" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="49" />
+            <value data="18560" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="51" />
+            <value data="21527" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="53" />
+            <value data="23926" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="55" />
+            <value data="26483" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="56" />
+            <value data="29195" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="58" />
+            <value data="32064" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="60" />
+            <value data="35090" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="62" />
+            <value data="38272" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="63" />
+            <value data="41609" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="65" />
+            <value data="45101" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="67" />
+            <value data="48749" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="69" />
+            <value data="52551" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="70" />
+            <value data="56508" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="73" />
+            <value data="60618" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="76" />
+            <value data="64971" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="79" />
+            <value data="69566" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="81" />
+            <value data="74404" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="84" />
+            <value data="79483" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="87" />
+            <value data="84801" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="90" />
+            <value data="90358" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="92" />
+            <value data="96154" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="95" />
+            <value data="102188" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="98" />
+            <value data="108458" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="100" />
+            <value data="114963" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="100" />
+            <value data="121614" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="100" />
+            <value data="128255" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="100" />
+            <value data="134886" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="100" />
+            <value data="141507" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="100" />
+            <value data="148118" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="100" />
+            <value data="154719" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="100" />
+            <value data="161311" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="100" />
+            <value data="167893" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="100" />
+            <value data="174464" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="100" />
+            <value data="181026" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="100" />
+            <value data="187578" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="100" />
+            <value data="194121" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="100" />
+            <value data="200654" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="100" />
+            <value data="207177" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="100" />
+            <value data="213690" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="100" />
+            <value data="220192" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="100" />
+            <value data="226685" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="100" />
+            <value data="233168" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="100" />
+            <value data="239641" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="100" />
+            <value data="246105" />
+        </value_set>
+        <value_set month_line="true">
+            <value data="100" />
+            <value data="252559" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="100" />
+            <value data="259004" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="100" />
+            <value data="265439" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="100" />
+            <value data="271864" />
+        </value_set>
+    </image_chart>
+    <finance_chart>
+        <value_set month_line="false">
+            <value data="741920" />
+            <value data="0" />
+            <value data="2907260" />
+            <value data="80000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="495640" />
+            <value data="240" />
+            <value data="2845336" />
+            <value data="128000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="276680" />
+            <value data="1400" />
+            <value data="2810926" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="116680" />
+            <value data="2528" />
+            <value data="2796657" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="116680" />
+            <value data="3632" />
+            <value data="2782526" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="116680" />
+            <value data="7088" />
+            <value data="2768827" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="116752" />
+            <value data="8744" />
+            <value data="2755326" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="117208" />
+            <value data="10440" />
+            <value data="2741980" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="117280" />
+            <value data="12912" />
+            <value data="2728934" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="117280" />
+            <value data="17944" />
+            <value data="2716517" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="117280" />
+            <value data="19856" />
+            <value data="2704339" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="117280" />
+            <value data="21896" />
+            <value data="2692416" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="117280" />
+            <value data="24048" />
+            <value data="2680762" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="117280" />
+            <value data="26312" />
+            <value data="2669391" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="117280" />
+            <value data="28704" />
+            <value data="2658319" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="117280" />
+            <value data="31200" />
+            <value data="2647559" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="117280" />
+            <value data="33824" />
+            <value data="2637127" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="117280" />
+            <value data="36560" />
+            <value data="2627037" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="117280" />
+            <value data="39408" />
+            <value data="2617303" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="117280" />
+            <value data="42376" />
+            <value data="2607940" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="117280" />
+            <value data="50912" />
+            <value data="2599645" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="117280" />
+            <value data="54568" />
+            <value data="2591807" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="117280" />
+            <value data="58432" />
+            <value data="2584451" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="117280" />
+            <value data="62496" />
+            <value data="2577603" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="117280" />
+            <value data="66760" />
+            <value data="2571288" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="197280" />
+            <value data="71232" />
+            <value data="2555532" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="117280" />
+            <value data="75896" />
+            <value data="2550359" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="117280" />
+            <value data="80768" />
+            <value data="2545795" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="117280" />
+            <value data="85832" />
+            <value data="2541864" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="117280" />
+            <value data="91104" />
+            <value data="2538592" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="197280" />
+            <value data="96568" />
+            <value data="2526003" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="117280" />
+            <value data="102152" />
+            <value data="2524112" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="117280" />
+            <value data="107728" />
+            <value data="2522918" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="117280" />
+            <value data="113304" />
+            <value data="2522421" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="197280" />
+            <value data="118864" />
+            <value data="2512619" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="117280" />
+            <value data="124416" />
+            <value data="2513511" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="117280" />
+            <value data="129960" />
+            <value data="2515096" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="117280" />
+            <value data="135496" />
+            <value data="2517373" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="197280" />
+            <value data="141024" />
+            <value data="2510341" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="117280" />
+            <value data="146544" />
+            <value data="2513999" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="117280" />
+            <value data="152056" />
+            <value data="2518346" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="117280" />
+            <value data="157560" />
+            <value data="2523381" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="117280" />
+            <value data="163056" />
+            <value data="2529103" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="197280" />
+            <value data="168544" />
+            <value data="2525511" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="117280" />
+            <value data="174024" />
+            <value data="2532604" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="117280" />
+            <value data="179496" />
+            <value data="2540381" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="117280" />
+            <value data="184960" />
+            <value data="2548841" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="197280" />
+            <value data="190408" />
+            <value data="2547983" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="117280" />
+            <value data="195856" />
+            <value data="2557805" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="117280" />
+            <value data="201296" />
+            <value data="2568307" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="117280" />
+            <value data="206728" />
+            <value data="2579488" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="true">
+            <value data="117280" />
+            <value data="212144" />
+            <value data="2591346" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="197280" />
+            <value data="217560" />
+            <value data="2593881" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="117280" />
+            <value data="222968" />
+            <value data="2607092" />
+            <value data="148000" />
+        </value_set>
+        <value_set month_line="false">
+            <value data="117280" />
+            <value data="228360" />
+            <value data="2620977" />
+            <value data="148000" />
+        </value_set>
+    </finance_chart>
+</savegame>

@@ -1,0 +1,15 @@
+material strommastkreuzung
+{
+	technique
+	{
+		pass
+		{
+			cull_hardware none
+			cull_software none
+			ambient 0.25 0.25 0.25 1.0
+			diffuse 0.25 0.25 0.25 1.0
+		}
+	}
+}
+
+

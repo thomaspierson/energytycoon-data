@@ -1,0 +1,15 @@
+material wind_small
+{
+	technique
+	{
+		pass
+		{
+			texture_unit 
+			{
+				texture pp_wind_smallCompleteMap.tga
+			}
+		}
+	}
+}
+
+

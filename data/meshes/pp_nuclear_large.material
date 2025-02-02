@@ -1,0 +1,18 @@
+
+material pp_nuclear_large
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture pp_nuclear_largeCompleteMap.tga
+			}
+		}
+
+	}
+
+}
+
+

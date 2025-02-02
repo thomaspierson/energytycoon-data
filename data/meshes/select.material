@@ -1,0 +1,20 @@
+material 07-Default
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			
+			depth_write off
+			depth_check on
+			
+			texture_unit 
+			{
+				texture select.tga
+			}
+		}
+	}
+}
+
+

@@ -1,0 +1,15 @@
+material pp_nuclear_fusion
+{
+	technique
+	{
+		pass
+		{
+			texture_unit 
+			{
+				texture pp_nuclear_fusionCompleteMap.tga
+			}
+		}
+	}
+}
+
+

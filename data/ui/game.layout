@@ -1,0 +1,1369 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout">
+
+
+
+  <Widget type="Window" skin="WindowCX" position="196 182 500 136" layer="Overlapped" name="CompanyNameWindow">
+    <Property key="Widget_Visible" value="false"/>
+    <Property key="Widget_Shadow" value="true"/>
+    <Widget type="Button" skin="Button" position="200 64 100 26" layer="Main" name="CompanyNameOK">
+      <Property key="Widget_Shadow" value="true"/>
+      <Property key="Widget_Caption" value="OK"/>
+    </Widget>
+    <Widget type="Edit" skin="Edit" position="105 32 290 26" layer="Main" name="CompanyName">
+      <Property key="Widget_Shadow" value="true"/>
+      <Property key="Text_TextAlign" value="Center"/>
+    </Widget>
+    <Widget type="StaticText" skin="StaticText" position="0 0 492 26" layer="Main" name="CompanyNameQuestion">
+      <Property key="Widget_Shadow" value="true"/>
+      <Property key="Text_TextAlign" value="Center"/>
+    </Widget>
+  </Widget>
+
+
+  <Widget type="Widget" skin="Default" position="0 0 170 90" layer="Popup" name="WeatherWidget">
+
+    <Property key="Widget_Visible" value="false"/>
+
+    <Widget type="StaticImage" skin="StaticImage" position="0 0 256 256" layer="Main" name="WeatherBack">
+
+      <Property key="Image_Texture" value="weather.png"/>
+
+      <Widget type="StaticText" skin="StaticText" position="10 5 144 25" layer="Main" name="WeatherText">
+        <Property key="Widget_Shadow" value="true"/>
+        <Property key="Widget_AlignText" value="ALIGN_VCENTER"/>
+      </Widget>
+
+      <Widget type="StaticText" skin="StaticText" position="43 34 143 25" layer="Main" name="WindText">
+        <Property key="Widget_Shadow" value="true"/>
+        <Property key="Widget_FontHeight" value="13"/>
+      </Widget>
+
+      <Widget type="StaticText" skin="StaticText" position="43 64 143 25" layer="Main" name="SunText">
+        <Property key="Widget_Shadow" value="true"/>
+        <Property key="Widget_FontHeight" value="13"/>
+      </Widget>
+
+      <Widget type="StaticImage" skin="StaticImage" position="12 28 25 25" layer="Main" name="WindIcon"/>
+      <Widget type="StaticImage" skin="StaticImage" position="12 58 25 25" layer="Main" name="SunIcon"/>
+
+    </Widget>
+
+  </Widget>
+
+  <Widget type="Window" skin="WindowCX" position="0 0 410 334" layer="Overlapped" name="TutorialWindow">
+    <Property key="Widget_Visible" value="false"/>
+    <Property key="Widget_Shadow" value="true"/>
+    <Widget type="Button" skin="Button" position="268 268 128 26" layer="Main" name="TutorialContinue">
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="Button" skin="Button" position="136 268 128 26" layer="Main" name="TutorialBack">
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="Button" skin="Button" position="4 268 146 26" layer="Main" name="TutorialEnd">
+      <Property key="Widget_Shadow" value="true"/>
+      <Property key="Widget_Visible" value="false"/>
+    </Widget>
+    <Widget type="Edit" skin="WordWrap" position="2 2 396 264" layer="Main" name="TutorialText">
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+  </Widget>
+
+  <Widget type="Widget" skin="Default" position="0 0 480 320" layer="Popup" name="Newspaper">
+    <Property key="Widget_Show" value="false"/>
+    <Widget type="StaticImage" skin="StaticImage" position="0 0 480 320" layer="Main" name="NewspaperImage">
+      <Widget type="StaticImage" skin="StaticImage" position="15 85 188 132" layer="Main" name="NewspaperPhoto">
+      </Widget>
+    </Widget>
+    <Widget type="Button" skin="ButtonNP" position="466 0 16 16" layer="Back" name="CloseNewspaper">
+      <Property key="Widget_Colour" value="0.0 0.0 0.0"/>
+      <Property key="Widget_TextColour" value="0.0 0.0 0.0"/>
+      <Property key="Widget_Caption" value="x"/>
+    </Widget>
+    <Widget type="Edit" skin="WordWrap" position="224 85 243 133" layer="Main" name="Headline">
+      <Property key="Widget_Colour" value="0.0 0.0 0.0"/>
+      <Property key="Widget_FontHeight" value="44"/>
+    </Widget>
+    <Widget type="Edit" skin="WordWrap" position="18 226 456 32" layer="Main" name="Teaser">
+      <Property key="Widget_Colour" value="0.0 0.0 0.0"/>
+      <Property key="Widget_FontHeight" value="13"/>
+    </Widget>
+  </Widget>
+
+  <Widget type="Widget" skin="Panel" position="0 0 10 10" layer="ToolTip" name="Tooltip">
+    <Property key="Widget_Show" value="false"/>
+    <Widget type="StaticText" skin="StaticText" position = "6 4 500 500" name="TooltipText">
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+  </Widget>
+
+  <Widget type="StaticText" skin="StaticText" position="20 140 300 300" layer="Main" name="DemoTime">
+    <Property key="Widget_Colour" value="1.0 1.0 1.0"/>
+    <Property key="Widget_NeedMouse" value="false"/>
+    <Property key="Widget_Shadow" value="true"/>
+  </Widget>
+
+  <Widget type="StaticText" skin="StaticText" position="0 0 500 500" layer="Main" name="HoverText">
+    <Property key="Widget_NeedMouse" value="false"/>
+  </Widget>
+
+  <Widget type="StaticImage" skin="StaticImage" position="0 0 64 64" layer="Main" name="PanIcon">
+    <Property key="Widget_Show" value="false"/>
+    <Property key="Image_Texture" value="pan.png"/>
+    <Property key="Widget_NeedMouse" value="false"/>
+  </Widget>
+
+  <Widget type="Widget" skin="Default" position="0 0 208 170" layer="Main" name="ButtonPanel">
+    <Widget type="StaticImage" skin="StaticImage" position="0 0 256 256" layer="Main" name="ButtonPanelTex">
+      <Property key="Image_Texture" value="untenlinks.png"/>
+      <Widget type="Button" skin="ButtonBuildPowerplant" position="131 8 35 52" layer="Main" name="BuildPowerplant">
+        <Property key="Widget_Caption" value="powe"/>
+      </Widget>
+      <Widget type="Button" skin="ButtonBuildDeployment" position="166 8 29 52" layer="Main" name="BuildDeployment">
+        <Property key="Widget_Caption" value="dist"/>
+      </Widget>
+      <Widget type="Button" skin="ButtonBuildResource" position="131 61 64 52" layer="Main" name="BuildResource">
+        <Property key="Widget_Caption" value="resources"/>
+      </Widget>
+      <Widget type="Button" skin="ButtonBuildMisc" position="131 114 64 52" layer="Main" name="BuildMisc">
+        <Property key="Widget_Caption" value="company"/>
+      </Widget>
+      <Widget type="Button" skin="ButtonDemolish" position="82 119 39 39" layer="Main" name="Demolish">
+        <Property key="Widget_Caption" value="demo"/>
+      </Widget>
+      <Widget type="Button" skin="ButtonMenu" position="5 8 41 50" layer="Main" name="Menu">
+        <Property key="Widget_Caption" value="menu"/>
+      </Widget>
+      <Widget type="Button" skin="ButtonMission" position="46 8 41 50" layer="Main" name="Mission">
+        <Property key="Widget_Caption" value="missio"/>
+      </Widget>
+      <Widget type="Button" skin="ButtonFinance" position="87 8 41 50" layer="Main" name="FinancesMain">
+        <Property key="Widget_Caption" value="financ"/>
+      </Widget>
+      <Widget type="Button" skin="ButtonTrade" position="5 58 41 50" layer="Main" name="Trade">
+        <Property key="Widget_Caption" value="trade"/>
+      </Widget>
+      <Widget type="Button" skin="ButtonCEO" position="46 58 41 50" layer="Back" name="CEO">
+        <Property key="Widget_Caption" value="ceo"/>
+      </Widget>
+      <Widget type="Button" skin="ButtonResearch" position="87 58 41 50" layer="Back" name="Research">
+        <Property key="Widget_Caption" value="resear"/>
+      </Widget>
+      <Widget type="Button" skin="ButtonZoomIn" position="31 115 19 19" layer="Back" name="ZoomIn">
+        <Property key="Widget_Caption" value="+"/>
+      </Widget>
+      <Widget type="Button" skin="ButtonRotateLeft" position="47 130 19 19" layer="Back" name="RotateLeft">
+        <Property key="Widget_Caption" value="&lt;-"/>
+      </Widget>
+      <Widget type="Button" skin="ButtonZoomOut" position="31 143 19 19" layer="Back" name="ZoomOut">
+        <Property key="Widget_Caption" value="-"/>
+      </Widget>
+      <Widget type="Button" skin="ButtonRotateRight" position="14 130 19 19" layer="Back" name="RotateRight">
+        <Property key="Widget_Caption" value="-&gt;"/>
+      </Widget>
+    </Widget>
+  </Widget>
+
+  <Widget type="Widget" skin="Default" position="0 0 192 50" layer="InfoPanels" name="DateTimePanel">
+
+
+    <Widget type="StaticImage" skin="StaticImage" position="0 0 256 64" layer="Back" name="MiddleDT">
+      <Property key="Image_Texture" value="rechtsoben.png"/>
+
+      <Widget type="StaticImage" skin="StaticImage" position="9 9 32 32" layer="Back" name="SpeedIndicator">
+        <Property key="Image_Texture" value="slow.png"/>
+      </Widget>
+
+      <Widget type="Button" skin="ButtonPause" position="80 31 26 16" layer="Main" name="SpeedPause">
+        <Property key="Widget_Caption" value="||"/>
+      </Widget>
+
+      <Widget type="Button" skin="ButtonSlower" position="106 31 26 16" layer="Main" name="SpeedSlower">
+        <Property key="Widget_Caption" value="-"/>
+      </Widget>
+
+      <Widget type="Button" skin="ButtonFaster" position="132 31 26 16" layer="Main" name="SpeedFaster">
+        <Property key="Widget_Caption" value="+"/>
+      </Widget>
+
+      <Widget type="StaticText" skin="StaticText" position="37 5 160 25" layer="Main" name="DateTimeShadow">
+        <Property key="Widget_Colour" value="0.25 0.28 0.29"/>
+        <Property key="Widget_AlignText" value="ALIGN_CENTER"/>
+        <Property key="Widget_FontHeight" value="15"/>
+      </Widget>
+
+      <Widget type="StaticText" skin="StaticText" position="36 4 160 25" layer="Main" name="DateTime">
+        <Property key="Widget_Colour" value="0.95 0.95 0.95"/>
+        <Property key="Widget_AlignText" value="ALIGN_CENTER"/>
+        <Property key="Widget_FontHeight" value="15"/>
+      </Widget>
+
+    </Widget>
+
+  </Widget>
+
+
+  <Widget type="Widget" skin="Default" position="0 0 208 170" layer="Overlapped" name="MinimapPanel">
+
+    <Widget type="StaticImage" skin="StaticImage" position ="0 0 256 256" layer="Main" name="MinimapBack">
+      <Property key="Image_Texture" value="untenrechts2.png"/>
+
+      <Widget type="Button" skin="ButtonMinimapSupply" position="180 30 28 28" layer="Popup" name="MinimapShowSupply">
+      </Widget>
+      <Widget type="Button" skin="ButtonMinimapNets" position="180 60 28 28" layer="Popup" name="MinimapShowNets">
+      </Widget>
+      <Widget type="Button" skin="ButtonMinimapResources" position="180 90 28 28" layer="Popup" name="MinimapShowResources">
+      </Widget>
+      <Widget type="Button" skin="ButtonMinimapDefault" position="180 120 28 28" layer="Popup" name="MinimapShowDefault">
+      </Widget>
+
+      <Widget type="Widget" skin="Default" position="22 13 148 148" layer="Main" name="MinimapBorder">
+
+        <Widget type="StaticImage" skin="StaticImage" position="0 0 148 148" layer="Main" name="MinimapBackMap">
+          <Property key="Image_Texture" value="de_minimap.png"/>
+
+          <Widget type="StaticImage" skin="StaticImage" position="0 0 256 256" layer="Main" name="Minimap">
+            <Property key="Image_Texture" value="minimap"/>
+          </Widget>
+
+          <Widget type="Widget" skin="Default" position="0 0 148 148" layer="Main" name="MinimapWindowBorder">
+            <Property key="Widget_NeedMouse" value="false"/>
+
+            <Widget type="StaticImage" skin="StaticImage" position="0 0 80 60" layer="Popup" name="MinimapWindow">
+              <Property key="Image_Texture" value="minimap_window.png"/>
+              <Property key="Widget_NeedMouse" value="false"/>
+            </Widget>
+          </Widget>
+
+        </Widget>
+
+
+      </Widget>
+
+    </Widget>
+  </Widget>
+
+
+  <Widget type="Widget" skin="Default" position="0 0 248 128" layer="InfoPanels" name="ResourcePanel">
+
+    <Widget type="StaticText" skin="StaticText" position="31 11 128 32" layer="Main" name="MoneyShadow">
+      <Property key="Widget_Colour" value="0.25 0.28 0.29"/>
+      <Property key="Widget_FontHeight" value="26"/>
+      <Property key="Widget_AlignText" value="ALIGN_CENTER"/>
+    </Widget>
+
+    <Widget type="StaticText" skin="StaticText" position="30 10 128 32" layer="Popup" name="Money">
+      <Property key="Widget_Colour" value="0.95 0.95 0.95"/>
+      <Property key="Widget_FontHeight" value="26"/>
+      <Property key="Widget_AlignText" value="ALIGN_CENTER"/>
+    </Widget>
+
+    <Widget type="StaticText" skin="StaticText" position="183 11 60 32" layer="Main" name="EfficiencyShadow">
+      <Property key="Widget_Colour" value="0.25 0.28 0.29"/>
+      <Property key="Widget_FontHeight" value="26"/>
+      <Property key="Widget_AlignText" value="ALIGN_CENTER"/>
+    </Widget>
+
+    <Widget type="StaticText" skin="StaticText" position="182 10 60 32" layer="Main" name="Efficiency">
+      <Property key="Widget_Colour" value="0.95 0.95 0.95"/>
+      <Property key="Widget_FontHeight" value="26"/>
+      <Property key="Widget_AlignText" value="ALIGN_CENTER"/>
+    </Widget>
+
+
+    <Widget type="StaticImage" skin="StaticImage" position="0 0 256 256" layer="Back" name="LeftRP">
+      <Property key="Image_Texture" value="linksobendetail.png"/>
+
+      <Widget type="Button" skin="ButtonNet" position="151 11 32 32" layer="Main" name="ShowPowerNets">
+      </Widget>
+
+      <Widget type="Button" skin="ButtonMoney" position="11 11 32 32" layer="Overlapped" name="Finances">
+      </Widget>
+
+      <Widget type="Button" skin="ButtonHideResources" position="174 51 20 20" layer="Overlapped" name="ShowHideResource">
+        <Property key="Widget_Visible" value="false"/>
+      </Widget>
+
+    </Widget>
+
+  </Widget>
+
+
+  <Widget type="Widget" skin="Default" position="32 54 192 40" layer="InfoPanels" name="CoalPanel">
+
+    <Widget type="StaticText" skin="StaticText" position="1 1 300 40" layer="InfoPanels" name="CoalTextShadow">
+      <Property key="Widget_Colour" value="0.25 0.28 0.29"/>
+      <Property key="Widget_FontHeight" value="13"/>
+    </Widget>
+
+    <Widget type="StaticText" skin="StaticText" position="0 0 300 40" layer="InfoPanels" name="CoalText">
+      <Property key="Widget_Colour" value="1.0 1.0 1.0"/>
+      <Property key="Widget_FontHeight" value="13"/>
+    </Widget>
+
+    <Widget type="StaticImage" skin="StaticImage" position="130 0 11 13" layer="InfoPanels" name="CoalTrend"/>
+
+  </Widget>
+
+  <Widget type="Widget" skin="Default" position="32 77 192 40" layer="InfoPanels" name="GasPanel">
+
+    <Widget type="StaticText" skin="StaticText" position="1 1 300 40" layer="InfoPanels" name="GasTextShadow">
+      <Property key="Widget_Colour" value="0.25 0.28 0.29"/>
+      <Property key="Widget_FontHeight" value="13"/>
+    </Widget>
+
+    <Widget type="StaticText" skin="StaticText" position="0 0 300 40" layer="InfoPanels" name="GasText">
+      <Property key="Widget_Colour" value="1.0 1.0 1.0"/>
+      <Property key="Widget_FontHeight" value="13"/>
+    </Widget>
+
+    <Widget type="StaticImage" skin="StaticImage" position="130 0 11 13" layer="InfoPanels" name="GasTrend"/>
+
+  </Widget>
+
+  <Widget type="Widget" skin="Default" position="32 100 192 40" layer="InfoPanels" name="UraniumPanel">
+
+    <Widget type="StaticText" skin="StaticText" position="1 1 300 40" layer="InfoPanels" name="UraniumTextShadow">
+      <Property key="Widget_Colour" value="0.25 0.28 0.29"/>
+      <Property key="Widget_FontHeight" value="13"/>
+    </Widget>
+
+    <Widget type="StaticText" skin="StaticText" position="0 0 300 40" layer="InfoPanels" name="UraniumText">
+      <Property key="Widget_Colour" value="1.0 1.0 1.0"/>
+      <Property key="Widget_FontHeight" value="13"/>
+    </Widget>
+
+    <Widget type="StaticImage" skin="StaticImage" position="130 0 11 13" layer="InfoPanels" name="UraniumTrend"/>
+
+  </Widget>
+
+
+  <Widget type="Widget" skin="Default" position="23 54 192 40" layer="InfoPanels" name="ResourceOverviewPanel">
+    <Property key="Widget_Show" value="false"/>
+
+    <Widget type="StaticText" skin="StaticText" position="-4 1 300 40" layer="Popup" name="ResourceOverviewTextShadow">
+      <Property key="Widget_Colour" value="0.25 0.28 0.29"/>
+      <Property key="Widget_FontHeight" value="13"/>
+    </Widget>
+
+    <Widget type="StaticText" skin="StaticText" position="-5 0 300 40" layer="Popup" name="ResourceOverviewText">
+      <Property key="Widget_Colour" value="1.0 1.0 1.0"/>
+      <Property key="Widget_FontHeight" value="13"/>
+    </Widget>
+
+  </Widget>
+
+
+  <Widget type="Widget" skin="Default" position="0 0 200 50" layer="InfoPanels" name="TickerPanel">
+
+    <Widget type="StaticImage" skin="StaticImage" position="0 0 64 64" layer="Back" name="LeftTicker">
+      <Property key="Image_Texture" value="tickerlinks.png"/>
+
+      <Widget type="Button" skin="ButtonTicker" position="11 11 32 32" layer="Overlapped" name="TickerArchive">
+      </Widget>
+    </Widget>
+
+    <Widget type="StaticImage" skin="StaticImage" position="64 0 32 64" layer="Back" name="MiddleTicker">
+      <Property key="Image_Texture" value="tickermitte.png"/>
+
+      <Widget type="StaticText" skin="StaticText" position="5 10 2000 18" layer="Main" name="TickerLine1Shadow">
+        <Property key="Widget_Colour" value="0.25 0.28 0.29"/>
+        <Property key="Widget_FontHeight" value="16"/>
+      </Widget>
+
+      <Widget type="StaticText" skin="StaticText" position="5 25 2000 18" layer="Main" name="TickerLine2Shadow">
+        <Property key="Widget_Colour" value="0.25 0.28 0.29"/>
+        <Property key="Widget_FontHeight" value="16"/>
+      </Widget>
+
+      <Widget type="StaticText" skin="StaticText" position="4 9 2000 18" layer="Main" name="TickerLine1">
+        <Property key="Widget_Colour" value="0.95 0.95 0.95"/>
+        <Property key="Widget_FontHeight" value="16"/>
+      </Widget>
+
+      <Widget type="StaticText" skin="StaticText" position="4 24 2000 18" layer="Main" name="TickerLine2">
+        <Property key="Widget_Colour" value="0.95 0.95 0.95"/>
+        <Property key="Widget_FontHeight" value="16"/>
+      </Widget>
+
+    </Widget>
+
+    <Widget type="StaticImage" skin="StaticImage" position="0 0 32 64" layer="Back" name="RightTicker">
+      <Property key="Image_Texture" value="tickerrechts.png"/>
+
+    </Widget>
+
+  </Widget>
+
+  <Widget type="StaticImage" skin="StaticImage" position="0 0 200 256" layer="InfoPanels" name="BuildPowerplantPanel">
+    <Property key="Image_Texture" value="untenmitte.png"/>
+  </Widget>
+
+  <Widget type="StaticImage" skin="StaticImage" position="0 0 200 256" layer="InfoPanels" name="BuildResourcePanel">
+    <Property key="Image_Texture" value="untenmitte.png"/>
+  </Widget>
+
+  <Widget type="StaticImage" skin="StaticImage" position="0 0 200 256" layer="InfoPanels" name="BuildDistributionPanel">
+    <Property key="Image_Texture" value="untenmitte.png"/>
+  </Widget>
+
+  <Widget type="StaticImage" skin="StaticImage" position="0 0 200 256" layer="InfoPanels" name="BuildMiscPanel">
+    <Property key="Image_Texture" value="untenmitte.png"/>
+  </Widget>
+
+  <Widget type="StaticImage" skin="StaticImage" position="0 0 624 256" layer="InfoPanels" name="PowerplantPanel">
+    <Property key="Image_Texture" value="untenmitte.png"/>
+    <Widget type="StaticImage" skin="StaticImage" position="16 16 120 80" layer="Back" name="PPInfoPic">
+      <Property key="Image_Texture" value="pp_nuclear_small.png"/>
+    </Widget>
+    <Widget type="StaticText" skin="StaticText" position="16 102 120 20" layer="Back" name="PPName">
+      <Property key="Widget_Shadow" value="true"/>
+      <Property key="Text_TextAlign" value="Center"/>
+      <Property key="Text_TextColour" value="1 1 1"/>
+    </Widget>
+    <Widget type="Button" skin="CheckBox" position="444 18 186 20" layer="Back" name="PPGlobalCheck">
+      <Property key="Text_FontHeight" value="15"/>
+      <Property key="Text_TextColour" value="1 1 1"/>
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="Edit" skin="Edit" position="530 44 44 24" layer="Back" name="PPMaintenance">
+      <Property key="Edit_Static" value="true"/>
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="StaticText" skin="StaticText" position="440 44 88 24" layer="Back" name="PPMaintenanceText">
+      <Property key="Text_FontHeight" value="15"/>
+      <Property key="Text_TextAlign" value="Center"/>
+      <Property key="Text_TextColour" value="1 1 1"/>
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="Button" skin="ButtonNet" position="444 80 32 32" layer="Back" name="PPShowNet">
+      <Property key="Widget_Caption" value="Net"/>
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="Button" skin="ButtonMoney" position="480 80 32 32" layer="Back" name="PPShowSales">
+      <Property key="Widget_Caption" value="Maint"/>
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="Button" skin="ButtonRepair" position="516 80 32 32" layer="Back" name="PPRepair">
+      <Property key="Widget_Caption" value="Repair"/>
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="StaticText" skin="StaticText" position="594 44 26 24" layer="Back">
+      <Property key="Widget_Shadow" value="true"/>
+      <Property key="Widget_Caption" value="%"/>
+      <Property key="Text_FontHeight" value="15"/>
+      <Property key="Text_TextAlign" value="Center"/>
+      <Property key="Text_TextColour" value="1 1 1"/>
+    </Widget>
+    <Widget type="StaticText" skin="StaticText" position="150 18 148 400" layer="Back" name="PPInfo">
+      <Property key="Widget_Shadow" value="true"/>
+      <Property key="Text_FontHeight" value="15"/>
+      <Property key="Text_TextColour" value="1 1 1"/>
+    </Widget>
+    <Widget type="StaticText" skin="StaticText" position="300 18 112 18" layer="Back" name="PPConnectedText">
+      <Property key="Widget_Shadow" value="true"/>
+      <Property key="Text_FontHeight" value="15"/>
+      <Property key="Text_TextColour" value="1 1 1"/>
+    </Widget>
+    <Widget type="StaticText" skin="StaticText" position="300 40 126 126" layer="Back" name="PPCities">
+      <Property key="Widget_Shadow" value="true"/>
+      <Property key="Text_FontHeight" value="15"/>
+      <Property key="Text_TextColour" value="1 1 1"/>
+    </Widget>
+    <Widget type="Button" skin="ButtonUp" position="580 46 16 12" layer="Back" name="PPMaintUp"/>
+    <Widget type="Button" skin="ButtonDown" position="580 58 16 12" layer="Back" name="PPMaintDown"/>
+    <Widget type="StaticText" skin="StaticText" position="146 110 266 20" layer="Back" name="PPAlert">
+      <Property key="Widget_Shadow" value="true"/>
+      <Property key="Text_FontHeight" value="15"/>
+      <Property key="Text_TextColour" value="0.7 0 0 "/>
+    </Widget>
+  </Widget>
+
+  <Widget type="StaticImage" skin="StaticImage" position="114 196 624 256" layer="InfoPanels" name="CityPanel">
+    <Property key="Image_Texture" value="untenmitte.png"/>
+    <Widget type="StaticImage" skin="StaticImage" position="16 16 120 80" layer="Back" name="CityInfoPic">
+      <Property key="Image_Texture" value="pp_nuclear_small.png"/>
+    </Widget>
+    <Widget type="StaticText" skin="StaticText" position="16 102 120 20" layer="Back" name="CityName">
+      <Property key="Text_TextAlign" value="Center"/>
+      <Property key="Text_TextColour" value="1 1 1"/>
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="Button" skin="CheckBox" position="448 18 186 20" layer="Back" name="CityGlobalCheck">
+      <Property key="Text_FontHeight" value="15"/>
+      <Property key="Text_TextColour" value="1 1 1"/>
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="Edit" skin="Edit" position="528 44 44 24" layer="Back" name="CityPrice">
+      <Property key="Edit_Static" value="true"/>
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="StaticText" skin="StaticText" position="482 44 42 24" layer="Back" name="PriceText">
+      <Property key="Text_FontHeight" value="15"/>
+      <Property key="Text_TextAlign" value="Right VCenter"/>
+      <Property key="Text_TextColour" value="1 1 1"/>
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="Button" skin="ButtonNet" position="450 100 32 32" layer="Back" name="CityShowNet">
+      <Property key="Widget_Caption" value="Net"/>
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="Button" skin="ButtonMoney" position="488 100 32 32" layer="Back" name="CityShowSales">
+      <Property key="Widget_Caption" value="Maint"/>
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="StaticText" skin="StaticText" position="593 44 80 24" layer="Back">
+      <Property key="Widget_Caption" value="cent/\nkWh"/>
+      <Property key="Text_FontHeight" value="12"/>
+      <Property key="Text_TextAlign" value="Left VCenter"/>
+      <Property key="Text_TextColour" value="1 1 1"/>
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="StaticText" skin="StaticText" position="150 18 148 400" layer="Back" name="CityInfo">
+      <Property key="Text_FontHeight" value="15"/>
+      <Property key="Text_TextColour" value="1 1 1"/>
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="StaticText" skin="StaticText" position="300 18 110 18" layer="Back" name="SuppliedByText">
+      <Property key="Text_FontHeight" value="15"/>
+      <Property key="Text_TextColour" value="1 1 1"/>
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="StaticText" skin="StaticText" position="300 40 126 126" layer="Back" name="CityPPs">
+      <Property key="Text_FontHeight" value="15"/>
+      <Property key="Text_TextColour" value="1 1 1"/>
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="Button" skin="ButtonUp" position="575 45 16 12" layer="Back" name="CityPriceUp"/>
+    <Widget type="Button" skin="ButtonDown" position="575 57 16 12" layer="Back" name="CityPriceDown"/>
+    <Widget type="StaticText" skin="StaticText" position="446 72 78 18" layer="Back" name="AdsText">
+      <Property key="Text_FontHeight" value="15"/>
+      <Property key="Text_TextColour" value="1 1 1"/>
+      <Property key="Text_TextAlign" value="Right VCenter"/>
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="Edit" skin="Edit" position="528 70 44 24" layer="Back" name="CityAds">
+      <Property key="Widget_Shadow" value="true"/>
+      <Property key="Edit_Static" value="true"/>
+    </Widget>
+    <Widget type="Button" skin="ButtonUp" position="575 71 16 12" layer="Back" name="CityAdsUp"/>
+    <Widget type="Button" skin="ButtonDown" position="575 83 16 12" layer="Back" name="CityAdsDown"/>
+    <Widget type="StaticText" skin="StaticText" position="594 70 34 24" layer="Back" name="PriceUnitText">
+      <Property key="Text_TextColour" value="1 1 1"/>
+      <Property key="Text_FontHeight" value="12"/>
+      <Property key="Text_TextAlign" value="Left VCenter"/>
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+  </Widget>
+
+  <Widget type="StaticImage" skin="StaticImage" position="132 186 624 256" layer="InfoPanels" name="ResourceInfoPanel">
+    <Property key="Image_Texture" value="untenmitte.png"/>
+    <Widget type="StaticImage" skin="StaticImage" position="16 16 120 80" layer="Back" name="REInfoPic">
+      <Property key="Image_Texture" value="pp_nuclear_small.png"/>
+    </Widget>
+    <Widget type="StaticText" skin="StaticText" position="16 102 120 20" layer="Back" name="REName">
+      <Property key="Text_TextAlign" value="Center"/>
+      <Property key="Text_TextColour" value="1 1 1"/>
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="Button" skin="CheckBox" position="314 18 186 20" layer="Back" name="REGlobalCheck">
+      <Property key="Text_FontHeight" value="15"/>
+      <Property key="Text_TextColour" value="1 1 1"/>
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="Edit" skin="Edit" position="390 44 44 24" layer="Back" name="REMaintenance">
+      <Property key="Edit_Static" value="true"/>
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="StaticText" skin="StaticText" position="300 44 88 24" layer="Back" name="REMaintenanceText">
+      <Property key="Text_FontHeight" value="15"/>
+      <Property key="Text_TextAlign" value="Center"/>
+      <Property key="Text_TextColour" value="1 1 1"/>
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="Button" skin="ButtonRepair" position="304 80 36 36" layer="Back" name="RERepair">
+      <Property key="Widget_Caption" value="Repair"/>
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="StaticText" skin="StaticText" position="454 44 26 22" layer="Back">
+      <Property key="Widget_Caption" value="%"/>
+      <Property key="Text_FontHeight" value="15"/>
+      <Property key="Text_TextAlign" value="Center"/>
+      <Property key="Text_TextColour" value="1 1 1"/>
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="StaticText" skin="StaticText" position="150 18 152 172" layer="Back" name="REInfo">
+      <Property key="Text_FontHeight" value="15"/>
+      <Property key="Text_TextColour" value="1 1 1"/>
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="Button" skin="ButtonUp" position="440 46 16 12" layer="Back" name="REMaintUp"/>
+    <Widget type="Button" skin="ButtonDown" position="440 58 16 12" layer="Back" name="REMaintDown"/>
+  </Widget>
+
+  <Widget type="StaticImage" skin="StaticImage" position="132 186 624 256" layer="InfoPanels" name="CompanyPanel">
+    <Property key="Image_Texture" value="untenmitte.png"/>
+    <Widget type="StaticImage" skin="StaticImage" position="16 16 120 80" layer="Back" name="COInfoPic">
+      <Property key="Image_Texture" value="pp_nuclear_small.png"/>
+    </Widget>
+    <Widget type="StaticText" skin="StaticText" position="16 102 120 20" layer="Back" name="COName">
+      <Property key="Text_TextAlign" value="Center"/>
+      <Property key="Text_TextColour" value="1 1 1"/>
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="Button" skin="Button" position="150 20 32 32" layer="Back" name="COShowWindow">
+      <Property key="Widget_Caption" value="Wind"/>
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="StaticText" skin="StaticText" position="150 18 248 72" layer="Back" name="COInfo">
+      <Property key="Widget_Visible" value="false"/>
+      <Property key="Text_FontHeight" value="15"/>
+      <Property key="Text_TextColour" value="1 1 1"/>
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+  </Widget>
+
+  <Widget type="StaticImage" skin="StaticImage" position="0 0 200 256" layer="InfoPanels" name="InfoPanel">
+    <Property key="Image_Texture" value="untenmitte.png"/>
+    <Widget type="StaticText" skin="StaticText" position="8 8 5000 5000" layer="Main" name="InfoText">
+      <Property key="Widget_Colour" value="1.0 1.0 1.0"/>
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+  </Widget>
+
+
+  <Widget type="Window" skin="WindowCX" position="0 0 600 400" layer="Overlapped" name="TickerArchiveWindow">
+    <Property key="Widget_Show" value="false"/>
+    <Property key="Widget_Visible" value="false"/>
+    <Widget type="List" skin="ListScrollOnly" position="0 0 600 192" layer="Main" name="TickerList">
+      <Property key="Widget_Colour" value="1.0 1.0 1.0"/>
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget  type="Edit" skin="WordWrap" position="4 204 590 122" layer="Main" name="MessageDetail">
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="Widget" skin="Separator3" position="-2 194 594 7" layer="Back"/>
+  </Widget>
+
+  <Widget type="Window" skin="WindowCX" position="0 0 672 472" layer="Overlapped" name="TradeWindow">
+    <Property key="Widget_Visible" value="false"/>
+    <Widget type="StaticText" skin="StaticText" position="8 9 124 17" layer="Back" name="TradingPartnersText">
+      <Property key="Text_FontHeight" value="17"/>
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="List" skin="List" position="8 31 220 112" layer="Back" name="TradingPartners">
+      <Property key="Widget_Shadow" value="true"/>
+      <Widget type="StaticText" skin="StaticText" position="0 0 220 112" layer="Back" name="NoTradingPartners">
+        <Property key="Widget_Visible" value="false"/>
+        <Property key="Text_TextAlign" value="Center"/>
+        <Property key="Widget_Shadow" value="true"/>
+      </Widget>
+    </Widget>
+    <Widget type="StaticText" skin="StaticText" position="241 9 145 17" layer="Back" name="WorldMarketText">
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="Button" skin="Button" position="8 146 220 28" layer="Back" name="Sign">
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="Widget" skin="Panel" position="240 31 298 141" layer="Back">
+      <Widget type="StaticImage" skin="StaticImage" position="3 3 512 256" layer="Back" name="PriceChart">
+        <Property key="Image_Texture" value="TradeChart"/>
+      </Widget>
+    </Widget>
+    <Widget type="List" skin="ListSmall" position="8 180 530 106" layer="Back" name="OffersList">
+      <Property key="Widget_Shadow" value="true"/>
+      <Widget type="StaticText" skin="StaticText" position="0 0 530 106" layer="Back" name="NoTrade">
+        <Property key="Widget_Visible" value="false"/>
+        <Property key="Text_TextAlign" value="Center"/>
+        <Property key="Widget_Shadow" value="true"/>
+      </Widget>
+    </Widget>
+    <Widget type="StaticText" skin="StaticText" position="546 180 68 24" layer="Back" name="OffersText">
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="Button" skin="CheckBox" position="546 200 84 24" layer="Back" name="BuyCheck">
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="Button" skin="CheckBox" position="546 228 82 24" layer="Back" name="SellCheck">
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="Button" skin="CheckBox" position="546 256 88 24" layer="Back" name="CoalOfferCheck">
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="Button" skin="CheckBox" position="546 284 88 24" layer="Back" name="GasOfferCheck">
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="Button" skin="CheckBox" position="546 312 82 24" layer="Back" name="UraniumOfferCheck">
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="Button" skin="Button" position="8 288 530 28" layer="Back" name="AcceptOffer">
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="StaticText" skin="StaticText" position="544 33 118 35" layer="Back" name="CoalPrice">
+      <Property key="Widget_Shadow" value="true"/>
+      <Property key="Text_TextColour" value="1 0 0"/>
+    </Widget>
+    <Widget type="StaticText" skin="StaticText" position="544 79 116 36" layer="Back" name="GasPrice">
+      <Property key="Widget_Shadow" value="true"/>
+      <Property key="Text_TextColour" value="0 1 0"/>
+    </Widget>
+    <Widget type="StaticText" skin="StaticText" position="544 126 108 37" layer="Back" name="UraniumPrice">
+      <Property key="Widget_Shadow" value="true"/>
+      <Property key="Text_TextColour" value="0 0 1"/>
+    </Widget>
+    <Widget type="List" skin="ListSmall" position="8 325 532 103" layer="Back" name="Obligations">
+      <Property key="Widget_Shadow" value="true"/>
+      <Widget type="StaticText" skin="StaticText" position="0 0 532 103" layer="Back" name="NoObligations">
+        <Property key="Widget_Visible" value="false"/>
+        <Property key="Text_TextAlign" value="Center"/>
+        <Property key="Widget_Shadow" value="true"/>
+      </Widget>
+    </Widget>
+    <Widget type="Button" skin="Button" position="544 396 110 26" layer="Back" name="CancelOffer">
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="StaticText" skin="StaticText" position="546 351 86 43" layer="Back" name="CurrentObligationsText">
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+  </Widget>
+
+  <Widget type="Window" skin="WindowCX" position="0 0 648 510" layer="Overlapped" name="PowerNetsWindow">
+    <Property key="Widget_Show" value="false"/>
+
+    <Widget type="Tab" skin="Tab" position="-4 1 644 479" layer="Back" name="PowerNetTab">
+      <Property key="Widget_Show" value="true"/>
+    </Widget>
+  </Widget>
+
+
+  <Widget type="Window" skin="WindowCX" position="0 0 590 410" layer="Overlapped" name="FinancesWindow">
+    <Property key="Widget_Show" value="true"/>
+    <Property key="Widget_Visible" value="false"/>
+    <Widget type="Tab" skin="Tab" position="0 0 580 374" layer="Back">
+      <Widget type="TabItem" skin="Default" position="4 26 571 342" layer="Back" name="SalesTab">
+        <Property key="Sheet_Select" value="true"/>
+        <Widget type="StaticText" skin="StaticText" position="24 11 200 24" layer="Back" name="FinancesPriceText">
+          <Property key="Text_TextAlign" value="Right VCenter"/>
+          <Property key="Widget_Shadow" value="true"/>
+        </Widget>
+        <Widget type="StaticText" skin="StaticText" position="24 42 200 24" layer="Back" name="FinancesAdsText">
+          <Property key="Text_TextAlign" value="Right VCenter"/>
+          <Property key="Widget_Shadow" value="true"/>
+        </Widget>
+        <Widget type="StaticText" skin="StaticText" position="24 202 200 24" layer="Back" name="MaintenanceText">
+          <Property key="Text_TextAlign" value="Right VCenter"/>
+          <Property key="Widget_Shadow" value="true"/>
+        </Widget>
+        <Widget type="Edit" skin="Edit" position="226 11 70 24" layer="Back" name="Price">
+          <Property key="Edit_Static" value="true"/>
+          <Property key="Text_TextAlign" value="Right VCenter"/>
+          <Property key="Widget_Shadow" value="true"/>
+        </Widget>
+        <Widget type="Edit" skin="Edit" position="226 42 70 24" layer="Back" name="Advertising">
+          <Property key="Edit_Static" value="true"/>
+          <Property key="Text_TextAlign" value="Right VCenter"/>
+          <Property key="Widget_Shadow" value="true"/>
+        </Widget>
+        <Widget type="Edit" skin="Edit" position="226 202 70 24" layer="Back" name="Maintenance">
+          <Property key="Edit_Static" value="true"/>
+          <Property key="Widget_Shadow" value="true"/>
+          <Property key="Text_TextAlign" value="Right VCenter"/>
+        </Widget>
+        <Widget type="StaticText" skin="StaticText" position="324 11 140 24" layer="Back" name="PriceUnit">
+          <Property key="Text_TextAlign" value="Left VCenter"/>
+          <Property key="Widget_Shadow" value="true"/>
+        </Widget>
+        <Widget type="StaticText" skin="StaticText" position="324 42 238 24" layer="Back" name="AdsUnit">
+          <Property key="Text_TextAlign" value="Left VCenter"/>
+          <Property key="Widget_Shadow" value="true"/>
+        </Widget>
+        <Widget type="StaticText" skin="StaticText" position="324 198 56 24" layer="Back">
+          <Property key="Widget_Caption" value="%"/>
+          <Property key="Widget_Shadow" value="true"/>
+          <Property key="Text_TextAlign" value="Left VCenter"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonUp" position="300 11 16 12" layer="Back" name="PriceUp"/>
+        <Widget type="Button" skin="ButtonDown" position="300 24 16 12" layer="Back" name="PriceDown"/>
+        <Widget type="Button" skin="ButtonDown" position="300 215 16 12" layer="Back" name="MaintenanceDown"/>
+        <Widget type="Button" skin="ButtonDown" position="300 55 16 12" layer="Back" name="AdvertisingDown"/>
+        <Widget type="Button" skin="ButtonUp" position="300 42 16 12" layer="Back" name="AdvertisingUp"/>
+        <Widget type="Button" skin="ButtonUp" position="300 202 16 12" layer="Back" name="MaintenanceUp"/>
+        <Widget type="Widget" skin="Separator3" position="10 179 544 6" layer="Back"/>
+        <Widget type="StaticText" skin="StaticText" position="24 135 200 24" layer="Back" name="EnvText">
+          <Property key="Text_TextAlign" value="Right VCenter"/>
+          <Property key="Widget_Shadow" value="true"/>
+        </Widget>
+        <Widget type="StaticText" skin="StaticText" position="24 73 200 24" layer="Back" name="ContractText">
+          <Property key="Text_TextAlign" value="Right VCenter"/>
+          <Property key="Widget_Shadow" value="true"/>
+        </Widget>
+        <Widget type="StaticText" skin="StaticText" position="24 104 200 24" layer="Back" name="SupportText">
+          <Property key="Text_TextAlign" value="Right VCenter"/>
+          <Property key="Widget_Shadow" value="true"/>
+        </Widget>
+        <Widget type="StaticText" skin="StaticText" position="24 233 200 24" layer="Back" name="SupplyText">
+          <Property key="Text_TextAlign" value="Right VCenter"/>
+          <Property key="Widget_Shadow" value="true"/>
+        </Widget>
+        <Widget type="StaticText" skin="StaticText" position="24 264 200 24" layer="Back" name="SafetyText">
+          <Property key="Text_TextAlign" value="Right VCenter"/>
+          <Property key="Widget_Shadow" value="true"/>
+        </Widget>
+        <Widget type="Button" skin="RadioBox" position="230 73 95 24" layer="Back" name="TermNoneRadio">
+          <Property key="Widget_Shadow" value="true"/>
+        </Widget>
+        <Widget type="Button" skin="RadioBox" position="325 73 95 24" layer="Back" name="Term12Radio">
+          <Property key="Widget_Shadow" value="true"/>
+        </Widget>
+        <Widget type="Button" skin="RadioBox" position="420 73 125 24" layer="Back" name="Term24Radio">
+          <Property key="Widget_Shadow" value="true"/>
+        </Widget>
+        <Widget type="Button" skin="RadioBox" position="230 104 95 24" layer="Back" name="SupportPoorRadio">
+          <Property key="Widget_Shadow" value="true"/>
+        </Widget>
+        <Widget type="Button" skin="RadioBox" position="325 104 95 24" layer="Back" name="SupportNormalRadio">
+          <Property key="Widget_Shadow" value="true"/>
+        </Widget>
+        <Widget type="Button" skin="RadioBox" position="420 104 125 24" layer="Back" name="SupportExtensiveRadio">
+          <Property key="Widget_Shadow" value="true"/>
+        </Widget>
+        <Widget type="Edit" skin="Edit" position="226 135 70 24" layer="Back" name="EnvSupport">
+          <Property key="Widget_Shadow" value="true"/>
+          <Property key="Edit_Static" value="true"/>
+          <Property key="Text_TextAlign" value="Right VCenter"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonUp" position="300 135 16 12" layer="Back" name="EnvSupportUp"/>
+        <Widget type="Button" skin="ButtonDown" position="300 148 16 12" layer="Back" name="EnvSupportDown"/>
+        <Widget type="StaticText" skin="StaticText" position="24 295 200 24" layer="Back" name="EmployeeText">
+          <Property key="Text_TextAlign" value="Right VCenter"/>
+          <Property key="Widget_Shadow" value="true"/>
+        </Widget>
+        <Widget type="Edit" skin="Edit" position="226 231 70 24" layer="Back" name="SupplyMaint">
+          <Property key="Edit_Static" value="true"/>
+          <Property key="Widget_Shadow" value="true"/>
+          <Property key="Text_TextAlign" value="Right VCenter"/>
+        </Widget>
+        <Widget type="Button" skin="RadioBox" position="230 264 95 24" layer="Back" name="SafetyNoneRadio">
+          <Property key="Widget_Shadow" value="true"/>
+        </Widget>
+        <Widget type="Button" skin="RadioBox" position="325 264 95 24" layer="Back" name="SafetyNormalRadio">
+          <Property key="Widget_Shadow" value="true"/>
+        </Widget>
+        <Widget type="Button" skin="RadioBox" position="420 264 125 24" layer="Back" name="SafetyHeavyRadio">
+          <Property key="Widget_Shadow" value="true"/>
+        </Widget>
+        <Widget type="Button" skin="RadioBox" position="230 295 95 24" layer="Back" name="EmployeeNoneRadio">
+          <Property key="Widget_Shadow" value="true"/>
+        </Widget>
+        <Widget type="Button" skin="RadioBox" position="325 295 95 24" layer="Back" name="EmployeeBasicRadio">
+          <Property key="Widget_Shadow" value="true"/>
+        </Widget>
+        <Widget type="Button" skin="RadioBox" position="420 295 125 24" layer="Back" name="EmployeeExtensiveRadio">
+          <Property key="Widget_Shadow" value="true"/>
+        </Widget>
+        <Widget type="StaticText" skin="StaticText" position="324 137 123 24" layer="Back" name="EnvUnit">
+          <Property key="Widget_Shadow" value="true"/>
+          <Property key="Text_TextAlign" value="Left VCenter"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonUp" position="300 231 16 12" layer="Back" name="SupplyMaintUp"/>
+        <Widget type="Button" skin="ButtonDown" position="300 244 16 12" layer="Back" name="SupplyMaintDown"/>
+        <Widget type="StaticText" skin="StaticText" position="324 231 55 24" layer="Back">
+          <Property key="Widget_Shadow" value="true"/>
+          <Property key="Widget_Caption" value="%"/>
+          <Property key="Text_TextAlign" value="Left VCenter"/>
+        </Widget>
+      </Widget>
+      <Widget type="TabItem" skin="Default" position="4 26 571 342" layer="Back" name="IncomeTab">
+        <Widget type="StaticText" skin="StaticText" position="120 15 120 16" layer="Back" name="CurrentMonthText">
+          <Property key="Widget_Shadow" value="true"/>
+        </Widget>
+        <Widget type="StaticText" skin="StaticText" position="232 15 104 16" layer="Back" name="LastMonthText">
+          <Property key="Widget_Shadow" value="true"/>
+        </Widget>
+        <Widget type="StaticText" skin="StaticText" position="344 15 88 16" layer="Back" name="CurrentYearText">
+          <Property key="Widget_Shadow" value="true"/>
+        </Widget>
+        <Widget type="StaticText" skin="StaticText" position="456 15 96 16" layer="Back" name="LastYearText">
+          <Property key="Widget_Shadow" value="true"/>
+        </Widget>
+        <Widget type="StaticText" skin="StaticText" position="48 313 72 24" layer="Back" name="TotalText">
+          <Property key="Widget_Shadow" value="true"/>
+          <Property key="Text_TextAlign" value="Right VCenter"/>
+        </Widget>
+        <Widget type="List" skin="LargeList" position="120 39 112 272" layer="Back" name="CurrentMonth">
+          <Property key="Widget_Shadow" value="true"/>
+        </Widget>
+        <Widget type="List" skin="LargeList" position="232 39 112 272" layer="Back" name="LastMonth">
+          <Property key="Widget_Shadow" value="true"/>
+        </Widget>
+        <Widget type="List" skin="LargeList" position="344 39 112 272" layer="Back" name="CurrentYear">
+          <Property key="Widget_Shadow" value="true"/>
+        </Widget>
+        <Widget type="List" skin="LargeList" position="456 39 112 272" layer="Back" name="LastYear">
+          <Property key="Widget_Shadow" value="true"/>
+        </Widget>
+        <Widget type="List" skin="List" position="120 311 112 26" layer="Back" name="CurrentMonthTotal">
+          <Property key="Widget_Shadow" value="true"/>
+        </Widget>
+        <Widget type="List" skin="List" position="232 311 112 26" layer="Back" name="LastMonthTotal">
+          <Property key="Widget_Shadow" value="true"/>
+        </Widget>
+        <Widget type="List" skin="List" position="344 311 112 26" layer="Back" name="CurrentYearTotal">
+          <Property key="Widget_Shadow" value="true"/>
+        </Widget>
+        <Widget type="List" skin="List" position="456 311 112 26" layer="Back" name="LastYearTotal">
+          <Property key="Widget_Shadow" value="true"/>
+        </Widget>
+        <Widget type="StaticText" skin="StaticText" position="0 47 120 16" layer="Back" name="FLoan">
+          <Property key="Widget_Shadow" value="true"/>
+          <Property key="Text_FontHeight" value="13"/>
+          <Property key="Text_TextAlign" value="Right VCenter"/>
+        </Widget>
+        <Widget type="StaticText" skin="StaticText" position="0 71 120 16" layer="Back" name="FSafety">
+          <Property key="Widget_Shadow" value="true"/>
+          <Property key="Text_FontHeight" value="13"/>
+          <Property key="Text_TextAlign" value="Right VCenter"/>
+        </Widget>
+        <Widget type="StaticText" skin="StaticText" position="0 119 120 16" layer="Back" name="FAdvertising">
+          <Property key="Widget_Shadow" value="true"/>
+          <Property key="Text_FontHeight" value="13"/>
+          <Property key="Text_TextAlign" value="Right VCenter"/>
+        </Widget>
+        <Widget type="StaticText" skin="StaticText" position="0 95 120 16" layer="Back" name="FMaintenance">
+          <Property key="Widget_Shadow" value="true"/>
+          <Property key="Text_FontHeight" value="13"/>
+          <Property key="Text_TextAlign" value="Right VCenter"/>
+        </Widget>
+        <Widget type="StaticText" skin="StaticText" position="0 143 120 16" layer="Back" name="FOperation">
+          <Property key="Widget_Shadow" value="true"/>
+          <Property key="Text_FontHeight" value="13"/>
+          <Property key="Text_TextAlign" value="Right VCenter"/>
+        </Widget>
+        <Widget type="StaticText" skin="StaticText" position="0 167 120 16" layer="Back" name="FEnvironment">
+          <Property key="Widget_Shadow" value="true"/>
+          <Property key="Text_FontHeight" value="13"/>
+          <Property key="Text_TextAlign" value="Right VCenter"/>
+        </Widget>
+        <Widget type="StaticText" skin="StaticText" position="0 191 120 16" layer="Back" name="FResearch">
+          <Property key="Widget_Shadow" value="true"/>
+          <Property key="Text_FontHeight" value="13"/>
+          <Property key="Text_TextAlign" value="Right VCenter"/>
+        </Widget>
+        <Widget type="StaticText" skin="StaticText" position="0 215 120 16" layer="Back" name="FBuilding">
+          <Property key="Widget_Shadow" value="true"/>
+          <Property key="Text_FontHeight" value="13"/>
+          <Property key="Text_TextAlign" value="Right VCenter"/>
+        </Widget>
+        <Widget type="StaticText" skin="StaticText" position="0 287 120 16" layer="Back" name="FIncome">
+          <Property key="Widget_Shadow" value="true"/>
+          <Property key="Text_FontHeight" value="13"/>
+          <Property key="Text_TextAlign" value="Right VCenter"/>
+        </Widget>
+        <Widget type="StaticText" skin="StaticText" position="0 239 120 16" layer="Back" name="FSpecial">
+          <Property key="Widget_Shadow" value="true"/>
+          <Property key="Text_FontHeight" value="13"/>
+          <Property key="Text_TextAlign" value="Right VCenter"/>
+        </Widget>
+        <Widget type="StaticText" skin="StaticText" position="0 263 120 16" layer="Back" name="FTrade">
+          <Property key="Widget_Shadow" value="true"/>
+          <Property key="Text_FontHeight" value="13"/>
+          <Property key="Text_TextAlign" value="Right VCenter"/>
+        </Widget>
+      </Widget>
+      <Widget type="TabItem" skin="Default" position="4 26 571 342" layer="Back" name="ChartTab">
+        <Widget type="Button" skin="CheckBox" position="8 7 112 24" layer="Back" name="ExpensesCheck">
+          <Property key="Widget_Shadow" value="true"/>
+          <Property key="Widget_Colour" value="0.9 0.0 0.0"/>
+        </Widget>
+        <Widget type="Button" skin="CheckBox" position="120 7 112 24" layer="Back" name="IncomeCheck">
+          <Property key="Widget_Shadow" value="true"/>
+          <Property key="Widget_Colour" value="0.0 0.9 0.0"/>
+        </Widget>
+        <Widget type="Button" skin="CheckBox" position="232 7 112 24" layer="Back" name="FundsCheck">
+          <Property key="Widget_Shadow" value="true"/>
+          <Property key="Widget_Colour" value="0.9 0.9 0.0"/>
+        </Widget>
+        <Widget type="Button" skin="CheckBox" position="344 7 112 24" layer="Back" name="NetWorthCheck">
+          <Property key="Widget_Shadow" value="true"/>
+          <Property key="Widget_Colour" value="0.0 0.0 0.9"/>
+        </Widget>
+        <Widget type="Widget" skin="Panel" position="-8 407 32 24" layer="Back"/>
+        <Widget type="Widget" skin="Panel" position="0 40 568 302" layer="Back" name="ChartPanel">
+          <Widget type="StaticImage" skin="StaticImage" position="3 3 1024 512" layer="Back" name="FinanceChart">
+            <Property key="Image_Texture" value="FinanceChart"/>
+          </Widget>
+        </Widget>
+      </Widget>
+      <Widget type="TabItem" skin="Default" position="4 26 571 342" layer="Back" name="LoanTab">
+        <Widget type="List" skin="List" position="3 39 561 149" layer="Back" name="LoanList"/>
+        <Property key="Widget_Shadow" value="true"/>
+        <Widget type="StaticText" skin="StaticText" position="4 15 144 16" layer="Back" name="CurrentLoansText">
+          <Property key="Widget_Shadow" value="true"/>
+        </Widget>
+        <Widget type="Button" skin="Button" position="324 310 226 26" layer="Back" name="TakeOut">
+          <Property key="Widget_Shadow" value="true"/>
+        </Widget>
+        <Widget type="Button" skin="Button" position="28 310 226 26" layer="Back" name="Repayment">
+          <Property key="Widget_Shadow" value="true"/>
+        </Widget>
+        <Widget type="StaticText" skin="StaticText" position="6 64 554 99" layer="Back" name="NoLoans">
+          <Property key="Widget_Shadow" value="true"/>
+          <Property key="Text_TextAlign" value="Center"/>
+        </Widget>
+        <Widget type="Edit" skin="Edit" position="96 203 88 24" layer="Back" name="RepayAmount">
+          <Property key="Widget_Shadow" value="true"/>
+          <Property key="Edit_Static" value="true"/>
+          <Property key="Text_TextAlign" value="Right VCenter"/>
+        </Widget>
+        <Widget type="StaticText" skin="StaticText" position="326 268 222 40" layer="Back" name="LoanInfo">
+          <Property key="Widget_Shadow" value="true"/>
+        </Widget>
+        <Widget type="Edit" skin="Edit" position="402 203 88 24" layer="Back" name="TakeoutAmount">
+          <Property key="Widget_Shadow" value="true"/>
+          <Property key="Edit_Static" value="true"/>
+          <Property key="Text_TextAlign" value="Right VCenter"/>
+        </Widget>
+        <Widget type="Edit" skin="Edit" position="402 234 88 24" layer="Back" name="Years">
+          <Property key="Widget_Shadow" value="true"/>
+          <Property key="Edit_Static" value="true"/>
+          <Property key="Text_TextAlign" value="Right VCenter"/>
+        </Widget>
+        <Widget type="StaticText" skin="StaticText" position="326 203 62 24" layer="Back" name="AmountText">
+          <Property key="Widget_Shadow" value="true"/>
+          <Property key="Text_TextAlign" value="Left VCenter"/>
+        </Widget>
+        <Widget type="StaticText" skin="StaticText" position="326 234 60 24" layer="Back" name="PeriodText">
+          <Property key="Widget_Shadow" value="true"/>
+          <Property key="Text_TextAlign" value="Left VCenter"/>
+        </Widget>
+        <Widget type="StaticText" skin="StaticText" position="32 203 70 24" layer="Back" name="AmountText2">
+          <Property key="Widget_Shadow" value="true"/>
+          <Property key="Text_TextAlign" value="Left VCenter"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonUp" position="186 203 16 12" layer="Back" name="RepayUp"/>
+        <Widget type="Button" skin="ButtonUp" position="492 203 16 12" layer="Back" name="AmountUp"/>
+        <Widget type="Button" skin="ButtonUp" position="492 235 16 12" layer="Back" name="YearsUp"/>
+        <Widget type="Button" skin="ButtonDown" position="492 248 16 12" layer="Back" name="YearsDown"/>
+        <Widget type="Button" skin="ButtonDown" position="492 216 16 12" layer="Back" name="AmountDown"/>
+        <Widget type="Button" skin="ButtonDown" position="186 216 16 12" layer="Back" name="RepayDown"/>
+        <Widget type="StaticText" skin="StaticText" position="208 203 52 24" layer="Back">
+          <Property key="Widget_Caption" value="kEUR"/>
+          <Property key="Widget_Shadow" value="true"/>
+          <Property key="Text_TextAlign" value="Left VCenter"/>
+        </Widget>
+        <Widget type="StaticText" skin="StaticText" position="514 203 44 24" layer="Back">
+          <Property key="Widget_Caption" value="kEUR"/>
+          <Property key="Widget_Shadow" value="true"/>
+          <Property key="Text_TextAlign" value="Left VCenter"/>
+        </Widget>
+        <Widget type="StaticText" skin="StaticText" position="514 234 44 24" layer="Back" name="PeriodUnit">
+          <Property key="Text_TextAlign" value="Left VCenter"/>
+          <Property key="Widget_Shadow" value="true"/>
+        </Widget>
+        <Widget type="Widget" skin="Separator2" position="286 203 6 136" layer="Back"/>
+        <Widget type="StaticText" skin="StaticText" position="30 247 220 24" layer="Back" name="NewCharge">
+          <Property key="Widget_Shadow" value="true"/>
+        </Widget>
+      </Widget>
+    </Widget>
+  </Widget>
+
+  <Widget type="Window" skin="WindowCX" position="0 0 500 400" layer="Overlapped" name="MissionWindow">
+    <Property key="Widget_Show" value="false"/>
+
+    <Widget type="StaticImage" skin="StaticImage" position="8 8 24 24" layer="Main" name="MissionMarker1">
+      <Property key="Widget_Show" value="false"/>
+    </Widget>
+
+    <Widget type="StaticImage" skin="StaticImage" position="8 90 24 24" layer="Main" name="MissionMarker2">
+      <Property key="Widget_Show" value="false"/>
+    </Widget>
+
+    <Widget type="StaticImage" skin="StaticImage" position="8 172 24 24" layer="Main" name="MissionMarker3">
+      <Property key="Widget_Show" value="false"/>
+    </Widget>
+
+    <Widget type="StaticText" skin="StaticText" position="40 8 500 80" layer="Main" name="MissionGoal1">
+      <Property key="Widget_Shadow" value="true"/>
+      <Property key="Widget_Show" value="false"/>
+    </Widget>
+    <Widget type="StaticText" skin="StaticText" position="40 90 500 80" layer="Main" name="MissionGoal2">
+      <Property key="Widget_Shadow" value="true"/>
+      <Property key="Widget_Show" value="false"/>
+    </Widget>
+    <Widget type="StaticText" skin="StaticText" position="40 172 500 80" layer="Main" name="MissionGoal3">
+      <Property key="Widget_Shadow" value="true"/>
+      <Property key="Widget_Show" value="false"/>
+    </Widget>
+  </Widget>
+
+  <Widget type="Window" skin="WindowCX" position="378 78 550 534" layer="Overlapped" name="ResearchWindow">
+    <Property key="Widget_Show" value="false"/>
+    <Property key="Widget_Visible" value="false"/>
+    <Widget type="StaticImage" skin="StaticImage" position="0 0 540 448" layer="Back" name="ResearchTree">
+      <Widget type="Button" skin="ButtonRe1" position="282 0 64 64" layer="Main" name="Re1">
+        <Property key="Widget_Caption" value="Re1"/>
+      </Widget>
+      <Widget type="Button" skin="ButtonRe2" position="54 0 64 64" layer="Main" name="Re2">
+        <Property key="Widget_Caption" value="Re2"/>
+      </Widget>
+      <Widget type="Button" skin="ButtonRe3" position="466 0 64 64" layer="Main" name="Re3">
+        <Property key="Widget_Caption" value="Re3"/>
+      </Widget>
+      <Widget type="Button" skin="ButtonRe4" position="8 94 64 64" layer="Main" name="Re4">
+        <Property key="Widget_Caption" value="Re4"/>
+      </Widget>
+      <Widget type="Button" skin="ButtonRe5" position="96 188 64 64" layer="Main" name="Re5">
+        <Property key="Widget_Caption" value="Re5"/>
+      </Widget>
+      <Widget type="Button" skin="ButtonRe6" position="198 94 64 64" layer="Main" name="Re6">
+        <Property key="Widget_Caption" value="Re6"/>
+      </Widget>
+      <Widget type="Button" skin="ButtonRe7" position="96 94 64 64" layer="Main" name="Re7">
+        <Property key="Widget_Caption" value="Re7"/>
+      </Widget>
+      <Widget type="Button" skin="ButtonRe8" position="198 188 64 64" layer="Main" name="Re8">
+        <Property key="Widget_Caption" value="Re8"/>
+      </Widget>
+      <Widget type="Button" skin="ButtonRe9" position="282 188 64 64" layer="Main" name="Re9">
+        <Property key="Widget_Caption" value="Re9"/>
+      </Widget>
+      <Widget type="Button" skin="ButtonRe10" position="282 94 64 64" layer="Main" name="Re10">
+        <Property key="Widget_Caption" value="Re10"/>
+      </Widget>
+      <Widget type="Button" skin="ButtonRe11" position="366 94 64 64" layer="Main" name="Re11">
+        <Property key="Widget_Caption" value="?"/>
+      </Widget>
+      <Widget type="Button" skin="ButtonRe12" position="466 94 64 64" layer="Main" name="Re12">
+        <Property key="Widget_Caption" value="?"/>
+      </Widget>
+      <Widget type="Button" skin="ButtonRe13" position="366 188 64 64" layer="Main" name="Re13">
+        <Property key="Widget_Caption" value="?"/>
+      </Widget>
+      <Widget type="Button" skin="ButtonRe14" position="466 188 64 64" layer="Main" name="Re14">
+        <Property key="Widget_Caption" value="?"/>
+      </Widget>
+      <Widget type="Button" skin="ButtonRe15" position="366 376 64 64" layer="Main" name="Re15">
+        <Property key="Widget_Caption" value="?"/>
+      </Widget>
+      <Widget type="Button" skin="ButtonRe16" position="8 188 64 64" layer="Main" name="Re16">
+        <Property key="Widget_Caption" value="?"/>
+      </Widget>
+      <Widget type="Button" skin="ButtonRe17" position="8 282 64 64" layer="Main" name="Re17">
+        <Property key="Widget_Caption" value="?"/>
+      </Widget>
+      <Widget type="Button" skin="ButtonRe18" position="96 282 64 64" layer="Main" name="Re18">
+        <Property key="Widget_Caption" value="?"/>
+      </Widget>
+      <Widget type="Button" skin="ButtonRe19" position="282 282 64 64" layer="Main" name="Re19">
+        <Property key="Widget_Caption" value="?"/>
+      </Widget>
+      <Widget type="Button" skin="ButtonRe20" position="198 376 64 64" layer="Main" name="Re20">
+        <Property key="Widget_Caption" value="?"/>
+      </Widget>
+      <Widget type="Button" skin="ButtonRe21" position="282 376 64 64" layer="Main" name="Re21">
+        <Property key="Widget_Caption" value="?"/>
+      </Widget>
+      <Property key="Image_Texture" value="research_tree.png"/>
+    </Widget>
+    <Widget type="Progress" skin="Progress" position="2 474 538 22" layer="Main" name="ResearchState">
+      <Property key="Progress_Range" value="100"/>
+      <Property key="Progress_Position" value="100"/>
+    </Widget>
+    <Widget type="StaticText" skin="StaticText" position="1 448 160 24" layer="Main" name="CurrentResearchText">
+      <Property key="Text_TextAlign" value="Center"/>
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="Edit" skin="Edit" position="162 448 380 26" layer="Main" name="CurrentResearch">
+      <Property key="Edit_Static" value="true"/>
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+  </Widget>
+
+  <Widget type="Window" skin="WindowCX" position="132 122 544 365" layer="Overlapped" name="CEOWindow">
+    <Property key="Widget_Visible" value="false"/>
+    <Widget type="Tab" skin="Tab" position="0 0 534 328" layer="Overlapped" name="CEOTab">
+      <Widget type="TabItem" skin="Default" position="4 26 525 296" layer="Back" name="OfficeTabText">
+        <Property key="Sheet_Select" value="true"/>
+        <Widget type="Button" skin="ButtonAd1" position="4 7 84 51" layer="Back" name="Ad1">
+          <Property key="Widget_Caption" value="ad1"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonAd2" position="92 7 84 51" layer="Back" name="Ad2">
+          <Property key="Widget_Caption" value="ad2"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonAd3" position="180 7 84 51" layer="Back" name="Ad3">
+          <Property key="Widget_Caption" value="ad3"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonAd4" position="268 7 84 51" layer="Back" name="Ad4">
+          <Property key="Widget_Caption" value="ad4"/>
+        </Widget>
+        <Widget type="Widget" skin="Panel" position="6 63 346 193" layer="Back">
+          <Widget type="StaticImage" skin="StaticImage" position="3 3 512 256" layer="Back" name="ImageChart">
+            <Property key="Image_Texture" value="ImageChart"/>
+          </Widget>
+        </Widget>
+        <Widget type="Button" skin="ButtonSp1" position="359 7 79 75" layer="Back" name="Sp1">
+          <Property key="Widget_Caption" value="No employee\ntraining"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonSp2" position="441 7 79 75" layer="Back" name="Sp2">
+          <Property key="Widget_Caption" value="Illegal waste\ndumping"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonSp3" position="359 85 79 75" layer="Back" name="Sp3">
+          <Property key="Widget_Caption" value="Trade tax\nfraud"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonSp4" position="441 85 79 75" layer="Back" name="Sp4">
+          <Property key="Widget_Caption" value="?"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonSp5" position="359 162 79 75" layer="Back" name="Sp5">
+          <Property key="Widget_Caption" value="?"/>
+        </Widget>
+        <Widget type="Button" skin="ButtonSp6" position="441 162 79 75" layer="Back" name="Sp6">
+          <Property key="Widget_Caption" value="?"/>
+        </Widget>
+        <Widget type="StaticText" skin="StaticText" position="18 267 58 24" layer="Back">
+          <Property key="Widget_Shadow" value="true"/>
+          <Property key="Widget_Caption" value="Image:"/>
+          <Property key="Widget_Colour" value="0.9 0.0 0.0"/>
+        </Widget>
+        <Widget type="StaticText" skin="StaticText" position="162 267 84 24" layer="Back" name="CEOCustomersText">
+          <Property key="Widget_Shadow" value="true"/>
+          <Property key="Widget_Colour" value="0.0 0.9 0.0"/>
+        </Widget>
+        <Widget type="Edit" skin="Edit" position="72 265 56 24" layer="Back" name="Image">
+          <Property key="Widget_Shadow" value="true"/>
+          <Property key="Edit_Static" value="true"/>
+          <Property key="Text_TextAlign" value="Right VCenter"/>
+        </Widget>
+        <Widget type="Edit" skin="Edit" position="246 265 86 24" layer="Back" name="Customers">
+          <Property key="Widget_Shadow" value="true"/>
+          <Property key="Edit_Static" value="true"/>
+          <Property key="Text_TextAlign" value="Right VCenter"/>
+        </Widget>
+        <Widget type="Widget" skin="Panel" position="362 241 152 41" layer="Back">
+          <Widget type="StaticImage" skin="StaticImage" position="3 3 144 33" layer="Back" name="SpInactive">
+            <Property key="Image_Texture" value="actions_inactive.png"/>
+
+            <Widget type="StaticImage" skin="StaticImage" position="0 0 24 33" layer="Back" name="Sp1Img">
+              <Property key="Widget_Visible" value="false"/>
+              <Property key="Image_Texture" value="employee_active.png"/>
+            </Widget>
+            <Widget type="StaticImage" skin="StaticImage" position="24 0 24 33" layer="Back" name="Sp2Img">
+              <Property key="Widget_Visible" value="false"/>
+              <Property key="Image_Texture" value="waste_active.png"/>
+            </Widget>
+            <Widget type="StaticImage" skin="StaticImage" position="48 0 24 33" layer="Back" name="Sp3Img">
+              <Property key="Widget_Visible" value="false"/>
+              <Property key="Image_Texture" value="taxfraud_active.png"/>
+            </Widget>
+            <Widget type="StaticImage" skin="StaticImage" position="72 0 24 33" layer="Back" name="Sp4Img">
+              <Property key="Widget_Visible" value="false"/>
+              <Property key="Image_Texture" value="bribe_active.png"/>
+            </Widget>
+            <Widget type="StaticImage" skin="StaticImage" position="96 0 24 33" layer="Back" name="Sp5Img">
+              <Property key="Widget_Visible" value="false"/>
+              <Property key="Image_Texture" value="war_active.png"/>
+            </Widget>
+            <Widget type="StaticImage" skin="StaticImage" position="120 0 24 33" layer="Back" name="Sp6Img">
+              <Property key="Widget_Visible" value="false"/>
+              <Property key="Image_Texture" value="price_active.png"/>
+            </Widget>
+          </Widget>
+        </Widget>
+      </Widget>
+      <Widget type="TabItem" skin="Default" position="4 26 525 296" layer="Overlapped" name="CustomersTabText">
+        <Widget type="StaticText" skin="StaticText" position="4 7 170 24" layer="Back" name="CustomerOpinionsText">
+          <Property key="Widget_Shadow" value="true"/>
+        </Widget>
+        <Widget type="Button" skin="CheckBox" position="330 7 114 20" layer="Back" name="AllCitiesCheck">
+          <Property key="Widget_Shadow" value="true"/>
+        </Widget>
+        <Widget type="ComboBox" skin="ComboBox" position="170 5 154 24" name="CitiesCombo"/>
+        <Property key="Widget_Shadow" value="true"/>
+        <Widget type="List" skin="List" position="2 34 522 261" layer="Back" name="OpinionsList">
+          <Property key="Widget_Shadow" value="true"/>
+          <Widget type="StaticText" skin="StaticText" position="0 0 522 261" layer="Back" name="NoOpinions">
+            <Property key="Widget_Shadow" value="true"/>
+            <Property key="Text_TextAlign" value="Center"/>
+          </Widget>
+        </Widget>
+      </Widget>
+    </Widget>
+  </Widget>
+
+  <Widget type="Window" skin="WindowC" position="0 0 464 232" layer="Overlapped" name="MissionDoneWindow">
+    <Property key="Widget_Caption" value="Mission completed!"/>
+    <Property key="Widget_Visible" value="false"/>
+    <Property key="Widget_Shadow" value="true"/>
+    <Widget type="Button" skin="Button" position="18 145 192 34" layer="Overlapped" name="KeepPlaying">
+      <Property key="Widget_Caption" value="Keep playing"/>
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="Button" skin="Button" position="242 145 192 34" layer="Overlapped" name="QuitToMenu">
+      <Property key="Widget_Caption" value="Quit to menu"/>
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="StaticText" skin="StaticText" position="146 17 288 100" layer="Overlapped" name="MissionDoneText">
+      <Property key="Widget_Shadow" value="true"/>
+      <Property key="Widget_Caption" value="Congratulations!\n\nYou have completed this mission. You may\nkeep playing or go to the menu and start\nanother mission."/>
+    </Widget>
+    <Widget type="StaticImage" skin="StaticImage" position="22 19 96 96" layer="Overlapped">
+      <Property key="Image_Texture" value="trophy.png"/>
+    </Widget>
+  </Widget>
+
+  <Widget type="Window" skin="WindowC" position="160 226 464 156" layer="Popup" name="DemoTimeUpWindow">
+    <Property key="Widget_Visible" value="false"/>
+    <Property key="Widget_Shadow" value="true"/>
+    <Property key="Widget_Caption" value="Demozeit abgelaufen"/>
+    <Widget type="Button" skin="Button" position="242 69 192 34" name="Website">
+      <Property key="Widget_Caption" value="www.energietycoon.de"/>
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="Button" skin="Button" position="18 69 192 34" name="QuitDemo">
+      <Property key="Widget_Caption" value="Beenden"/>
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="StaticText" skin="StaticText" position="20 12 414 50" name="DemoTimeText">
+      <Property key="Widget_Shadow" value="true"/>
+      <Property key="Widget_Caption" value="Die Demozeit ist leider abgelaufen. Beenden Sie das Spiel oder\nbesuchen Sie www.energietycoon.de um das Spiel zu kaufen."/>
+    </Widget>
+  </Widget>
+
+  <Widget type="StaticImage" skin="StaticImage" position="0 0 0 0" align="ALIGN_DEFAULT" layer="Main" name="BackgroundDemo">
+    <Property key="Widget_Visible" value="false"/>
+  </Widget>
+
+  <Widget type="Window" skin="WindowC" position="0 0 464 282" layer="Overlapped" name="BankruptcyImminentWindow">
+    <Property key="Widget_Caption" value="Bankruptcy imminent!"/>
+    <Property key="Widget_Visible" value="false"/>
+    <Property key="Widget_Shadow" value="true"/>
+    <Widget type="Button" skin="Button" position="122 197 192 34" layer="Overlapped" name="BIOK">
+      <Property key="Widget_Shadow" value="true"/>
+      <Property key="Widget_Caption" value="OK"/>
+    </Widget>
+    <Widget type="StaticText" skin="StaticText" position="146 8 288 176" layer="Overlapped" name="BankruptcyImminentText">
+      <Property key="Widget_Shadow" value="true"/>
+      <Property key="Widget_Caption" value="Dear CEO of Default Corp.,\n\nIt has come to our attention that your\ndebt has exceeded 2.000kEUR. Reduce\nyour debt to a maximum of 1.000kEUR by\nthe end of this year or we will be forced\nto shut you down.\n\nYours sincerely,\nOmniBank"/>
+    </Widget>
+    <Widget type="StaticImage" skin="StaticImage" position="22 19 96 96" layer="Overlapped">
+      <Property key="Image_Texture" value="bankruptcy_warning.png"/>
+    </Widget>
+  </Widget>
+
+  <Widget type="Window" skin="WindowC" position="0 0 464 250" layer="Overlapped" name="BankruptcyWindow">
+    <Property key="Widget_Caption" value="Bankruptcy!"/>
+    <Property key="Widget_Visible" value="false"/>
+    <Property key="Widget_Shadow" value="true"/>
+    <Widget type="Button" skin="Button" position="133 167 192 34" layer="Overlapped" name="QuitToMenuB">
+      <Property key="Widget_Caption" value="Quit to menu"/>
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="StaticText" skin="StaticText" position="146 8 288 144" layer="Overlapped" name="BankruptcyText">
+      <Property key="Widget_Shadow" value="true"/>
+      <Property key="Widget_Caption" value="Dear CEO of Default Corp.,\n\nSince you were unable to reduce your debt\nfollowing our warning, we are forced to\nshut your company down.\n\nYours sincerely,\nOmniBank"/>
+    </Widget>
+    <Widget type="StaticImage" skin="StaticImage" position="22 19 96 96" layer="Overlapped">
+      <Property key="Image_Texture" value="bankruptcy.png"/>
+    </Widget>
+  </Widget>
+</MyGUI>

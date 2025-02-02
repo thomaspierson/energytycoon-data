@@ -1,0 +1,15 @@
+material resource_1
+{
+	technique
+	{
+		pass
+		{
+			texture_unit 
+			{
+				texture oilbarrel_1.jpg
+			}
+		}
+	}
+}
+
+

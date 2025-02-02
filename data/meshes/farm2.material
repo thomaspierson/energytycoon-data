@@ -1,0 +1,15 @@
+material farm2
+{
+	technique
+	{
+		pass
+		{
+			texture_unit 
+			{
+				texture farm2CompleteMap.tga
+			}
+		}
+	}
+}
+
+

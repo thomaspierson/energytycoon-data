@@ -1,0 +1,21 @@
+
+material pp_gas_large_ground
+{
+	technique
+	{
+		pass
+		{
+			scene_blend modulate
+			depth_write off
+
+			texture_unit
+			{
+				texture pp_gas_large_groundCompleteMap.tga
+			}
+		}
+
+	}
+
+}
+
+

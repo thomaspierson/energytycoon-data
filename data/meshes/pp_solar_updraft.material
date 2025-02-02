@@ -1,0 +1,15 @@
+material pp_solar_updraft
+{
+	technique
+	{
+		pass
+		{
+			texture_unit 
+			{
+				texture pp_solar_updraftCompleteMap.tga
+			}
+		}
+	}
+}
+
+

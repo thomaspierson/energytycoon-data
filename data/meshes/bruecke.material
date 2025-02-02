@@ -1,0 +1,15 @@
+material bruecke
+{
+	technique
+	{
+		pass
+		{
+			texture_unit 
+			{
+				texture brueckeCompleteMap.tga
+			}
+		}
+	}
+}
+
+

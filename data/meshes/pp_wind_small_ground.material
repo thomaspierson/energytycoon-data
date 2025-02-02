@@ -1,0 +1,18 @@
+material wind_small_ground
+{
+	technique
+	{
+		pass
+		{
+			scene_blend modulate
+			depth_write off
+
+			texture_unit 
+			{
+				texture wind_small_groundCompleteMap.tga
+			}
+		}
+	}
+}
+
+

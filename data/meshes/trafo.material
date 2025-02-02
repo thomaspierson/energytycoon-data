@@ -1,0 +1,15 @@
+material trafo
+{
+	technique
+	{
+		pass
+		{
+			texture_unit 
+			{
+				texture trafoCompleteMap.tga
+			}
+		}
+	}
+}
+
+

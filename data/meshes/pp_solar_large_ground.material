@@ -1,0 +1,18 @@
+material pp_solar_large_ground
+{
+	technique
+	{
+		pass
+		{
+			scene_blend modulate
+			depth_write off
+
+			texture_unit 
+			{
+				texture pp_solar_large_groundCompleteMap.tga
+			}
+		}
+	}
+}
+
+

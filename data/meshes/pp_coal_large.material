@@ -1,0 +1,15 @@
+material pp_coal_large
+{
+	technique
+	{
+		pass
+		{
+			texture_unit 
+			{
+				texture pp_coal_largeCompleteMap.tga
+			}
+		}
+	}
+}
+
+

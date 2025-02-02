@@ -1,0 +1,18 @@
+material re_uran_small_ground
+{
+	technique
+	{
+		pass
+		{
+			scene_blend modulate
+			depth_write off
+
+			texture_unit 
+			{
+				texture re_uran_small_groundCompleteMap.tga
+			}
+		}
+	}
+}
+
+

@@ -1,0 +1,21 @@
+
+material re_coal_large_ground
+{
+	technique
+	{
+		pass
+		{
+			scene_blend modulate
+			depth_write off
+
+			texture_unit
+			{
+				texture re_coal_large_groundCompleteMap.tga
+			}
+		}
+
+	}
+
+}
+
+

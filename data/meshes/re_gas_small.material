@@ -1,0 +1,15 @@
+material re_gas_small
+{
+	technique
+	{
+		pass
+		{
+			texture_unit 
+			{
+				texture re_gas_smallCompleteMap.tga
+			}
+		}
+	}
+}
+
+

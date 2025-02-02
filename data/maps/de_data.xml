@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" ?>
+<map_data>
+  <city size="large" x="437" y="214">
+    Berlin
+  </city>
+  <city size="large" x="254" y="170">
+    Hamburg
+  </city>
+  <city size="large" x="87" y="277">
+    Köln
+  </city>
+  <city size="large" x="348" y="392">
+    München
+  </city>
+  <city size="medium" x="318" y="340">
+    Nürnberg
+  </city>
+  <city size="medium" x="309" y="384">
+    Augsburg
+  </city>
+  <city size="medium" x="387" y="262">
+    Leipzig
+  </city>
+  <city size="medium" x="459" y="274">
+    Dresden
+  </city>
+  <city size="medium" x="242" y="219">
+    Hannover
+  </city>
+  <city size="medium" x="184" y="311">
+    Frankfurt a.M.
+  </city>
+  <city size="medium" x="211" y="367">
+    Stuttgart
+  </city>
+  <city size="medium" x="119" y="254">
+    Dortmund
+  </city>
+  <city size="medium" x="194" y="190">
+    Bremen
+  </city>
+  <city size="medium" x="78" y="255">
+    Essen
+  </city>
+  <city size="medium" x="78" y="266">
+    Düsseldorf
+  </city>
+  <city size="small" x="378" y="358">
+    Regensburg
+  </city>
+  <city size="small" x="348" y="350">
+    Parsberg
+  </city>
+  <city size="small" x="169" y="336">
+    Mannheim
+  </city>
+  <city size="small" x="378" y="217">
+    Potsdam
+  </city>
+  <city size="small" x="254" y="327">
+    Würzburg
+  </city>
+  <city size="small" x="336" y="369">
+    Ingolstadt
+  </city>
+  <city size="small" x="299" y="218">
+    Wolfsburg
+  </city>
+  <street from_x="348" from_y="392" to_x="309" to_y="384"/>
+  <street from_x="348" from_y="392" to_x="378" to_y="358"/>
+  <street from_x="348" from_y="392" to_x="336" to_y="369"/>
+  <street from_x="348" from_y="392" to_x="520" to_y="410"/>
+  <street from_x="378" from_y="358" to_x="348" to_y="350"/>
+  <street from_x="348" from_y="350" to_x="318" to_y="340"/>
+  <street from_x="336" from_y="369" to_x="318" to_y="340"/>
+  <street from_x="309" from_y="384" to_x="211" to_y="367"/>
+  <street from_x="211" from_y="367" to_x="254" to_y="327"/>
+  <street from_x="318" from_y="340" to_x="254" to_y="327"/>
+  <street from_x="211" from_y="367" to_x="184" to_y="311"/>
+  <street from_x="184" from_y="311" to_x="169" to_y="336"/>
+  <street from_x="184" from_y="311" to_x="254" to_y="327"/>
+  <street from_x="437" from_y="214" to_x="378" to_y="217"/>
+  <street from_x="437" from_y="214" to_x="254" to_y="170"/>
+  <street from_x="459" from_y="274" to_x="437" to_y="214"/>
+  <street from_x="378" from_y="217" to_x="387" to_y="262"/>
+  <street from_x="459" from_y="274" to_x="387" to_y="262"/>
+  <street from_x="378" from_y="217" to_x="299" to_y="218"/>
+  <street from_x="299" from_y="218" to_x="242" to_y="219"/>
+  <street from_x="242" from_y="219" to_x="254" to_y="170"/>
+  <street from_x="254" from_y="170" to_x="194" to_y="190"/>
+  <street from_x="194" from_y="190" to_x="242" to_y="219"/>
+  <street from_x="119" from_y="254" to_x="242" to_y="219"/>
+  <street from_x="119" from_y="254" to_x="87" to_y="277"/>
+  <street from_x="78" from_y="266" to_x="87" to_y="277"/>
+  <street from_x="78" from_y="255" to_x="119" to_y="254"/>
+  <street from_x="78" from_y="266" to_x="78" to_y="255"/>
+  <street from_x="78" from_y="266" to_x="119" to_y="254"/>
+  <street from_x="184" from_y="311" to_x="119" to_y="254"/>
+  <street from_x="318" from_y="340" to_x="387" to_y="262"/>
+  <street from_x="254" from_y="327" to_x="242" to_y="219"/>
+  <street from_x="194" from_y="190" to_x="119" to_y="254"/>
+  <street from_x="211" from_y="367" to_x="-8" to_y="380"/>
+  <street from_x="459" from_y="274" to_x="520" to_y="280"/>
+  <street from_x="437" from_y="214" to_x="520" to_y="200"/>
+  <street from_x="78" from_y="266" to_x="-8" to_y="290"/>
+
+  <river ocean_end="yes">
+    <river_point index="0" x="513" y="309"/>
+    <river_point index="1" x="486" y="292"/>
+    <river_point index="2" x="486" y="275"/>
+    <river_point index="3" x="473" y="266"/>
+    <river_point index="4" x="444" y="263"/>
+    <river_point index="5" x="415" y="252"/>
+    <river_point index="6" x="381" y="250"/>
+    <river_point index="7" x="355" y="246"/>
+    <river_point index="8" x="347" y="223"/>
+    <river_point index="9" x="359" y="201"/>
+    <river_point index="10" x="352" y="185"/>
+    <river_point index="11" x="335" y="170"/>
+    <river_point index="12" x="317" y="171"/>
+    <river_point index="13" x="290" y="175"/>
+    <river_point index="14" x="261" y="175"/>
+    <river_point index="15" x="239" y="175"/>
+    <river_point index="16" x="225" y="165"/>
+    <river_point index="17" x="199" y="157"/>
+  </river>
+  <river ocean_end="no">
+    <river_point index="0" x="128" y="459"/>
+    <river_point index="1" x="142" y="443"/>
+    <river_point index="2" x="148" y="425"/>
+    <river_point index="3" x="139" y="415"/>
+    <river_point index="4" x="120" y="415"/>
+    <river_point index="5" x="111" y="409"/>
+    <river_point index="6" x="115" y="390"/>
+    <river_point index="7" x="129" y="374"/>
+    <river_point index="8" x="150" y="359"/>
+    <river_point index="9" x="158" y="345"/>
+    <river_point index="10" x="159" y="332"/>
+    <river_point index="11" x="158" y="319"/>
+    <river_point index="12" x="145" y="311"/>
+    <river_point index="13" x="136" y="309"/>
+    <river_point index="14" x="113" y="298"/>
+    <river_point index="15" x="94" y="289"/>
+    <river_point index="16" x="77" y="280"/>
+    <river_point index="17" x="66" y="263"/>
+    <river_point index="18" x="61" y="248"/>
+    <river_point index="19" x="49" y="240"/>
+    <river_point index="20" x="32" y="234"/>
+    <river_point index="21" x="13" y="233"/>
+    <river_point index="22" x="0" y="233"/>
+  </river>
+  <river ocean_end="no">
+    <river_point index="0" x="196" y="369"/>
+    <river_point index="1" x="197" y="381"/>
+    <river_point index="2" x="205" y="392"/>
+    <river_point index="3" x="220" y="396"/>
+    <river_point index="4" x="238" y="396"/>
+    <river_point index="5" x="260" y="395"/>
+    <river_point index="6" x="281" y="401"/>
+    <river_point index="7" x="294" y="401"/>
+    <river_point index="8" x="316" y="393"/>
+    <river_point index="9" x="327" y="383"/>
+    <river_point index="10" x="343" y="373"/>
+    <river_point index="11" x="353" y="368"/>
+    <river_point index="12" x="365" y="367"/>
+    <river_point index="13" x="388" y="367"/>
+    <river_point index="14" x="403" y="365"/>
+    <river_point index="15" x="416" y="367"/>
+    <river_point index="16" x="432" y="369"/>
+    <river_point index="17" x="445" y="373"/>
+    <river_point index="18" x="471" y="380"/>
+    <river_point index="19" x="502" y="389"/>
+    <river_point index="20" x="513" y="395"/>
+  </river>
+</map_data>

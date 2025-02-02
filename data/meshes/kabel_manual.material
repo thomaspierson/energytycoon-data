@@ -1,0 +1,15 @@
+material kabel_manual
+{
+	technique
+	{
+		pass
+		{
+			texture_unit 
+			{
+				texture kabel.tga
+			}
+		}
+	}
+}
+
+

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout">
+  <Widget type="StaticImage" skin="StaticImage" position="0 0 0 0" align="ALIGN_DEFAULT" layer="Back" name="Background"/>
+  <Widget type="StaticImage" skin="StaticImage" position="0 0 500 550" layer="Main" name="OptionsWidget">
+
+    <Widget type="Button" skin="ButtonMainOk_en" position="275 405 72 64" layer="Main" name="OKButton">
+      <Property key="Widget_Caption" value="OK"/>
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="Button" skin="ButtonMainBack_en" position="115 405 120 64" layer="Main" name="Back">
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="Widget" skin="Panel" position="15 295 470 105" layer="Back" name="VPanel">
+      <Widget type="StaticText" skin="StaticText" position="12 22 128 24" layer="Main" name="DisplayModeText">
+        <Property key="Text_TextAlign" value="Center"/>
+        <Property key="Widget_TextColour" value="1 1 1"/>
+        <Property key="Widget_Shadow" value="true"/>
+      </Widget>
+      <Widget type="ComboBox" skin="ComboBox" position="132 22 218 24" layer="Main" name="ResolutionCombo">
+        <Property key="Widget_Shadow" value="true"/>
+      </Widget>
+      <Widget type="StaticText" skin="StaticText" position="100 62 128 24" layer="Main" name="GraphicsQualityText">
+        <Property key="Text_TextAlign" value="Center"/>
+        <Property key="Widget_TextColour" value="1 1 1"/>
+        <Property key="Widget_Shadow" value="true"/>
+      </Widget>
+      <Widget type="Button" skin="RadioBox" position="235 62 72 24" layer="Main" name="NormalRadio">
+        <Property key="Widget_TextColour" value="1 1 1"/>
+        <Property key="Widget_Shadow" value="true"/>
+      </Widget>
+      <Widget type="Button" skin="RadioBox" position="315 62 64 24" layer="Main" name="HighRadio">
+        <Property key="Widget_TextColour" value="1 1 1"/>
+        <Property key="Widget_Shadow" value="true"/>
+      </Widget>
+      <Widget type="Button" skin="CheckBox" position="360 22 96 24" layer="Main" name="FullscreenCheck">
+        <Property key="Widget_TextColour" value="1 1 1"/>
+        <Property key="Widget_Shadow" value="true"/>
+      </Widget>
+    </Widget>
+  </Widget>
+
+  <Widget type="Button" skin="RadioBox" position="0 0 1 1" layer="Main" name="16BitRadio">
+    <Property key="Widget_Visible" value="false"/>
+  </Widget>
+  <Widget type="Button" skin="RadioBox" position="0 0 1 1" layer="Main" name="32BitRadio">
+    <Property key="Widget_Visible" value="false"/>
+  </Widget>
+</MyGUI>

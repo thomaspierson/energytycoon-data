@@ -1,0 +1,20 @@
+material kabelk
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.329412 0.329412 0.329412 
+			diffuse 0.329412 0.329412 0.329412 
+			specular 0 0 0 1
+			emissive 0 0 0 
+
+			texture_unit 
+			{
+				texture kabelkCompleteMap.tga
+			}
+		}
+	}
+}
+
+

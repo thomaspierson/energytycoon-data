@@ -1,0 +1,13 @@
+material strommastklein
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.2 0.2 0.2
+			diffuse 0.2 0.2 0.2
+		}
+	}
+}
+
+

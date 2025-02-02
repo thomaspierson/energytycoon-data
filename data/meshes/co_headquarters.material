@@ -1,0 +1,15 @@
+material co_headquarters
+{
+	technique
+	{
+		pass
+		{
+			texture_unit 
+			{
+				texture co_headquartersCompleteMap.tga
+			}
+		}
+	}
+}
+
+

@@ -1,0 +1,21 @@
+
+material farm3
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588 1
+			diffuse 0.588 0.588 0.588 1
+
+			texture_unit
+			{
+				texture farm3CompleteMap.tga
+			}
+		}
+
+	}
+
+}
+
+

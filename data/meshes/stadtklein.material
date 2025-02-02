@@ -1,0 +1,15 @@
+material city_small_build
+{
+	technique
+	{
+		pass
+		{
+			texture_unit 
+			{
+				texture citysmall_f.tga
+			}
+		}
+	}
+}
+
+

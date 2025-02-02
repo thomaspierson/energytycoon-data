@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout">
+  <Widget type="StaticImage" skin="StaticImage" position="0 0 0 0" align="ALIGN_DEFAULT" layer="Back" name="Background"/>
+  <Widget type="StaticImage" skin="StaticImage" position="0 0 470 550" align="ALIGN_DEFAULT" layer="Main" name="MainMenuWidget">
+    <Widget type="Button" skin="ButtonMainSave_en" position="210 180 235 64" align="ALIGN_DEFAULT" layer="Main" name="SaveGame">
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="Button" skin="ButtonMainResume_en" position="263 120 185 64" align="ALIGN_DEFAULT" layer="Main" name="Resume">
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="Button" skin="ButtonMainNew_en" position="220 240 225 64" align="ALIGN_DEFAULT" layer="Main" name="NewGame">
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="Button" skin="ButtonMainLoad_en" position="210 300 235 64" align="ALIGN_DEFAULT" layer="Main" name="LoadGame">
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="Button" skin="ButtonMainOpt_en" position="270 360 175 64" align="ALIGN_DEFAULT" layer="Main" name="Options">
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="Button" skin="ButtonMainCred_en" position="280 420 165 64" align="ALIGN_DEFAULT" layer="Main" name="Credits">
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+    <Widget type="Button" skin="ButtonMainQuit_en" position="340 480 105 64" align="ALIGN_DEFAULT" layer="Main" name="Exit">
+      <Property key="Widget_Shadow" value="true"/>
+    </Widget>
+  </Widget>
+</MyGUI>

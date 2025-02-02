@@ -1,0 +1,18 @@
+material farm2_ground
+{
+	technique
+	{
+		pass
+		{
+			scene_blend modulate
+			depth_write off
+
+			texture_unit 
+			{
+				texture farm2_groundCompleteMap.tga
+			}
+		}
+	}
+}
+
+

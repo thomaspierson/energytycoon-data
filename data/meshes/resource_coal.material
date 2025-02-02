@@ -1,0 +1,15 @@
+material resource_coal
+{
+	technique
+	{
+		pass
+		{
+			texture_unit 
+			{
+				texture resource_coalCompleteMap.tga
+			}
+		}
+	}
+}
+
+

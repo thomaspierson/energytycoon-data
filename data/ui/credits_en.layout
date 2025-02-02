@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout">
+    <Widget type="StaticImage" skin="StaticImage" position="0 0 0 0" align="ALIGN_DEFAULT" layer="Back" name="Background"/>
+  
+    <Widget type="StaticImage" skin="StaticImage" position="0 0 500 550" align="ALIGN_DEFAULT" layer="Main" name="CreditsWidget">
+
+      <Widget type="Widget" skin="Panel" position="110 140 280 300" layer="Main" name="VPanel">
+      </Widget>
+
+      <Widget type="StaticText" skin="StaticText" position="30 140 440 300" align="ALIGN_DEFAULT" layer="Main" name="CreditsText">
+        <Property key="Widget_Shadow" value="true"/>
+        <Property key="Widget_Colour" value="0.95 0.95 0.95"/>
+        <Property key="Widget_AlignText" value="ALIGN_CENTER"/>
+        <Property key="Widget_FontHeight" value="28"/>
+      </Widget>
+
+      <Widget type="Button" skin="ButtonMainBack_en" position="170 439 120 64" align="ALIGN_DEFAULT" layer="Main" name="Back">
+        <Property key="Widget_Shadow" value="true"/>
+      </Widget>
+
+    </Widget>
+</MyGUI>

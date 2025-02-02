@@ -1,0 +1,15 @@
+material tree2
+{
+	technique
+	{
+		pass
+		{
+			texture_unit 
+			{
+				texture tree2CompleteMap.tga
+			}
+		}
+	}
+}
+
+

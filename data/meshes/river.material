@@ -1,0 +1,36 @@
+material rivertex
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			depth_check on
+			depth_write off
+
+			texture_unit 
+			{
+				texture river.tga
+			}
+		}
+	}
+}
+
+material riverendtex
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			depth_check on
+			depth_write off
+
+			texture_unit 
+			{
+				texture river_end.tga
+			}
+		}
+	}
+}
+

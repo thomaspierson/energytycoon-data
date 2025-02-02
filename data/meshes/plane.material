@@ -1,0 +1,15 @@
+material 01-Default
+{
+	technique
+	{
+		pass
+		{
+			texture_unit 
+			{
+				texture plane.tga
+			}
+		}
+	}
+}
+
+

@@ -1,0 +1,15 @@
+material pp_gas_small
+{
+	technique
+	{
+		pass
+		{
+			texture_unit 
+			{
+				texture pp_gas_smallCompleteMap.tga
+			}
+		}
+	}
+}
+
+

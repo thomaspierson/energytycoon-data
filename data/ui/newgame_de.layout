@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout">
+  <Widget type="StaticImage" skin="StaticImage" position="0 0 1280 1024" align="ALIGN_DEFAULT" layer="Back" name="Background"/>
+  <Widget type="StaticImage" skin="StaticImage" position="0 -200 500 550" layer="Main" name="NewGameWidget">
+
+    <Widget type="Widget" skin="Panel" position="0 80 500 320" layer="Back" name="VPanel">
+
+
+      <Widget type="List" skin="List" position="30 40 194 88" layer="Main" name="MapsList"/>
+      <Widget type="List" skin="List" position="30 152 194 106" layer="Main" name="MissionsList"/>
+      <Widget type="StaticText" skin="StaticText" position="30 22 194 18" layer="Main" name="MapsText">
+        <Property key="Widget_Caption" value="Maps"/>
+        <Property key="Widget_TextColour" value="1 1 1"/>
+        <Property key="Text_TextAlign" value="Center"/>
+        <Property key="Widget_Shadow" value="true"/>
+      </Widget>
+      <Widget type="StaticText" skin="StaticText" position="30 134 194 18" layer="Main" name="MissionsText">
+        <Property key="Widget_Caption" value="Missions"/>
+        <Property key="Widget_TextColour" value="1 1 1"/>
+        <Property key="Text_TextAlign" value="Center"/>
+        <Property key="Widget_Shadow" value="true"/>
+      </Widget>
+      <Widget type="StaticText" skin="StaticText" position="74 276 100 24" layer="Main" name="DifficultyText">
+        <Property key="Widget_TextAlign" value="Center"/>
+        <Property key="Widget_TextColour" value="1 1 1"/>
+        <Property key="Widget_Caption" value="difficulty:"/>
+        <Property key="Widget_Shadow" value="true"/>
+      </Widget>
+      <Widget type="Button" skin="RadioBox" position="362 276 88 24" layer="Main" name="EasyRadio">
+        <Property key="Widget_TextColour" value="1 1 1"/>
+        <Property key="Widget_Caption" value="easy"/>
+        <Property key="Widget_Shadow" value="true"/>
+      </Widget>
+      <Widget type="Button" skin="RadioBox" position="268 276 88 24" layer="Main" name="MediumRadio">
+        <Property key="Widget_TextColour" value="1 1 1"/>
+        <Property key="Widget_Caption" value="normal"/>
+        <Property key="Widget_Shadow" value="true"/>
+      </Widget>
+      <Widget type="Button" skin="RadioBox" position="182 276 88 24" layer="Main" name="HardRadio">
+        <Property key="Widget_TextColour" value="1 1 1"/>
+        <Property key="Widget_Caption" value="hard"/>
+        <Property key="Widget_Shadow" value="true"/>
+      </Widget>
+      <Widget type="Button" skin="RadioBox" position="522 202 88 24" layer="Main" name="Sandbox">
+        <Property key="Widget_TextColour" value="1 1 1"/>
+        <Property key="Widget_Visible" value="false"/>
+        <Property key="Widget_Shadow" value="true"/>
+      </Widget>
+      <Widget type="Widget" skin="Panel" position="244 40 230 218" layer="Back">
+        <Widget type="Edit" skin="WordWrap" position="4 4 222 210" layer="Back" name="MissionGoals">
+          <Property key="Widget_Shadow" value="true"/>
+        </Widget>
+      </Widget>
+      <Widget type="StaticText" skin="StaticText" position="244 22 230 18" layer="Back" name="MissionGoalsText">
+        <Property key="Text_TextColour" value="1 1 1"/>
+        <Property key="Widget_Caption" value="Mission goals"/>
+        <Property key="Text_TextAlign" value="Center"/>
+        <Property key="Widget_Shadow" value="true"/>
+      </Widget>
+    </Widget>
+    
+      <Widget type="Button" skin="ButtonMainBack_de" position="35 405 155 64" layer="Main" name="Back">
+        <Property key="Widget_Caption" value="Back to menu"/>
+        <Property key="Widget_Shadow" value="true"/>
+      </Widget>
+      <Widget type="Button" skin="ButtonMainStart_de" position="195 405 275 64" layer="Main" name="StartGameButton">
+        <Property key="Widget_Caption" value="Start game"/>
+        <Property key="Widget_Shadow" value="true"/>
+      </Widget>
+  </Widget>
+</MyGUI>

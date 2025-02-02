@@ -1,0 +1,19 @@
+material nuc_small_ground
+{
+	technique
+	{
+		pass
+		{
+			scene_blend modulate
+			depth_write off
+			depth_check on
+
+			texture_unit 
+			{
+				texture nuc_small_groundCompleteMap.tga
+			}
+		}
+	}
+}
+
+

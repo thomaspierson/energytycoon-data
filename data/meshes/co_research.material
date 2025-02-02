@@ -1,0 +1,15 @@
+material co_research
+{
+	technique
+	{
+		pass
+		{
+			texture_unit 
+			{
+				texture co_researchCompleteMap.tga
+			}
+		}
+	}
+}
+
+
