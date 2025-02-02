@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MyGUI type="Layout">
-  <Widget type="StaticImage" skin="StaticImage" position="0 0 0 0" align="ALIGN_DEFAULT" layer="Back" name="Background"/>
-  <Widget type="Widget" skin="StaticImage" position="0 0 500 550" layer="Main" name="SaveWidget">
+  <Widget type="ImageBox" skin="ImageBox" position="0 0 0 0" align="ALIGN_DEFAULT" layer="Back" name="Background"/>
+  <Widget type="Widget" skin="ImageBox" position="0 0 500 550" layer="Main" name="SaveWidget">
 
 
     <Widget type="Widget" skin="Panel" position="80 84 340 312" layer="Back" name="VPanel">
@@ -15,7 +15,7 @@
         <Property key="Widget_Shadow" value="true"/>
       </Widget>
       <Widget type="Widget" skin="Panel" position="60 193 220 62" layer="Main" name="SaveInfo">
-        <Widget type="StaticText" skin="StaticText" position="4 4 212 50" layer="Main" name="SaveGameInfo">
+        <Widget type="TextBox" skin="TextBox" position="4 4 212 50" layer="Main" name="SaveGameInfo">
           <Property key="Widget_Shadow" value="true"/>
         </Widget>
       </Widget>

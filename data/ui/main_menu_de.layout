@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MyGUI type="Layout">
-  <Widget type="StaticImage" skin="StaticImage" position="0 0 0 0" align="ALIGN_DEFAULT" layer="Back" name="Background"/>
-  <Widget type="StaticImage" skin="StaticImage" position="0 0 470 550" align="ALIGN_DEFAULT" layer="Main" name="MainMenuWidget">
+  <Widget type="ImageBox" skin="ImageBox" position="0 0 0 0" align="ALIGN_DEFAULT" layer="Back" name="Background"/>
+  <Widget type="ImageBox" skin="ImageBox" position="0 0 470 550" align="ALIGN_DEFAULT" layer="Main" name="MainMenuWidget">
     <Widget type="Button" skin="ButtonMainSave_de" position="106 180 335 64" align="ALIGN_DEFAULT" layer="Main" name="SaveGame">
       <Property key="Widget_Shadow" value="true"/>
     </Widget>

@@ -2,6 +2,9 @@
 
 <MyGUI type="List">
   
+  <List file="MyGUI_CommonSkins.xml"/>
+  <List file="MyGUI_BlueWhiteSkins.xml"/>
+  <List file="MyGUI_BlueWhiteTemplates.xml"/>
   <List file="core_keyboard.xml" group="General"/>
   <List file="core_language.xml" group="General"/>
   <List file="core_layer.xml" group="General"/>

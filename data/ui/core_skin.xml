@@ -1117,7 +1117,7 @@
     </BasisSkin>
   </Skin>
 
-  <Skin name = "StaticText" size = "16 16">
+  <Skin name = "TextBox" size = "16 16">
     <Property key="FontName" value = "Default" />
     <Property key="TextAlign" value = "Default" />
     <Property key="TextColour" value = "#{MyGUI_Theme_Button_ColourNormal}" />
@@ -1133,7 +1133,7 @@
     <BasisSkin type="MainSkin" offset = "0 0 16 16"/>
   </Skin>
 
-  <Skin name = "StaticImage" size = "16 16">
+  <Skin name = "ImageBox" size = "16 16">
     <BasisSkin type="MainSkin" offset = "0 0 16 16"/>
   </Skin>
   
@@ -1319,7 +1319,7 @@
   </Skin>
 
   <Skin name = "StretchRectangle" size = "50 50" texture = "#{MyGUI_Theme_Texture}" >
-    <Property key="ToStick" value = "false" />
+    <Property key="Snap" value = "false" />
     <Property key="MainMove" value = "true" />
 
     <Child type="Widget" skin="MarkerGreen" offset = "0 0 50 1" align = "HStretch Top"/>
@@ -1933,7 +1933,7 @@
   </Skin>
 
   <Skin name = "Window" size = "68 49" texture = "#{MyGUI_Theme_Texture}" >
-    <Property key="ToStick" value = "true" />
+    <Property key="Snap" value = "true" />
 
     <Child type="Button" skin="WindowCaptionDisable" offset = "0 0 68 28" align = "HStretch Top" name = "Caption">
       <Property key="Scale" value = "1 1 0 0"/>
@@ -1971,7 +1971,7 @@
   </Skin>
 
   <Skin name = "WindowC" size = "68 49" texture = "#{MyGUI_Theme_Texture}" >
-    <Property key="ToStick" value = "true" />
+    <Property key="Snap" value = "true" />
 
     <Child type="Button" skin="WindowCaptionSmall" offset = "0 0 68 28" align = "HStretch Top" name = "Caption">
       <Property key="Scale" value = "1 1 0 0"/>
@@ -2010,7 +2010,7 @@
 
   
   <Skin name = "WindowCS" size = "68 49" texture = "#{MyGUI_Theme_Texture}">
-    <Property key="ToStick" value = "true" />
+    <Property key="Snap" value = "true" />
 
     <Child type="Button" skin="WindowCaption" offset = "0 0 68 28" align = "HStretch Top" name = "Caption">
       <Property key="Scale" value = "1 1 0 0"/>
@@ -2055,7 +2055,7 @@
   </Skin>
 
   <Skin name = "WindowCSX" size = "68 49" texture = "#{MyGUI_Theme_Texture}" >
-    <Property key="ToStick" value = "true" />
+    <Property key="Snap" value = "true" />
 
     <Child type="Button" skin="WindowCaptionSmall" offset = "0 0 40 28" align = "HStretch Top" name = "Caption">
       <Property key="Scale" value = "1 1 0 0"/>
@@ -2104,7 +2104,7 @@
   </Skin>
 
   <Skin name = "WindowCX" size = "68 49" texture = "#{MyGUI_Theme_Texture}" >
-    <Property key="ToStick" value = "true" />
+    <Property key="Snap" value = "true" />
 
     <Child type="Button" skin="WindowCaptionSmall" offset = "0 0 68 28" align = "HStretch Top" name = "Caption">
       <Property key="Scale" value = "1 1 0 0"/>
@@ -2164,7 +2164,7 @@
   </Skin>
 
   <Skin name = "Message" size = "68 49" texture = "#{MyGUI_Theme_Texture}" >
-    <Property key="ToStick" value = "true" />
+    <Property key="Snap" value = "true" />
     <Property key="ButtonSkin" value = "Button" />
     <Property key="ButtonType" value = "Button" />
     <Property key="ButtonSize" value = "100 26" />
@@ -2174,7 +2174,7 @@
     <Property key="FadeLayer" value = "FadeMiddle" />
 
     <Child type="Widget" skin="MessageClient" offset = "10 35 32 -36" align = "Stretch" name = "Text"/>
-    <Child type="StaticImage" skin="MessageIcon" offset = "6 34 50 50" align = "Default" name = "Icon"/>
+    <Child type="ImageBox" skin="MessageIcon" offset = "6 34 50 50" align = "Default" name = "Icon"/>
 
     <Child type="Button" skin="WindowCaption" offset = "0 0 68 28" align = "HStretch Top" name = "Caption">
       <Property key="Scale" value = "1 1 0 0"/>
@@ -2416,7 +2416,7 @@
     <Property key="FontName" value = "Default" />
     <Property key="TextAlign" value = "Left VCenter" />
 
-    <Child type="StaticImage" skin="PopupMenuLineIcon" offset = "18 0 12 15" align = "Right VCenter" name = "Image"/>
+    <Child type="ImageBox" skin="PopupMenuLineIcon" offset = "18 0 12 15" align = "Right VCenter" name = "Image"/>
 
     <BasisSkin type="MainSkin" offset = "0 0 30 5">
       <State name="normal" offset = "343 115 1 1"/>
@@ -2553,7 +2553,7 @@
     <Property key="FontName" value = "Default" />
     <Property key="TextAlign" value = "Left VCenter" />
 
-    <Child type="StaticImage" skin="PopupMenuLineIcon" offset = "-10 0 12 15" align = "Right VCenter" name = "Image"/>
+    <Child type="ImageBox" skin="PopupMenuLineIcon" offset = "-10 0 12 15" align = "Right VCenter" name = "Image"/>
 
     <BasisSkin type="MainSkin" offset = "0 0 5 5">
       <State name="normal" offset = "343 115 1 1"/>
@@ -2647,7 +2647,7 @@
     <Property key="FontName" value = "DefaultSmall" />
     <Property key="TextAlign" value = "Left VCenter" />
 
-    <Child type="StaticImage" skin="PopupMenuLineIcon" offset = "-10 0 12 15" align = "Right VCenter" name = "Image"/>
+    <Child type="ImageBox" skin="PopupMenuLineIcon" offset = "-10 0 12 15" align = "Right VCenter" name = "Image"/>
 
     <BasisSkin type="MainSkin" offset = "0 0 5 5">
       <State name="normal" offset = "343 115 1 1"/>
@@ -2733,7 +2733,7 @@
     <Property key="FontName" value = "Default" />
     <Property key="TextAlign" value = "HCenter VCenter" />
 
-    <Child type="StaticImage" skin="MultiListButtonIcon" offset = "8 0 14 10" align = "Right VCenter" name = "Image"/>
+    <Child type="ImageBox" skin="MultiListButtonIcon" offset = "8 0 14 10" align = "Right VCenter" name = "Image"/>
 
     <BasisSkin type="SubSkin" offset = "0 0 10 21" align = "Left VStretch">
       <State name="disabled" offset = "169 2 10 21"/>
@@ -3042,7 +3042,7 @@
   </Skin>
   
   <Skin name = "WindowSmallC" size = "75 49" texture = "#{MyGUI_Theme_Texture}" >
-    <Property key="ToStick" value = "true" />
+    <Property key="Snap" value = "true" />
 
     <Child type="Button" skin="WindowSmallCaption" offset = "6 0 64 18" align = "HStretch Top" name = "Caption">
       <Property key="Scale" value = "1 1 0 0"/>

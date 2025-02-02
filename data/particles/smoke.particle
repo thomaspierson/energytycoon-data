@@ -70,7 +70,6 @@ particle_system SmokeSystemCoal
 	affector ColourFader2
 	{
 		state_change 1
-		alpha -1
 	}
 
    	affector Scaler
@@ -112,7 +111,6 @@ particle_system SmokeSystemGas
 	affector ColourFader2
 	{
 		state_change 1
-		alpha -1
 	}
 
    	affector Scaler
