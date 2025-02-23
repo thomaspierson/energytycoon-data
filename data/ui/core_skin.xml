@@ -1158,7 +1158,7 @@
     </BasisSkin>
   </Skin>
 
-  <Skin name = "DefaultClient" size = "65 57" texture = "#{MyGUI_Theme_Texture}" >
+  <Skin name = "ClientDefaultSkin" size = "65 57" texture = "#{MyGUI_Theme_Texture}" >
     <BasisSkin type="MainSkin" offset = "0 0 65 57" align = "Stretch">
       <State name="normal" offset = "432 5 65 57"/>
     </BasisSkin>
@@ -1404,7 +1404,7 @@
     <Property key="DragLayer" value = "DragAndDrop" />
 
     <Child type="VScroll" skin="VScroll" offset = "-9 3 15 3" align = "Right VStretch" name = "VScroll"/>
-    <Child type="Widget" skin="DefaultClient" offset = "3 3 -12 3" align = "Stretch" name = "Client"/>
+    <Child type="Widget" skin="ClientDefaultSkin" offset = "3 3 -12 3" align = "Stretch" name = "Client"/>
 
     <BasisSkin type="SubSkin" offset = "0 0 3 3" align = "Left Top">
       <State name="normal" offset = "429 70 3 3"/>
@@ -1439,7 +1439,7 @@
     <Property key="DragLayer" value = "DragAndDrop" />
 
     <Child type="HScroll" skin="HScroll" offset = "3 -9 3 15" align = "HStretch Bottom" name = "HScroll"/>
-    <Child type="Widget" skin="DefaultClient" offset = "3 3 3 -12" align = "Stretch" name = "Client"/>
+    <Child type="Widget" skin="ClientDefaultSkin" offset = "3 3 3 -12" align = "Stretch" name = "Client"/>
 
     <BasisSkin type="SubSkin" offset = "0 0 3 3" align = "Left Top">
       <State name="normal" offset = "429 70 3 3"/>
@@ -1489,7 +1489,7 @@
     </BasisSkin>
   </Skin>
 
-  <Skin name = "RadioBox" size = "100 19" texture = "#{MyGUI_Theme_Texture}">
+  <Skin name = "RadioButton" size = "100 19" texture = "#{MyGUI_Theme_Texture}">
     <Property key="FontName" value = "Default" />
     <Property key="TextAlign" value = "Left VCenter" />
     <Property key="TextColour" value = "#{MyGUI_Theme_Button_ColourNormal}"/>
@@ -1522,7 +1522,7 @@
     </BasisSkin>
   </Skin>
 
-  <Skin name = "ButtonX" size = "18 17" texture = "#{MyGUI_Theme_Texture}">
+  <Skin name = "ButtonCloseSkin" size = "18 17" texture = "#{MyGUI_Theme_Texture}">
     <BasisSkin type="MainSkin" offset = "0 0 18 17" align = "Stretch">
       <State name="disabled" offset = "72 2 18 17"/>
       <State name="normal" offset = "72 21 18 17"/>
@@ -1542,7 +1542,7 @@
     </BasisSkin>
   </Skin>
 
-  <Skin name = "ButtonDown" size = "14 12" texture = "#{MyGUI_Theme_Texture}">
+  <Skin name = "ButtonDownSkin" size = "14 12" texture = "#{MyGUI_Theme_Texture}">
     <BasisSkin type="MainSkin" offset = "0 0 14 12" align = "Stretch">
       <State name="disabled" offset = "95 2 14 12"/>
       <State name="normal" offset = "95 15 14 12"/>
@@ -1709,7 +1709,7 @@
     <Child type="Widget" skin="EditClientSimple" offset = "0 0 32 32" align = "Stretch" name = "Client"/>
   </Skin>
 
-  <Skin name = "WordWrap" size = "32 32" texture = "#{MyGUI_Theme_Texture}" >
+  <Skin name = "WordWrapEmpty" size = "32 32" texture = "#{MyGUI_Theme_Texture}" >
     <Property key="WordWrap" value = "true" />
     <Child type="Widget" skin="EditClientSimple" offset = "0 0 16 32" align = "Stretch" name = "Client"/>
     <Child type="VScroll" skin="VScroll" offset = "17 0 15 32" align = "Right VStretch" name = "VScroll"/>
@@ -1832,8 +1832,8 @@
     <Property key="ListSmoothShow" value = "true" />
 
     <Child type="Widget" skin="EditClient" offset = "2 1 5 22" align = "Stretch" name = "Client"/>
-    <Child type="Button" skin="ButtonDown" offset = "9 4 14 12" align = "Right VCenter" name = "Button"/>
-    <Child type="List" style="Popup" skin="List" offset = "0 0 0 0" align = "Default" layer="Popup" name = "List"/>
+    <Child type="Button" skin="ButtonDownSkin" offset = "9 4 14 12" align = "Right VCenter" name = "Button"/>
+    <Child type="List" style="Popup" skin="ListBox" offset = "0 0 0 0" align = "Default" layer="Popup" name = "List"/>
 
     <BasisSkin type="SubSkin" offset = "0 0 10 26" align = "Left VStretch">
       <State name="disabled" offset = "235 2 10 26"/>
@@ -1939,7 +1939,7 @@
       <Property key="Scale" value = "1 1 0 0"/>
     </Child>
 
-    <Child type="Widget" skin="DefaultClient" offset = "4 31 58 12" align = "Stretch" name = "Client"/>
+    <Child type="Widget" skin="ClientDefaultSkin" offset = "4 31 58 12" align = "Stretch" name = "Client"/>
 
     <BasisSkin type="SubSkin" offset = "0 28 4 3" align = "Left Top">
       <State name="normal" offset = "384 173 4 3"/>
@@ -1977,7 +1977,7 @@
       <Property key="Scale" value = "1 1 0 0"/>
     </Child>
 
-    <Child type="Widget" skin="DefaultClient" offset = "4 31 58 12" align = "Stretch" name = "Client"/>
+    <Child type="Widget" skin="ClientDefaultSkin" offset = "4 31 58 12" align = "Stretch" name = "Client"/>
 
     <BasisSkin type="SubSkin" offset = "0 28 4 3" align = "Left Top">
       <State name="normal" offset = "384 173 4 3"/>
@@ -2016,7 +2016,7 @@
       <Property key="Scale" value = "1 1 0 0"/>
     </Child>
 
-    <Child type="Widget" skin="DefaultClient" offset = "4 31 58 12" align = "Stretch" name = "Client"/>
+    <Child type="Widget" skin="ClientDefaultSkin" offset = "4 31 58 12" align = "Stretch" name = "Client"/>
 
     <Child type="Button" skin="WindowResizeRight" offset = "57 38 9 9" align = "Right Bottom" name = "Action">
       <Property key="Scale" value = "0 0 1 1"/>
@@ -2061,7 +2061,7 @@
       <Property key="Scale" value = "1 1 0 0"/>
     </Child>
 
-    <Child type="Widget" skin="DefaultClient" offset = "4 31 58 12" align = "Stretch" name = "Client"/>
+    <Child type="Widget" skin="ClientDefaultSkin" offset = "4 31 58 12" align = "Stretch" name = "Client"/>
 
     <Child type="Button" skin="WindowResizeRight" offset = "57 38 9 9" align = "Right Bottom" name = "Action">
       <Property key="Scale" value = "0 0 1 1"/>
@@ -2070,7 +2070,7 @@
       <Property key="Scale" value = "1 0 -1 1"/>
     </Child>
 
-    <Child type="Button" skin="ButtonX" offset = "43 6 18 17" align = "Right Top" name = "Button">
+    <Child type="Button" skin="ButtonCloseSkin" offset = "43 6 18 17" align = "Right Top" name = "Button">
       <Property key="Event" value = "close"/>
     </Child>
 
@@ -2111,9 +2111,9 @@
     </Child>
 
 
-    <Child type="Widget" skin="DefaultClient" offset = "4 31 58 12" align = "Stretch" name = "Client"/>
+    <Child type="Widget" skin="ClientDefaultSkin" offset = "4 31 58 12" align = "Stretch" name = "Client"/>
 
-    <Child type="Button" skin="ButtonX" offset = "43 6 18 17" align = "Right Top" name = "Button">
+    <Child type="Button" skin="ButtonCloseSkin" offset = "43 6 18 17" align = "Right Top" name = "Button">
       <Property key="Event" value = "close"/>
     </Child>
 
@@ -2213,7 +2213,7 @@
   </Skin>
 
   
-  <Skin name = "Panel" size = "11 11" texture = "#{MyGUI_Theme_Texture}">
+  <Skin name = "PanelSkin" size = "11 11" texture = "#{MyGUI_Theme_Texture}">
 
     <BasisSkin type="SubSkin" offset = "0 0 3 3" align = "Left Top">
       <State name="normal" offset = "429 70 3 3"/>
@@ -2461,7 +2461,7 @@
     <Property key="SeparatorHeight" value = "10" />
     <Property key="AlignVert" value = "true" />
 
-    <Child type="Widget" skin="DefaultClient" offset = "3 3 3 3" align = "Stretch" name = "Client"/>
+    <Child type="Widget" skin="ClientDefaultSkin" offset = "3 3 3 3" align = "Stretch" name = "Client"/>
 
     <BasisSkin type="SubSkin" offset = "0 0 3 3" align = "Left Top">
       <State name="normal" offset = "429 70 3 3"/>
@@ -2571,13 +2571,13 @@
     </BasisSkin>
   </Skin>
 
-  <Skin name = "List" size = "11 11" texture = "#{MyGUI_Theme_Texture}">
+  <Skin name = "ListBox" size = "11 11" texture = "#{MyGUI_Theme_Texture}">
     <Property key="NeedKey" value = "true" />
     <Property key="SkinLine" value = "ListLine" />
     <Property key="HeightLine" value = "20" />
 
     <Child type="VScroll" skin="VScroll" offset = "-9 3 15 3" align = "Right VStretch" name = "VScroll"/>
-    <Child type="Widget" skin="DefaultClient" offset = "3 3 -12 3" align = "Stretch" name = "Client"/>
+    <Child type="Widget" skin="ClientDefaultSkin" offset = "3 3 -12 3" align = "Stretch" name = "Client"/>
 
     <BasisSkin type="SubSkin" offset = "0 0 3 3" align = "Left Top">
       <State name="normal" offset = "429 70 3 3"/>
@@ -2613,7 +2613,7 @@
     <Property key="HeightLine" value = "24" />
 
     <Child type="VScroll" skin="VScroll" offset = "-9 3 15 3" align = "Right VStretch" name = "VScroll"/>
-    <Child type="Widget" skin="DefaultClient" offset = "3 3 -12 3" align = "Stretch" name = "Client"/>
+    <Child type="Widget" skin="ClientDefaultSkin" offset = "3 3 -12 3" align = "Stretch" name = "Client"/>
 
     <BasisSkin type="SubSkin" offset = "0 0 3 3" align = "Left Top">
       <State name="normal" offset = "429 70 3 3"/>
@@ -2671,7 +2671,7 @@
     <Property key="HeightLine" value = "14" />
 
     <Child type="VScroll" skin="VScroll" offset = "-9 3 15 3" align = "Right VStretch" name = "VScroll"/>
-    <Child type="Widget" skin="DefaultClient" offset = "3 3 -12 3" align = "Stretch" name = "Client"/>
+    <Child type="Widget" skin="ClientDefaultSkin" offset = "3 3 -12 3" align = "Stretch" name = "Client"/>
 
     <BasisSkin type="SubSkin" offset = "0 0 3 3" align = "Left Top">
       <State name="normal" offset = "429 70 3 3"/>
@@ -2773,7 +2773,7 @@
     <Property key="HeightButton" value = "21" />
     <Property key="SkinList" value = "MultiSubList" />
 
-    <Child type="Widget" skin="DefaultClient" offset = "3 3 3 3" align = "Stretch" name = "Client"/>
+    <Child type="Widget" skin="ClientDefaultSkin" offset = "3 3 3 3" align = "Stretch" name = "Client"/>
 
     <BasisSkin type="SubSkin" offset = "0 0 3 3" align = "Left Top">
       <State name="normal" offset = "429 70 3 3"/>
@@ -2858,7 +2858,7 @@
     <Child type="Button" skin="VScrollBottomPart" offset = "0 21 15 6" align = "HStretch Bottom" name = "SecondPart"/>
 
     <Child type="Button" skin="ButtonUp" offset = "1 2 14 12" align = "HStretch Top" name = "Start"/>
-    <Child type="Button" skin="ButtonDown" offset = "1 37 14 12" align = "HStretch Bottom" name = "End"/>
+    <Child type="Button" skin="ButtonDownSkin" offset = "1 37 14 12" align = "HStretch Bottom" name = "End"/>
     <Child type="Button" skin="VScrollTrack" offset = "1 18 14 19" align = "HStretch Top" name = "Track"/>
 
     <BasisSkin type="SubSkin" offset = "0 0 15 6" align = "HStretch Top">
@@ -2987,7 +2987,7 @@
   </Skin>
 
   
-  <Skin name = "Progress" size = "49 15" texture = "#{MyGUI_Theme_Texture}" >
+  <Skin name = "ProgressBar" size = "49 15" texture = "#{MyGUI_Theme_Texture}" >
     <Property key="TrackSkin" value = "HScrollTrackSlider" />
     <Property key="TrackWidth" value = "7" />
     <Property key="TrackFill" value = "false" />

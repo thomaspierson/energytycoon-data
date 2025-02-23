@@ -5,17 +5,13 @@
 
   <Widget type="Window" skin="WindowCX" position="196 182 500 136" layer="Overlapped" name="CompanyNameWindow">
     <Property key="Visible" value="false"/>
-    <Property key="Shadow" value="true"/>
     <Widget type="Button" skin="Button" position="200 64 100 26" layer="Main" name="CompanyNameOK">
-      <Property key="Shadow" value="true"/>
       <Property key="Caption" value="OK"/>
     </Widget>
     <Widget type="EditBox" skin="EditBox" position="105 32 290 26" layer="Main" name="CompanyName">
-      <Property key="Shadow" value="true"/>
       <Property key="TextAlign" value="Center"/>
     </Widget>
     <Widget type="TextBox" skin="TextBox" position="0 0 492 26" layer="Main" name="CompanyNameQuestion">
-      <Property key="Shadow" value="true"/>
       <Property key="TextAlign" value="Center"/>
     </Widget>
   </Widget>
@@ -30,17 +26,14 @@
       <Property key="ImageTexture" value="weather.png"/>
 
       <Widget type="TextBox" skin="TextBox" position="10 5 144 25" layer="Main" name="WeatherText">
-        <Property key="Shadow" value="true"/>
-        <Property key="AlignText" value="ALIGN_VCENTER"/>
+        <Property key="TextAlign" value="ALIGN_VCENTER"/>
       </Widget>
 
       <Widget type="TextBox" skin="TextBox" position="43 34 143 25" layer="Main" name="WindText">
-        <Property key="Shadow" value="true"/>
         <Property key="FontHeight" value="13"/>
       </Widget>
 
       <Widget type="TextBox" skin="TextBox" position="43 64 143 25" layer="Main" name="SunText">
-        <Property key="Shadow" value="true"/>
         <Property key="FontHeight" value="13"/>
       </Widget>
 
@@ -53,24 +46,19 @@
 
   <Widget type="Window" skin="WindowCX" position="0 0 410 334" layer="Overlapped" name="TutorialWindow">
     <Property key="Visible" value="false"/>
-    <Property key="Shadow" value="true"/>
     <Widget type="Button" skin="Button" position="268 268 128 26" layer="Main" name="TutorialContinue">
-      <Property key="Shadow" value="true"/>
     </Widget>
     <Widget type="Button" skin="Button" position="136 268 128 26" layer="Main" name="TutorialBack">
-      <Property key="Shadow" value="true"/>
     </Widget>
     <Widget type="Button" skin="Button" position="4 268 146 26" layer="Main" name="TutorialEnd">
-      <Property key="Shadow" value="true"/>
       <Property key="Visible" value="false"/>
     </Widget>
-    <Widget type="EditBox" skin="WordWrap" position="2 2 396 264" layer="Main" name="TutorialText">
-      <Property key="Shadow" value="true"/>
+    <Widget type="EditBox" skin="WordWrapEmpty" position="2 2 396 264" layer="Main" name="TutorialText">
     </Widget>
   </Widget>
 
   <Widget type="Widget" skin="Default" position="0 0 480 320" layer="Popup" name="Newspaper">
-    <Property key="Show" value="false"/>
+    <Property key="Visible" value="false"/>
     <Widget type="ImageBox" skin="ImageBox" position="0 0 480 320" layer="Main" name="NewspaperImage">
       <Widget type="ImageBox" skin="ImageBox" position="15 85 188 132" layer="Main" name="NewspaperPhoto">
       </Widget>
@@ -80,27 +68,25 @@
       <Property key="TextColour" value="0.0 0.0 0.0"/>
       <Property key="Caption" value="x"/>
     </Widget>
-    <Widget type="EditBox" skin="WordWrap" position="224 85 243 133" layer="Main" name="Headline">
+    <Widget type="EditBox" skin="WordWrapEmpty" position="224 85 243 133" layer="Main" name="Headline">
       <Property key="Colour" value="0.0 0.0 0.0"/>
       <Property key="FontHeight" value="44"/>
     </Widget>
-    <Widget type="EditBox" skin="WordWrap" position="18 226 456 32" layer="Main" name="Teaser">
+    <Widget type="EditBox" skin="WordWrapEmpty" position="18 226 456 32" layer="Main" name="Teaser">
       <Property key="Colour" value="0.0 0.0 0.0"/>
       <Property key="FontHeight" value="13"/>
     </Widget>
   </Widget>
 
-  <Widget type="Widget" skin="Panel" position="0 0 10 10" layer="ToolTip" name="Tooltip">
-    <Property key="Show" value="false"/>
+  <Widget type="Widget" skin="PanelSkin" position="0 0 10 10" layer="ToolTip" name="Tooltip">
+    <Property key="Visible" value="false"/>
     <Widget type="TextBox" skin="TextBox" position = "6 4 500 500" name="TooltipText">
-      <Property key="Shadow" value="true"/>
     </Widget>
   </Widget>
 
   <Widget type="TextBox" skin="TextBox" position="20 140 300 300" layer="Main" name="DemoTime">
     <Property key="Colour" value="1.0 1.0 1.0"/>
     <Property key="NeedMouse" value="false"/>
-    <Property key="Shadow" value="true"/>
   </Widget>
 
   <Widget type="TextBox" skin="TextBox" position="0 0 500 500" layer="Main" name="HoverText">
@@ -108,7 +94,7 @@
   </Widget>
 
   <Widget type="ImageBox" skin="ImageBox" position="0 0 64 64" layer="Main" name="PanIcon">
-    <Property key="Show" value="false"/>
+    <Property key="Visible" value="false"/>
     <Property key="ImageTexture" value="pan.png"/>
     <Property key="NeedMouse" value="false"/>
   </Widget>
@@ -188,13 +174,13 @@
 
       <Widget type="TextBox" skin="TextBox" position="37 5 160 25" layer="Main" name="DateTimeShadow">
         <Property key="Colour" value="0.25 0.28 0.29"/>
-        <Property key="AlignText" value="ALIGN_CENTER"/>
+        <Property key="TextAlign" value="ALIGN_CENTER"/>
         <Property key="FontHeight" value="15"/>
       </Widget>
 
       <Widget type="TextBox" skin="TextBox" position="36 4 160 25" layer="Main" name="DateTime">
         <Property key="Colour" value="0.95 0.95 0.95"/>
-        <Property key="AlignText" value="ALIGN_CENTER"/>
+        <Property key="TextAlign" value="ALIGN_CENTER"/>
         <Property key="FontHeight" value="15"/>
       </Widget>
 
@@ -254,25 +240,25 @@
     <Widget type="TextBox" skin="TextBox" position="31 11 128 32" layer="Main" name="MoneyShadow">
       <Property key="Colour" value="0.25 0.28 0.29"/>
       <Property key="FontHeight" value="26"/>
-      <Property key="AlignText" value="ALIGN_CENTER"/>
+      <Property key="TextAlign" value="ALIGN_CENTER"/>
     </Widget>
 
     <Widget type="TextBox" skin="TextBox" position="30 10 128 32" layer="Popup" name="Money">
       <Property key="Colour" value="0.95 0.95 0.95"/>
       <Property key="FontHeight" value="26"/>
-      <Property key="AlignText" value="ALIGN_CENTER"/>
+      <Property key="TextAlign" value="ALIGN_CENTER"/>
     </Widget>
 
     <Widget type="TextBox" skin="TextBox" position="183 11 60 32" layer="Main" name="EfficiencyShadow">
       <Property key="Colour" value="0.25 0.28 0.29"/>
       <Property key="FontHeight" value="26"/>
-      <Property key="AlignText" value="ALIGN_CENTER"/>
+      <Property key="TextAlign" value="ALIGN_CENTER"/>
     </Widget>
 
     <Widget type="TextBox" skin="TextBox" position="182 10 60 32" layer="Main" name="Efficiency">
       <Property key="Colour" value="0.95 0.95 0.95"/>
       <Property key="FontHeight" value="26"/>
-      <Property key="AlignText" value="ALIGN_CENTER"/>
+      <Property key="TextAlign" value="ALIGN_CENTER"/>
     </Widget>
 
       <Widget type="Button" skin="ButtonNet" position="151 11 32 32" layer="Main" name="ShowPowerNets">
@@ -339,7 +325,7 @@
 
 
   <Widget type="Widget" skin="Default" position="23 54 192 40" layer="InfoPanels" name="ResourceOverviewPanel">
-    <Property key="Show" value="false"/>
+    <Property key="Visible" value="false"/>
 
     <Widget type="TextBox" skin="TextBox" position="-4 1 300 40" layer="Popup" name="ResourceOverviewTextShadow">
       <Property key="Colour" value="0.25 0.28 0.29"/>
@@ -417,64 +403,52 @@
       <Property key="ImageTexture" value="pp_nuclear_small.png"/>
     </Widget>
     <Widget type="TextBox" skin="TextBox" position="16 102 120 20" layer="Back" name="PPName">
-      <Property key="Shadow" value="true"/>
       <Property key="TextAlign" value="Center"/>
       <Property key="TextColour" value="1 1 1"/>
     </Widget>
     <Widget type="Button" skin="CheckBox" position="444 18 186 20" layer="Back" name="PPGlobalCheck">
-      <Property key="Text_FontHeight" value="15"/>
+      <Property key="FontHeight" value="15"/>
       <Property key="TextColour" value="1 1 1"/>
-      <Property key="Shadow" value="true"/>
     </Widget>
     <Widget type="EditBox" skin="EditBox" position="530 44 44 24" layer="Back" name="PPMaintenance">
-      <Property key="EditBox_Static" value="true"/>
-      <Property key="Shadow" value="true"/>
+      <Property key="Static" value="true"/>
     </Widget>
     <Widget type="TextBox" skin="TextBox" position="440 44 88 24" layer="Back" name="PPMaintenanceText">
-      <Property key="Text_FontHeight" value="15"/>
+      <Property key="FontHeight" value="15"/>
       <Property key="TextAlign" value="Center"/>
       <Property key="TextColour" value="1 1 1"/>
-      <Property key="Shadow" value="true"/>
     </Widget>
     <Widget type="Button" skin="ButtonNet" position="444 80 32 32" layer="Back" name="PPShowNet">
       <Property key="Caption" value="Net"/>
-      <Property key="Shadow" value="true"/>
     </Widget>
     <Widget type="Button" skin="ButtonMoney" position="480 80 32 32" layer="Back" name="PPShowSales">
       <Property key="Caption" value="Maint"/>
-      <Property key="Shadow" value="true"/>
     </Widget>
     <Widget type="Button" skin="ButtonRepair" position="516 80 32 32" layer="Back" name="PPRepair">
       <Property key="Caption" value="Repair"/>
-      <Property key="Shadow" value="true"/>
     </Widget>
     <Widget type="TextBox" skin="TextBox" position="594 44 26 24" layer="Back">
-      <Property key="Shadow" value="true"/>
       <Property key="Caption" value="%"/>
-      <Property key="Text_FontHeight" value="15"/>
+      <Property key="FontHeight" value="15"/>
       <Property key="TextAlign" value="Center"/>
       <Property key="TextColour" value="1 1 1"/>
     </Widget>
     <Widget type="TextBox" skin="TextBox" position="150 18 148 400" layer="Back" name="PPInfo">
-      <Property key="Shadow" value="true"/>
-      <Property key="Text_FontHeight" value="15"/>
+      <Property key="FontHeight" value="15"/>
       <Property key="TextColour" value="1 1 1"/>
     </Widget>
     <Widget type="TextBox" skin="TextBox" position="300 18 112 18" layer="Back" name="PPConnectedText">
-      <Property key="Shadow" value="true"/>
-      <Property key="Text_FontHeight" value="15"/>
+      <Property key="FontHeight" value="15"/>
       <Property key="TextColour" value="1 1 1"/>
     </Widget>
     <Widget type="TextBox" skin="TextBox" position="300 40 126 126" layer="Back" name="PPCities">
-      <Property key="Shadow" value="true"/>
-      <Property key="Text_FontHeight" value="15"/>
+      <Property key="FontHeight" value="15"/>
       <Property key="TextColour" value="1 1 1"/>
     </Widget>
-    <Widget type="Button" skin="ButtonUp" position="580 46 16 12" layer="Back" name="PPMaintUp"/>
-    <Widget type="Button" skin="ButtonDown" position="580 58 16 12" layer="Back" name="PPMaintDown"/>
+    <Widget type="Button" skin="ButtonUpSkin" position="580 46 16 12" layer="Back" name="PPMaintUp"/>
+    <Widget type="Button" skin="ButtonDownSkin" position="580 58 16 12" layer="Back" name="PPMaintDown"/>
     <Widget type="TextBox" skin="TextBox" position="146 110 266 20" layer="Back" name="PPAlert">
-      <Property key="Shadow" value="true"/>
-      <Property key="Text_FontHeight" value="15"/>
+      <Property key="FontHeight" value="15"/>
       <Property key="TextColour" value="0.7 0 0 "/>
     </Widget>
   </Widget>
@@ -487,72 +461,59 @@
     <Widget type="TextBox" skin="TextBox" position="16 102 120 20" layer="Back" name="CityName">
       <Property key="TextAlign" value="Center"/>
       <Property key="TextColour" value="1 1 1"/>
-      <Property key="Shadow" value="true"/>
     </Widget>
     <Widget type="Button" skin="CheckBox" position="448 18 186 20" layer="Back" name="CityGlobalCheck">
-      <Property key="Text_FontHeight" value="15"/>
+      <Property key="FontHeight" value="15"/>
       <Property key="TextColour" value="1 1 1"/>
-      <Property key="Shadow" value="true"/>
     </Widget>
     <Widget type="EditBox" skin="EditBox" position="528 44 44 24" layer="Back" name="CityPrice">
-      <Property key="EditBox_Static" value="true"/>
-      <Property key="Shadow" value="true"/>
+      <Property key="Static" value="true"/>
     </Widget>
     <Widget type="TextBox" skin="TextBox" position="482 44 42 24" layer="Back" name="PriceText">
-      <Property key="Text_FontHeight" value="15"/>
+      <Property key="FontHeight" value="15"/>
       <Property key="TextAlign" value="Right VCenter"/>
       <Property key="TextColour" value="1 1 1"/>
-      <Property key="Shadow" value="true"/>
     </Widget>
     <Widget type="Button" skin="ButtonNet" position="450 100 32 32" layer="Back" name="CityShowNet">
       <Property key="Caption" value="Net"/>
-      <Property key="Shadow" value="true"/>
     </Widget>
     <Widget type="Button" skin="ButtonMoney" position="488 100 32 32" layer="Back" name="CityShowSales">
       <Property key="Caption" value="Maint"/>
-      <Property key="Shadow" value="true"/>
     </Widget>
     <Widget type="TextBox" skin="TextBox" position="593 44 80 24" layer="Back">
       <Property key="Caption" value="cent/\nkWh"/>
-      <Property key="Text_FontHeight" value="12"/>
+      <Property key="FontHeight" value="12"/>
       <Property key="TextAlign" value="Left VCenter"/>
       <Property key="TextColour" value="1 1 1"/>
-      <Property key="Shadow" value="true"/>
     </Widget>
     <Widget type="TextBox" skin="TextBox" position="150 18 148 400" layer="Back" name="CityInfo">
-      <Property key="Text_FontHeight" value="15"/>
+      <Property key="FontHeight" value="15"/>
       <Property key="TextColour" value="1 1 1"/>
-      <Property key="Shadow" value="true"/>
     </Widget>
     <Widget type="TextBox" skin="TextBox" position="300 18 110 18" layer="Back" name="SuppliedByText">
-      <Property key="Text_FontHeight" value="15"/>
+      <Property key="FontHeight" value="15"/>
       <Property key="TextColour" value="1 1 1"/>
-      <Property key="Shadow" value="true"/>
     </Widget>
     <Widget type="TextBox" skin="TextBox" position="300 40 126 126" layer="Back" name="CityPPs">
-      <Property key="Text_FontHeight" value="15"/>
+      <Property key="FontHeight" value="15"/>
       <Property key="TextColour" value="1 1 1"/>
-      <Property key="Shadow" value="true"/>
     </Widget>
-    <Widget type="Button" skin="ButtonUp" position="575 45 16 12" layer="Back" name="CityPriceUp"/>
-    <Widget type="Button" skin="ButtonDown" position="575 57 16 12" layer="Back" name="CityPriceDown"/>
+    <Widget type="Button" skin="ButtonUpSkin" position="575 45 16 12" layer="Back" name="CityPriceUp"/>
+    <Widget type="Button" skin="ButtonDownSkin" position="575 57 16 12" layer="Back" name="CityPriceDown"/>
     <Widget type="TextBox" skin="TextBox" position="446 72 78 18" layer="Back" name="AdsText">
-      <Property key="Text_FontHeight" value="15"/>
+      <Property key="FontHeight" value="15"/>
       <Property key="TextColour" value="1 1 1"/>
       <Property key="TextAlign" value="Right VCenter"/>
-      <Property key="Shadow" value="true"/>
     </Widget>
     <Widget type="EditBox" skin="EditBox" position="528 70 44 24" layer="Back" name="CityAds">
-      <Property key="Shadow" value="true"/>
-      <Property key="EditBox_Static" value="true"/>
+      <Property key="Static" value="true"/>
     </Widget>
-    <Widget type="Button" skin="ButtonUp" position="575 71 16 12" layer="Back" name="CityAdsUp"/>
-    <Widget type="Button" skin="ButtonDown" position="575 83 16 12" layer="Back" name="CityAdsDown"/>
+    <Widget type="Button" skin="ButtonUpSkin" position="575 71 16 12" layer="Back" name="CityAdsUp"/>
+    <Widget type="Button" skin="ButtonDownSkin" position="575 83 16 12" layer="Back" name="CityAdsDown"/>
     <Widget type="TextBox" skin="TextBox" position="594 70 34 24" layer="Back" name="PriceUnitText">
       <Property key="TextColour" value="1 1 1"/>
-      <Property key="Text_FontHeight" value="12"/>
+      <Property key="FontHeight" value="12"/>
       <Property key="TextAlign" value="Left VCenter"/>
-      <Property key="Shadow" value="true"/>
     </Widget>
   </Widget>
 
@@ -564,41 +525,34 @@
     <Widget type="TextBox" skin="TextBox" position="16 102 120 20" layer="Back" name="REName">
       <Property key="TextAlign" value="Center"/>
       <Property key="TextColour" value="1 1 1"/>
-      <Property key="Shadow" value="true"/>
     </Widget>
     <Widget type="Button" skin="CheckBox" position="314 18 186 20" layer="Back" name="REGlobalCheck">
-      <Property key="Text_FontHeight" value="15"/>
+      <Property key="FontHeight" value="15"/>
       <Property key="TextColour" value="1 1 1"/>
-      <Property key="Shadow" value="true"/>
     </Widget>
     <Widget type="EditBox" skin="EditBox" position="390 44 44 24" layer="Back" name="REMaintenance">
-      <Property key="EditBox_Static" value="true"/>
-      <Property key="Shadow" value="true"/>
+      <Property key="Static" value="true"/>
     </Widget>
     <Widget type="TextBox" skin="TextBox" position="300 44 88 24" layer="Back" name="REMaintenanceText">
-      <Property key="Text_FontHeight" value="15"/>
+      <Property key="FontHeight" value="15"/>
       <Property key="TextAlign" value="Center"/>
       <Property key="TextColour" value="1 1 1"/>
-      <Property key="Shadow" value="true"/>
     </Widget>
     <Widget type="Button" skin="ButtonRepair" position="304 80 36 36" layer="Back" name="RERepair">
       <Property key="Caption" value="Repair"/>
-      <Property key="Shadow" value="true"/>
     </Widget>
     <Widget type="TextBox" skin="TextBox" position="454 44 26 22" layer="Back">
       <Property key="Caption" value="%"/>
-      <Property key="Text_FontHeight" value="15"/>
+      <Property key="FontHeight" value="15"/>
       <Property key="TextAlign" value="Center"/>
       <Property key="TextColour" value="1 1 1"/>
-      <Property key="Shadow" value="true"/>
     </Widget>
     <Widget type="TextBox" skin="TextBox" position="150 18 152 172" layer="Back" name="REInfo">
-      <Property key="Text_FontHeight" value="15"/>
+      <Property key="FontHeight" value="15"/>
       <Property key="TextColour" value="1 1 1"/>
-      <Property key="Shadow" value="true"/>
     </Widget>
-    <Widget type="Button" skin="ButtonUp" position="440 46 16 12" layer="Back" name="REMaintUp"/>
-    <Widget type="Button" skin="ButtonDown" position="440 58 16 12" layer="Back" name="REMaintDown"/>
+    <Widget type="Button" skin="ButtonUpSkin" position="440 46 16 12" layer="Back" name="REMaintUp"/>
+    <Widget type="Button" skin="ButtonDownSkin" position="440 58 16 12" layer="Back" name="REMaintDown"/>
   </Widget>
 
   <Widget type="ImageBox" skin="ImageBox" position="132 186 624 256" layer="InfoPanels" name="CompanyPanel">
@@ -609,17 +563,14 @@
     <Widget type="TextBox" skin="TextBox" position="16 102 120 20" layer="Back" name="COName">
       <Property key="TextAlign" value="Center"/>
       <Property key="TextColour" value="1 1 1"/>
-      <Property key="Shadow" value="true"/>
     </Widget>
     <Widget type="Button" skin="Button" position="150 20 32 32" layer="Back" name="COShowWindow">
       <Property key="Caption" value="Wind"/>
-      <Property key="Shadow" value="true"/>
     </Widget>
     <Widget type="TextBox" skin="TextBox" position="150 18 248 72" layer="Back" name="COInfo">
       <Property key="Visible" value="false"/>
-      <Property key="Text_FontHeight" value="15"/>
+      <Property key="FontHeight" value="15"/>
       <Property key="TextColour" value="1 1 1"/>
-      <Property key="Shadow" value="true"/>
     </Widget>
   </Widget>
 
@@ -627,20 +578,16 @@
     <Property key="ImageTexture" value="untenmitte.png"/>
     <Widget type="TextBox" skin="TextBox" position="8 8 5000 5000" layer="Main" name="InfoText">
       <Property key="Colour" value="1.0 1.0 1.0"/>
-      <Property key="Shadow" value="true"/>
     </Widget>
   </Widget>
 
 
   <Widget type="Window" skin="WindowCX" position="0 0 600 400" layer="Overlapped" name="TickerArchiveWindow">
-    <Property key="Show" value="false"/>
     <Property key="Visible" value="false"/>
     <Widget type="ListBox" skin="ListScrollOnly" position="0 0 600 192" layer="Main" name="TickerList">
       <Property key="Colour" value="1.0 1.0 1.0"/>
-      <Property key="Shadow" value="true"/>
     </Widget>
-    <Widget  type="EditBox" skin="WordWrap" position="4 204 590 122" layer="Main" name="MessageDetail">
-      <Property key="Shadow" value="true"/>
+    <Widget  type="EditBox" skin="WordWrapEmpty" position="4 204 590 122" layer="Main" name="MessageDetail">
     </Widget>
     <Widget type="Widget" skin="Separator3" position="-2 194 594 7" layer="Back"/>
   </Widget>
@@ -648,457 +595,356 @@
   <Widget type="Window" skin="WindowCX" position="0 0 672 472" layer="Overlapped" name="TradeWindow">
     <Property key="Visible" value="false"/>
     <Widget type="TextBox" skin="TextBox" position="8 9 124 17" layer="Back" name="TradingPartnersText">
-      <Property key="Text_FontHeight" value="17"/>
-      <Property key="Shadow" value="true"/>
+      <Property key="FontHeight" value="17"/>
     </Widget>
-    <Widget type="ListBox" skin="List" position="8 31 220 112" layer="Back" name="TradingPartners">
-      <Property key="Shadow" value="true"/>
+    <Widget type="ListBox" skin="ListBox" position="8 31 220 112" layer="Back" name="TradingPartners">
       <Widget type="TextBox" skin="TextBox" position="0 0 220 112" layer="Back" name="NoTradingPartners">
         <Property key="Visible" value="false"/>
         <Property key="TextAlign" value="Center"/>
-        <Property key="Shadow" value="true"/>
       </Widget>
     </Widget>
     <Widget type="TextBox" skin="TextBox" position="241 9 145 17" layer="Back" name="WorldMarketText">
-      <Property key="Shadow" value="true"/>
     </Widget>
     <Widget type="Button" skin="Button" position="8 146 220 28" layer="Back" name="Sign">
-      <Property key="Shadow" value="true"/>
     </Widget>
-    <Widget type="Widget" skin="Panel" position="240 31 298 141" layer="Back">
+    <Widget type="Widget" skin="PanelSkin" position="240 31 298 141" layer="Back">
       <Widget type="ImageBox" skin="ImageBox" position="3 3 512 256" layer="Back" name="PriceChart">
         <Property key="ImageTexture" value="TradeChart"/>
       </Widget>
     </Widget>
     <Widget type="ListBox" skin="ListSmall" position="8 180 530 106" layer="Back" name="OffersList">
-      <Property key="Shadow" value="true"/>
       <Widget type="TextBox" skin="TextBox" position="0 0 530 106" layer="Back" name="NoTrade">
         <Property key="Visible" value="false"/>
         <Property key="TextAlign" value="Center"/>
-        <Property key="Shadow" value="true"/>
       </Widget>
     </Widget>
     <Widget type="TextBox" skin="TextBox" position="546 180 68 24" layer="Back" name="OffersText">
-      <Property key="Shadow" value="true"/>
     </Widget>
     <Widget type="Button" skin="CheckBox" position="546 200 84 24" layer="Back" name="BuyCheck">
-      <Property key="Shadow" value="true"/>
     </Widget>
     <Widget type="Button" skin="CheckBox" position="546 228 82 24" layer="Back" name="SellCheck">
-      <Property key="Shadow" value="true"/>
     </Widget>
     <Widget type="Button" skin="CheckBox" position="546 256 88 24" layer="Back" name="CoalOfferCheck">
-      <Property key="Shadow" value="true"/>
     </Widget>
     <Widget type="Button" skin="CheckBox" position="546 284 88 24" layer="Back" name="GasOfferCheck">
-      <Property key="Shadow" value="true"/>
     </Widget>
     <Widget type="Button" skin="CheckBox" position="546 312 82 24" layer="Back" name="UraniumOfferCheck">
-      <Property key="Shadow" value="true"/>
     </Widget>
     <Widget type="Button" skin="Button" position="8 288 530 28" layer="Back" name="AcceptOffer">
-      <Property key="Shadow" value="true"/>
     </Widget>
     <Widget type="TextBox" skin="TextBox" position="544 33 118 35" layer="Back" name="CoalPrice">
-      <Property key="Shadow" value="true"/>
       <Property key="TextColour" value="1 0 0"/>
     </Widget>
     <Widget type="TextBox" skin="TextBox" position="544 79 116 36" layer="Back" name="GasPrice">
-      <Property key="Shadow" value="true"/>
       <Property key="TextColour" value="0 1 0"/>
     </Widget>
     <Widget type="TextBox" skin="TextBox" position="544 126 108 37" layer="Back" name="UraniumPrice">
-      <Property key="Shadow" value="true"/>
       <Property key="TextColour" value="0 0 1"/>
     </Widget>
     <Widget type="ListBox" skin="ListSmall" position="8 325 532 103" layer="Back" name="Obligations">
-      <Property key="Shadow" value="true"/>
       <Widget type="TextBox" skin="TextBox" position="0 0 532 103" layer="Back" name="NoObligations">
         <Property key="Visible" value="false"/>
         <Property key="TextAlign" value="Center"/>
-        <Property key="Shadow" value="true"/>
       </Widget>
     </Widget>
     <Widget type="Button" skin="Button" position="544 396 110 26" layer="Back" name="CancelOffer">
-      <Property key="Shadow" value="true"/>
     </Widget>
     <Widget type="TextBox" skin="TextBox" position="546 351 86 43" layer="Back" name="CurrentObligationsText">
-      <Property key="Shadow" value="true"/>
     </Widget>
   </Widget>
 
   <Widget type="Window" skin="WindowCX" position="0 0 648 510" layer="Overlapped" name="PowerNetsWindow">
-    <Property key="Show" value="false"/>
+    <Property key="Visible" value="false"/>
 
     <Widget type="TabControl" skin="Tab" position="-4 1 644 479" layer="Back" name="PowerNetTab">
-      <Property key="Show" value="true"/>
+      <Property key="Visible" value="true"/>
     </Widget>
   </Widget>
 
 
   <Widget type="Window" skin="WindowCX" position="0 0 590 410" layer="Overlapped" name="FinancesWindow">
-    <Property key="Show" value="true"/>
     <Property key="Visible" value="false"/>
     <Widget type="TabControl" skin="Tab" position="0 0 580 374" layer="Back">
       <Widget type="TabItem" skin="Default" position="4 26 571 342" layer="Back" name="SalesTab">
         <Property key="Sheet_Select" value="true"/>
         <Widget type="TextBox" skin="TextBox" position="24 11 200 24" layer="Back" name="FinancesPriceText">
           <Property key="TextAlign" value="Right VCenter"/>
-          <Property key="Shadow" value="true"/>
         </Widget>
         <Widget type="TextBox" skin="TextBox" position="24 42 200 24" layer="Back" name="FinancesAdsText">
           <Property key="TextAlign" value="Right VCenter"/>
-          <Property key="Shadow" value="true"/>
         </Widget>
         <Widget type="TextBox" skin="TextBox" position="24 202 200 24" layer="Back" name="MaintenanceText">
           <Property key="TextAlign" value="Right VCenter"/>
-          <Property key="Shadow" value="true"/>
         </Widget>
         <Widget type="EditBox" skin="EditBox" position="226 11 70 24" layer="Back" name="Price">
-          <Property key="EditBox_Static" value="true"/>
+          <Property key="Static" value="true"/>
           <Property key="TextAlign" value="Right VCenter"/>
-          <Property key="Shadow" value="true"/>
         </Widget>
         <Widget type="EditBox" skin="EditBox" position="226 42 70 24" layer="Back" name="Advertising">
-          <Property key="EditBox_Static" value="true"/>
+          <Property key="Static" value="true"/>
           <Property key="TextAlign" value="Right VCenter"/>
-          <Property key="Shadow" value="true"/>
         </Widget>
         <Widget type="EditBox" skin="EditBox" position="226 202 70 24" layer="Back" name="Maintenance">
-          <Property key="EditBox_Static" value="true"/>
-          <Property key="Shadow" value="true"/>
+          <Property key="Static" value="true"/>
           <Property key="TextAlign" value="Right VCenter"/>
         </Widget>
         <Widget type="TextBox" skin="TextBox" position="324 11 140 24" layer="Back" name="PriceUnit">
           <Property key="TextAlign" value="Left VCenter"/>
-          <Property key="Shadow" value="true"/>
         </Widget>
         <Widget type="TextBox" skin="TextBox" position="324 42 238 24" layer="Back" name="AdsUnit">
           <Property key="TextAlign" value="Left VCenter"/>
-          <Property key="Shadow" value="true"/>
         </Widget>
         <Widget type="TextBox" skin="TextBox" position="324 198 56 24" layer="Back">
           <Property key="Caption" value="%"/>
-          <Property key="Shadow" value="true"/>
           <Property key="TextAlign" value="Left VCenter"/>
         </Widget>
-        <Widget type="Button" skin="ButtonUp" position="300 11 16 12" layer="Back" name="PriceUp"/>
-        <Widget type="Button" skin="ButtonDown" position="300 24 16 12" layer="Back" name="PriceDown"/>
-        <Widget type="Button" skin="ButtonDown" position="300 215 16 12" layer="Back" name="MaintenanceDown"/>
-        <Widget type="Button" skin="ButtonDown" position="300 55 16 12" layer="Back" name="AdvertisingDown"/>
-        <Widget type="Button" skin="ButtonUp" position="300 42 16 12" layer="Back" name="AdvertisingUp"/>
-        <Widget type="Button" skin="ButtonUp" position="300 202 16 12" layer="Back" name="MaintenanceUp"/>
+        <Widget type="Button" skin="ButtonUpSkin" position="300 11 16 12" layer="Back" name="PriceUp"/>
+        <Widget type="Button" skin="ButtonDownSkin" position="300 24 16 12" layer="Back" name="PriceDown"/>
+        <Widget type="Button" skin="ButtonDownSkin" position="300 215 16 12" layer="Back" name="MaintenanceDown"/>
+        <Widget type="Button" skin="ButtonDownSkin" position="300 55 16 12" layer="Back" name="AdvertisingDown"/>
+        <Widget type="Button" skin="ButtonUpSkin" position="300 42 16 12" layer="Back" name="AdvertisingUp"/>
+        <Widget type="Button" skin="ButtonUpSkin" position="300 202 16 12" layer="Back" name="MaintenanceUp"/>
         <Widget type="Widget" skin="Separator3" position="10 179 544 6" layer="Back"/>
         <Widget type="TextBox" skin="TextBox" position="24 135 200 24" layer="Back" name="EnvText">
           <Property key="TextAlign" value="Right VCenter"/>
-          <Property key="Shadow" value="true"/>
         </Widget>
         <Widget type="TextBox" skin="TextBox" position="24 73 200 24" layer="Back" name="ContractText">
           <Property key="TextAlign" value="Right VCenter"/>
-          <Property key="Shadow" value="true"/>
         </Widget>
         <Widget type="TextBox" skin="TextBox" position="24 104 200 24" layer="Back" name="SupportText">
           <Property key="TextAlign" value="Right VCenter"/>
-          <Property key="Shadow" value="true"/>
         </Widget>
         <Widget type="TextBox" skin="TextBox" position="24 233 200 24" layer="Back" name="SupplyText">
           <Property key="TextAlign" value="Right VCenter"/>
-          <Property key="Shadow" value="true"/>
         </Widget>
         <Widget type="TextBox" skin="TextBox" position="24 264 200 24" layer="Back" name="SafetyText">
           <Property key="TextAlign" value="Right VCenter"/>
-          <Property key="Shadow" value="true"/>
         </Widget>
-        <Widget type="Button" skin="RadioBox" position="230 73 95 24" layer="Back" name="TermNoneRadio">
-          <Property key="Shadow" value="true"/>
+        <Widget type="Button" skin="RadioButton" position="230 73 95 24" layer="Back" name="TermNoneRadio">
         </Widget>
-        <Widget type="Button" skin="RadioBox" position="325 73 95 24" layer="Back" name="Term12Radio">
-          <Property key="Shadow" value="true"/>
+        <Widget type="Button" skin="RadioButton" position="325 73 95 24" layer="Back" name="Term12Radio">
         </Widget>
-        <Widget type="Button" skin="RadioBox" position="420 73 125 24" layer="Back" name="Term24Radio">
-          <Property key="Shadow" value="true"/>
+        <Widget type="Button" skin="RadioButton" position="420 73 125 24" layer="Back" name="Term24Radio">
         </Widget>
-        <Widget type="Button" skin="RadioBox" position="230 104 95 24" layer="Back" name="SupportPoorRadio">
-          <Property key="Shadow" value="true"/>
+        <Widget type="Button" skin="RadioButton" position="230 104 95 24" layer="Back" name="SupportPoorRadio">
         </Widget>
-        <Widget type="Button" skin="RadioBox" position="325 104 95 24" layer="Back" name="SupportNormalRadio">
-          <Property key="Shadow" value="true"/>
+        <Widget type="Button" skin="RadioButton" position="325 104 95 24" layer="Back" name="SupportNormalRadio">
         </Widget>
-        <Widget type="Button" skin="RadioBox" position="420 104 125 24" layer="Back" name="SupportExtensiveRadio">
-          <Property key="Shadow" value="true"/>
+        <Widget type="Button" skin="RadioButton" position="420 104 125 24" layer="Back" name="SupportExtensiveRadio">
         </Widget>
         <Widget type="EditBox" skin="EditBox" position="226 135 70 24" layer="Back" name="EnvSupport">
-          <Property key="Shadow" value="true"/>
-          <Property key="EditBox_Static" value="true"/>
+          <Property key="Static" value="true"/>
           <Property key="TextAlign" value="Right VCenter"/>
         </Widget>
-        <Widget type="Button" skin="ButtonUp" position="300 135 16 12" layer="Back" name="EnvSupportUp"/>
-        <Widget type="Button" skin="ButtonDown" position="300 148 16 12" layer="Back" name="EnvSupportDown"/>
+        <Widget type="Button" skin="ButtonUpSkin" position="300 135 16 12" layer="Back" name="EnvSupportUp"/>
+        <Widget type="Button" skin="ButtonDownSkin" position="300 148 16 12" layer="Back" name="EnvSupportDown"/>
         <Widget type="TextBox" skin="TextBox" position="24 295 200 24" layer="Back" name="EmployeeText">
           <Property key="TextAlign" value="Right VCenter"/>
-          <Property key="Shadow" value="true"/>
         </Widget>
         <Widget type="EditBox" skin="EditBox" position="226 231 70 24" layer="Back" name="SupplyMaint">
-          <Property key="EditBox_Static" value="true"/>
-          <Property key="Shadow" value="true"/>
+          <Property key="Static" value="true"/>
           <Property key="TextAlign" value="Right VCenter"/>
         </Widget>
-        <Widget type="Button" skin="RadioBox" position="230 264 95 24" layer="Back" name="SafetyNoneRadio">
-          <Property key="Shadow" value="true"/>
+        <Widget type="Button" skin="RadioButton" position="230 264 95 24" layer="Back" name="SafetyNoneRadio">
         </Widget>
-        <Widget type="Button" skin="RadioBox" position="325 264 95 24" layer="Back" name="SafetyNormalRadio">
-          <Property key="Shadow" value="true"/>
+        <Widget type="Button" skin="RadioButton" position="325 264 95 24" layer="Back" name="SafetyNormalRadio">
         </Widget>
-        <Widget type="Button" skin="RadioBox" position="420 264 125 24" layer="Back" name="SafetyHeavyRadio">
-          <Property key="Shadow" value="true"/>
+        <Widget type="Button" skin="RadioButton" position="420 264 125 24" layer="Back" name="SafetyHeavyRadio">
         </Widget>
-        <Widget type="Button" skin="RadioBox" position="230 295 95 24" layer="Back" name="EmployeeNoneRadio">
-          <Property key="Shadow" value="true"/>
+        <Widget type="Button" skin="RadioButton" position="230 295 95 24" layer="Back" name="EmployeeNoneRadio">
         </Widget>
-        <Widget type="Button" skin="RadioBox" position="325 295 95 24" layer="Back" name="EmployeeBasicRadio">
-          <Property key="Shadow" value="true"/>
+        <Widget type="Button" skin="RadioButton" position="325 295 95 24" layer="Back" name="EmployeeBasicRadio">
         </Widget>
-        <Widget type="Button" skin="RadioBox" position="420 295 125 24" layer="Back" name="EmployeeExtensiveRadio">
-          <Property key="Shadow" value="true"/>
+        <Widget type="Button" skin="RadioButton" position="420 295 125 24" layer="Back" name="EmployeeExtensiveRadio">
         </Widget>
         <Widget type="TextBox" skin="TextBox" position="324 137 123 24" layer="Back" name="EnvUnit">
-          <Property key="Shadow" value="true"/>
           <Property key="TextAlign" value="Left VCenter"/>
         </Widget>
-        <Widget type="Button" skin="ButtonUp" position="300 231 16 12" layer="Back" name="SupplyMaintUp"/>
-        <Widget type="Button" skin="ButtonDown" position="300 244 16 12" layer="Back" name="SupplyMaintDown"/>
+        <Widget type="Button" skin="ButtonUpSkin" position="300 231 16 12" layer="Back" name="SupplyMaintUp"/>
+        <Widget type="Button" skin="ButtonDownSkin" position="300 244 16 12" layer="Back" name="SupplyMaintDown"/>
         <Widget type="TextBox" skin="TextBox" position="324 231 55 24" layer="Back">
-          <Property key="Shadow" value="true"/>
           <Property key="Caption" value="%"/>
           <Property key="TextAlign" value="Left VCenter"/>
         </Widget>
       </Widget>
       <Widget type="TabItem" skin="Default" position="4 26 571 342" layer="Back" name="IncomeTab">
         <Widget type="TextBox" skin="TextBox" position="120 15 120 16" layer="Back" name="CurrentMonthText">
-          <Property key="Shadow" value="true"/>
         </Widget>
         <Widget type="TextBox" skin="TextBox" position="232 15 104 16" layer="Back" name="LastMonthText">
-          <Property key="Shadow" value="true"/>
         </Widget>
         <Widget type="TextBox" skin="TextBox" position="344 15 88 16" layer="Back" name="CurrentYearText">
-          <Property key="Shadow" value="true"/>
         </Widget>
         <Widget type="TextBox" skin="TextBox" position="456 15 96 16" layer="Back" name="LastYearText">
-          <Property key="Shadow" value="true"/>
         </Widget>
         <Widget type="TextBox" skin="TextBox" position="48 313 72 24" layer="Back" name="TotalText">
-          <Property key="Shadow" value="true"/>
           <Property key="TextAlign" value="Right VCenter"/>
         </Widget>
         <Widget type="ListBox" skin="LargeList" position="120 39 112 272" layer="Back" name="CurrentMonth">
-          <Property key="Shadow" value="true"/>
         </Widget>
         <Widget type="ListBox" skin="LargeList" position="232 39 112 272" layer="Back" name="LastMonth">
-          <Property key="Shadow" value="true"/>
         </Widget>
         <Widget type="ListBox" skin="LargeList" position="344 39 112 272" layer="Back" name="CurrentYear">
-          <Property key="Shadow" value="true"/>
         </Widget>
         <Widget type="ListBox" skin="LargeList" position="456 39 112 272" layer="Back" name="LastYear">
-          <Property key="Shadow" value="true"/>
         </Widget>
-        <Widget type="ListBox" skin="List" position="120 311 112 26" layer="Back" name="CurrentMonthTotal">
-          <Property key="Shadow" value="true"/>
+        <Widget type="ListBox" skin="ListBox" position="120 311 112 26" layer="Back" name="CurrentMonthTotal">
         </Widget>
-        <Widget type="ListBox" skin="List" position="232 311 112 26" layer="Back" name="LastMonthTotal">
-          <Property key="Shadow" value="true"/>
+        <Widget type="ListBox" skin="ListBox" position="232 311 112 26" layer="Back" name="LastMonthTotal">
         </Widget>
-        <Widget type="ListBox" skin="List" position="344 311 112 26" layer="Back" name="CurrentYearTotal">
-          <Property key="Shadow" value="true"/>
+        <Widget type="ListBox" skin="ListBox" position="344 311 112 26" layer="Back" name="CurrentYearTotal">
         </Widget>
-        <Widget type="ListBox" skin="List" position="456 311 112 26" layer="Back" name="LastYearTotal">
-          <Property key="Shadow" value="true"/>
+        <Widget type="ListBox" skin="ListBox" position="456 311 112 26" layer="Back" name="LastYearTotal">
         </Widget>
         <Widget type="TextBox" skin="TextBox" position="0 47 120 16" layer="Back" name="FLoan">
-          <Property key="Shadow" value="true"/>
-          <Property key="Text_FontHeight" value="13"/>
+          <Property key="FontHeight" value="13"/>
           <Property key="TextAlign" value="Right VCenter"/>
         </Widget>
         <Widget type="TextBox" skin="TextBox" position="0 71 120 16" layer="Back" name="FSafety">
-          <Property key="Shadow" value="true"/>
-          <Property key="Text_FontHeight" value="13"/>
+          <Property key="FontHeight" value="13"/>
           <Property key="TextAlign" value="Right VCenter"/>
         </Widget>
         <Widget type="TextBox" skin="TextBox" position="0 119 120 16" layer="Back" name="FAdvertising">
-          <Property key="Shadow" value="true"/>
-          <Property key="Text_FontHeight" value="13"/>
+          <Property key="FontHeight" value="13"/>
           <Property key="TextAlign" value="Right VCenter"/>
         </Widget>
         <Widget type="TextBox" skin="TextBox" position="0 95 120 16" layer="Back" name="FMaintenance">
-          <Property key="Shadow" value="true"/>
-          <Property key="Text_FontHeight" value="13"/>
+          <Property key="FontHeight" value="13"/>
           <Property key="TextAlign" value="Right VCenter"/>
         </Widget>
         <Widget type="TextBox" skin="TextBox" position="0 143 120 16" layer="Back" name="FOperation">
-          <Property key="Shadow" value="true"/>
-          <Property key="Text_FontHeight" value="13"/>
+          <Property key="FontHeight" value="13"/>
           <Property key="TextAlign" value="Right VCenter"/>
         </Widget>
         <Widget type="TextBox" skin="TextBox" position="0 167 120 16" layer="Back" name="FEnvironment">
-          <Property key="Shadow" value="true"/>
-          <Property key="Text_FontHeight" value="13"/>
+          <Property key="FontHeight" value="13"/>
           <Property key="TextAlign" value="Right VCenter"/>
         </Widget>
         <Widget type="TextBox" skin="TextBox" position="0 191 120 16" layer="Back" name="FResearch">
-          <Property key="Shadow" value="true"/>
-          <Property key="Text_FontHeight" value="13"/>
+          <Property key="FontHeight" value="13"/>
           <Property key="TextAlign" value="Right VCenter"/>
         </Widget>
         <Widget type="TextBox" skin="TextBox" position="0 215 120 16" layer="Back" name="FBuilding">
-          <Property key="Shadow" value="true"/>
-          <Property key="Text_FontHeight" value="13"/>
+          <Property key="FontHeight" value="13"/>
           <Property key="TextAlign" value="Right VCenter"/>
         </Widget>
         <Widget type="TextBox" skin="TextBox" position="0 287 120 16" layer="Back" name="FIncome">
-          <Property key="Shadow" value="true"/>
-          <Property key="Text_FontHeight" value="13"/>
+          <Property key="FontHeight" value="13"/>
           <Property key="TextAlign" value="Right VCenter"/>
         </Widget>
         <Widget type="TextBox" skin="TextBox" position="0 239 120 16" layer="Back" name="FSpecial">
-          <Property key="Shadow" value="true"/>
-          <Property key="Text_FontHeight" value="13"/>
+          <Property key="FontHeight" value="13"/>
           <Property key="TextAlign" value="Right VCenter"/>
         </Widget>
         <Widget type="TextBox" skin="TextBox" position="0 263 120 16" layer="Back" name="FTrade">
-          <Property key="Shadow" value="true"/>
-          <Property key="Text_FontHeight" value="13"/>
+          <Property key="FontHeight" value="13"/>
           <Property key="TextAlign" value="Right VCenter"/>
         </Widget>
       </Widget>
       <Widget type="TabItem" skin="Default" position="4 26 571 342" layer="Back" name="ChartTab">
         <Widget type="Button" skin="CheckBox" position="8 7 112 24" layer="Back" name="ExpensesCheck">
-          <Property key="Shadow" value="true"/>
           <Property key="Colour" value="0.9 0.0 0.0"/>
         </Widget>
         <Widget type="Button" skin="CheckBox" position="120 7 112 24" layer="Back" name="IncomeCheck">
-          <Property key="Shadow" value="true"/>
           <Property key="Colour" value="0.0 0.9 0.0"/>
         </Widget>
         <Widget type="Button" skin="CheckBox" position="232 7 112 24" layer="Back" name="FundsCheck">
-          <Property key="Shadow" value="true"/>
           <Property key="Colour" value="0.9 0.9 0.0"/>
         </Widget>
         <Widget type="Button" skin="CheckBox" position="344 7 112 24" layer="Back" name="NetWorthCheck">
-          <Property key="Shadow" value="true"/>
           <Property key="Colour" value="0.0 0.0 0.9"/>
         </Widget>
-        <Widget type="Widget" skin="Panel" position="-8 407 32 24" layer="Back"/>
-        <Widget type="Widget" skin="Panel" position="0 40 568 302" layer="Back" name="ChartPanel">
+        <Widget type="Widget" skin="PanelSkin" position="-8 407 32 24" layer="Back"/>
+        <Widget type="Widget" skin="PanelSkin" position="0 40 568 302" layer="Back" name="ChartPanel">
           <Widget type="ImageBox" skin="ImageBox" position="3 3 1024 512" layer="Back" name="FinanceChart">
             <Property key="ImageTexture" value="FinanceChart"/>
           </Widget>
         </Widget>
       </Widget>
       <Widget type="TabItem" skin="Default" position="4 26 571 342" layer="Back" name="LoanTab">
-        <Widget type="ListBox" skin="List" position="3 39 561 149" layer="Back" name="LoanList"/>
-        <Property key="Shadow" value="true"/>
+        <Widget type="ListBox" skin="ListBox" position="3 39 561 149" layer="Back" name="LoanList"/>
         <Widget type="TextBox" skin="TextBox" position="4 15 144 16" layer="Back" name="CurrentLoansText">
-          <Property key="Shadow" value="true"/>
         </Widget>
         <Widget type="Button" skin="Button" position="324 310 226 26" layer="Back" name="TakeOut">
-          <Property key="Shadow" value="true"/>
         </Widget>
         <Widget type="Button" skin="Button" position="28 310 226 26" layer="Back" name="Repayment">
-          <Property key="Shadow" value="true"/>
         </Widget>
         <Widget type="TextBox" skin="TextBox" position="6 64 554 99" layer="Back" name="NoLoans">
-          <Property key="Shadow" value="true"/>
           <Property key="TextAlign" value="Center"/>
         </Widget>
         <Widget type="EditBox" skin="EditBox" position="96 203 88 24" layer="Back" name="RepayAmount">
-          <Property key="Shadow" value="true"/>
-          <Property key="EditBox_Static" value="true"/>
+          <Property key="Static" value="true"/>
           <Property key="TextAlign" value="Right VCenter"/>
         </Widget>
         <Widget type="TextBox" skin="TextBox" position="326 268 222 40" layer="Back" name="LoanInfo">
-          <Property key="Shadow" value="true"/>
         </Widget>
         <Widget type="EditBox" skin="EditBox" position="402 203 88 24" layer="Back" name="TakeoutAmount">
-          <Property key="Shadow" value="true"/>
-          <Property key="EditBox_Static" value="true"/>
+          <Property key="Static" value="true"/>
           <Property key="TextAlign" value="Right VCenter"/>
         </Widget>
         <Widget type="EditBox" skin="EditBox" position="402 234 88 24" layer="Back" name="Years">
-          <Property key="Shadow" value="true"/>
-          <Property key="EditBox_Static" value="true"/>
+          <Property key="Static" value="true"/>
           <Property key="TextAlign" value="Right VCenter"/>
         </Widget>
         <Widget type="TextBox" skin="TextBox" position="326 203 62 24" layer="Back" name="AmountText">
-          <Property key="Shadow" value="true"/>
           <Property key="TextAlign" value="Left VCenter"/>
         </Widget>
         <Widget type="TextBox" skin="TextBox" position="326 234 60 24" layer="Back" name="PeriodText">
-          <Property key="Shadow" value="true"/>
           <Property key="TextAlign" value="Left VCenter"/>
         </Widget>
         <Widget type="TextBox" skin="TextBox" position="32 203 70 24" layer="Back" name="AmountText2">
-          <Property key="Shadow" value="true"/>
           <Property key="TextAlign" value="Left VCenter"/>
         </Widget>
-        <Widget type="Button" skin="ButtonUp" position="186 203 16 12" layer="Back" name="RepayUp"/>
-        <Widget type="Button" skin="ButtonUp" position="492 203 16 12" layer="Back" name="AmountUp"/>
-        <Widget type="Button" skin="ButtonUp" position="492 235 16 12" layer="Back" name="YearsUp"/>
-        <Widget type="Button" skin="ButtonDown" position="492 248 16 12" layer="Back" name="YearsDown"/>
-        <Widget type="Button" skin="ButtonDown" position="492 216 16 12" layer="Back" name="AmountDown"/>
-        <Widget type="Button" skin="ButtonDown" position="186 216 16 12" layer="Back" name="RepayDown"/>
+        <Widget type="Button" skin="ButtonUpSkin" position="186 203 16 12" layer="Back" name="RepayUp"/>
+        <Widget type="Button" skin="ButtonUpSkin" position="492 203 16 12" layer="Back" name="AmountUp"/>
+        <Widget type="Button" skin="ButtonUpSkin" position="492 235 16 12" layer="Back" name="YearsUp"/>
+        <Widget type="Button" skin="ButtonDownSkin" position="492 248 16 12" layer="Back" name="YearsDown"/>
+        <Widget type="Button" skin="ButtonDownSkin" position="492 216 16 12" layer="Back" name="AmountDown"/>
+        <Widget type="Button" skin="ButtonDownSkin" position="186 216 16 12" layer="Back" name="RepayDown"/>
         <Widget type="TextBox" skin="TextBox" position="208 203 52 24" layer="Back">
           <Property key="Caption" value="kEUR"/>
-          <Property key="Shadow" value="true"/>
           <Property key="TextAlign" value="Left VCenter"/>
         </Widget>
         <Widget type="TextBox" skin="TextBox" position="514 203 44 24" layer="Back">
           <Property key="Caption" value="kEUR"/>
-          <Property key="Shadow" value="true"/>
           <Property key="TextAlign" value="Left VCenter"/>
         </Widget>
         <Widget type="TextBox" skin="TextBox" position="514 234 44 24" layer="Back" name="PeriodUnit">
           <Property key="TextAlign" value="Left VCenter"/>
-          <Property key="Shadow" value="true"/>
         </Widget>
         <Widget type="Widget" skin="Separator2" position="286 203 6 136" layer="Back"/>
         <Widget type="TextBox" skin="TextBox" position="30 247 220 24" layer="Back" name="NewCharge">
-          <Property key="Shadow" value="true"/>
         </Widget>
       </Widget>
     </Widget>
   </Widget>
 
   <Widget type="Window" skin="WindowCX" position="0 0 500 400" layer="Overlapped" name="MissionWindow">
-    <Property key="Show" value="false"/>
+    <Property key="Visible" value="false"/>
 
     <Widget type="ImageBox" skin="ImageBox" position="8 8 24 24" layer="Main" name="MissionMarker1">
-      <Property key="Show" value="false"/>
+      <Property key="Visible" value="false"/>
     </Widget>
 
     <Widget type="ImageBox" skin="ImageBox" position="8 90 24 24" layer="Main" name="MissionMarker2">
-      <Property key="Show" value="false"/>
+      <Property key="Visible" value="false"/>
     </Widget>
 
     <Widget type="ImageBox" skin="ImageBox" position="8 172 24 24" layer="Main" name="MissionMarker3">
-      <Property key="Show" value="false"/>
+      <Property key="Visible" value="false"/>
     </Widget>
 
     <Widget type="TextBox" skin="TextBox" position="40 8 500 80" layer="Main" name="MissionGoal1">
-      <Property key="Shadow" value="true"/>
-      <Property key="Show" value="false"/>
+      <Property key="Visible" value="false"/>
     </Widget>
     <Widget type="TextBox" skin="TextBox" position="40 90 500 80" layer="Main" name="MissionGoal2">
-      <Property key="Shadow" value="true"/>
-      <Property key="Show" value="false"/>
+      <Property key="Visible" value="false"/>
     </Widget>
     <Widget type="TextBox" skin="TextBox" position="40 172 500 80" layer="Main" name="MissionGoal3">
-      <Property key="Shadow" value="true"/>
-      <Property key="Show" value="false"/>
+      <Property key="Visible" value="false"/>
     </Widget>
   </Widget>
 
   <Widget type="Window" skin="WindowCX" position="378 78 550 534" layer="Overlapped" name="ResearchWindow">
-    <Property key="Show" value="false"/>
     <Property key="Visible" value="false"/>
     <Widget type="ImageBox" skin="ImageBox" position="0 0 540 448" layer="Back" name="ResearchTree">
       <Widget type="Button" skin="ButtonRe1" position="282 0 64 64" layer="Main" name="Re1">
@@ -1166,17 +1012,15 @@
       </Widget>
       <Property key="ImageTexture" value="research_tree.png"/>
     </Widget>
-    <Widget type="Progress" skin="Progress" position="2 474 538 22" layer="Main" name="ResearchState">
+    <Widget type="ProgressBar" skin="ProgressBar" position="2 474 538 22" layer="Main" name="ResearchState">
       <Property key="Range" value="100"/>
       <Property key="RangePosition" value="100"/>
     </Widget>
     <Widget type="TextBox" skin="TextBox" position="1 448 160 24" layer="Main" name="CurrentResearchText">
       <Property key="TextAlign" value="Center"/>
-      <Property key="Shadow" value="true"/>
     </Widget>
     <Widget type="EditBox" skin="EditBox" position="162 448 380 26" layer="Main" name="CurrentResearch">
-      <Property key="EditBox_Static" value="true"/>
-      <Property key="Shadow" value="true"/>
+      <Property key="Static" value="true"/>
     </Widget>
   </Widget>
 
@@ -1197,7 +1041,7 @@
         <Widget type="Button" skin="ButtonAd4" position="268 7 84 51" layer="Back" name="Ad4">
           <Property key="Caption" value="ad4"/>
         </Widget>
-        <Widget type="Widget" skin="Panel" position="6 63 346 193" layer="Back">
+        <Widget type="Widget" skin="PanelSkin" position="6 63 346 193" layer="Back">
           <Widget type="ImageBox" skin="ImageBox" position="3 3 512 256" layer="Back" name="ImageChart">
             <Property key="ImageTexture" value="ImageChart"/>
           </Widget>
@@ -1221,25 +1065,21 @@
           <Property key="Caption" value="?"/>
         </Widget>
         <Widget type="TextBox" skin="TextBox" position="18 267 58 24" layer="Back">
-          <Property key="Shadow" value="true"/>
           <Property key="Caption" value="Image:"/>
           <Property key="Colour" value="0.9 0.0 0.0"/>
         </Widget>
         <Widget type="TextBox" skin="TextBox" position="162 267 84 24" layer="Back" name="CEOCustomersText">
-          <Property key="Shadow" value="true"/>
           <Property key="Colour" value="0.0 0.9 0.0"/>
         </Widget>
         <Widget type="EditBox" skin="EditBox" position="72 265 56 24" layer="Back" name="Image">
-          <Property key="Shadow" value="true"/>
-          <Property key="EditBox_Static" value="true"/>
+          <Property key="Static" value="true"/>
           <Property key="TextAlign" value="Right VCenter"/>
         </Widget>
         <Widget type="EditBox" skin="EditBox" position="246 265 86 24" layer="Back" name="Customers">
-          <Property key="Shadow" value="true"/>
-          <Property key="EditBox_Static" value="true"/>
+          <Property key="Static" value="true"/>
           <Property key="TextAlign" value="Right VCenter"/>
         </Widget>
-        <Widget type="Widget" skin="Panel" position="362 241 152 41" layer="Back">
+        <Widget type="Widget" skin="PanelSkin" position="362 241 152 41" layer="Back">
           <Widget type="ImageBox" skin="ImageBox" position="3 3 144 33" layer="Back" name="SpInactive">
             <Property key="ImageTexture" value="actions_inactive.png"/>
 
@@ -1272,17 +1112,12 @@
       </Widget>
       <Widget type="TabItem" skin="Default" position="4 26 525 296" layer="Overlapped" name="CustomersTabText">
         <Widget type="TextBox" skin="TextBox" position="4 7 170 24" layer="Back" name="CustomerOpinionsText">
-          <Property key="Shadow" value="true"/>
         </Widget>
         <Widget type="Button" skin="CheckBox" position="330 7 114 20" layer="Back" name="AllCitiesCheck">
-          <Property key="Shadow" value="true"/>
         </Widget>
         <Widget type="ComboBox" skin="ComboBox" position="170 5 154 24" name="CitiesCombo"/>
-        <Property key="Shadow" value="true"/>
-        <Widget type="ListBox" skin="List" position="2 34 522 261" layer="Back" name="OpinionsList">
-          <Property key="Shadow" value="true"/>
+        <Widget type="ListBox" skin="ListBox" position="2 34 522 261" layer="Back" name="OpinionsList">
           <Widget type="TextBox" skin="TextBox" position="0 0 522 261" layer="Back" name="NoOpinions">
-            <Property key="Shadow" value="true"/>
             <Property key="TextAlign" value="Center"/>
           </Widget>
         </Widget>
@@ -1293,17 +1128,13 @@
   <Widget type="Window" skin="WindowC" position="0 0 464 232" layer="Overlapped" name="MissionDoneWindow">
     <Property key="Caption" value="Mission completed!"/>
     <Property key="Visible" value="false"/>
-    <Property key="Shadow" value="true"/>
     <Widget type="Button" skin="Button" position="18 145 192 34" layer="Overlapped" name="KeepPlaying">
       <Property key="Caption" value="Keep playing"/>
-      <Property key="Shadow" value="true"/>
     </Widget>
     <Widget type="Button" skin="Button" position="242 145 192 34" layer="Overlapped" name="QuitToMenu">
       <Property key="Caption" value="Quit to menu"/>
-      <Property key="Shadow" value="true"/>
     </Widget>
     <Widget type="TextBox" skin="TextBox" position="146 17 288 100" layer="Overlapped" name="MissionDoneText">
-      <Property key="Shadow" value="true"/>
       <Property key="Caption" value="Congratulations!\n\nYou have completed this mission. You may\nkeep playing or go to the menu and start\nanother mission."/>
     </Widget>
     <Widget type="ImageBox" skin="ImageBox" position="22 19 96 96" layer="Overlapped">
@@ -1313,18 +1144,14 @@
 
   <Widget type="Window" skin="WindowC" position="160 226 464 156" layer="Popup" name="DemoTimeUpWindow">
     <Property key="Visible" value="false"/>
-    <Property key="Shadow" value="true"/>
     <Property key="Caption" value="Demozeit abgelaufen"/>
     <Widget type="Button" skin="Button" position="242 69 192 34" name="Website">
       <Property key="Caption" value="www.energietycoon.de"/>
-      <Property key="Shadow" value="true"/>
     </Widget>
     <Widget type="Button" skin="Button" position="18 69 192 34" name="QuitDemo">
       <Property key="Caption" value="Beenden"/>
-      <Property key="Shadow" value="true"/>
     </Widget>
     <Widget type="TextBox" skin="TextBox" position="20 12 414 50" name="DemoTimeText">
-      <Property key="Shadow" value="true"/>
       <Property key="Caption" value="Die Demozeit ist leider abgelaufen. Beenden Sie das Spiel oder\nbesuchen Sie www.energietycoon.de um das Spiel zu kaufen."/>
     </Widget>
   </Widget>
@@ -1336,13 +1163,10 @@
   <Widget type="Window" skin="WindowC" position="0 0 464 282" layer="Overlapped" name="BankruptcyImminentWindow">
     <Property key="Caption" value="Bankruptcy imminent!"/>
     <Property key="Visible" value="false"/>
-    <Property key="Shadow" value="true"/>
     <Widget type="Button" skin="Button" position="122 197 192 34" layer="Overlapped" name="BIOK">
-      <Property key="Shadow" value="true"/>
       <Property key="Caption" value="OK"/>
     </Widget>
     <Widget type="TextBox" skin="TextBox" position="146 8 288 176" layer="Overlapped" name="BankruptcyImminentText">
-      <Property key="Shadow" value="true"/>
       <Property key="Caption" value="Dear CEO of Default Corp.,\n\nIt has come to our attention that your\ndebt has exceeded 2.000kEUR. Reduce\nyour debt to a maximum of 1.000kEUR by\nthe end of this year or we will be forced\nto shut you down.\n\nYours sincerely,\nOmniBank"/>
     </Widget>
     <Widget type="ImageBox" skin="ImageBox" position="22 19 96 96" layer="Overlapped">
@@ -1353,13 +1177,10 @@
   <Widget type="Window" skin="WindowC" position="0 0 464 250" layer="Overlapped" name="BankruptcyWindow">
     <Property key="Caption" value="Bankruptcy!"/>
     <Property key="Visible" value="false"/>
-    <Property key="Shadow" value="true"/>
     <Widget type="Button" skin="Button" position="133 167 192 34" layer="Overlapped" name="QuitToMenuB">
       <Property key="Caption" value="Quit to menu"/>
-      <Property key="Shadow" value="true"/>
     </Widget>
     <Widget type="TextBox" skin="TextBox" position="146 8 288 144" layer="Overlapped" name="BankruptcyText">
-      <Property key="Shadow" value="true"/>
       <Property key="Caption" value="Dear CEO of Default Corp.,\n\nSince you were unable to reduce your debt\nfollowing our warning, we are forced to\nshut your company down.\n\nYours sincerely,\nOmniBank"/>
     </Widget>
     <Widget type="ImageBox" skin="ImageBox" position="22 19 96 96" layer="Overlapped">

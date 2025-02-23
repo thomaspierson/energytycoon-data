@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MyGUI type="Layout">
   <Widget type="ImageBox" skin="ImageBox" position="0 0 0 0" align="ALIGN_DEFAULT" layer="Back" name="Background"/>
-  <Widget type="Widget" skin="Panel" position="0 0 460 98" layer="Main" name="LoadingWidget">
+  <Widget type="Widget" skin="PanelSkin" position="0 0 460 98" layer="Main" name="LoadingWidget">
 
-    <Widget type="Progress" skin="Progress" position="40 49 380 24" layer="Main" name="LoadingProgress">
+    <Widget type="ProgressBar" skin="ProgressBar" position="40 49 380 24" layer="Main" name="LoadingProgress">
       <Property key="Progress_Range" value="100"/>
       <Property key="Progress_Position" value="0"/>
     </Widget>
